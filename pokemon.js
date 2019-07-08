@@ -1,7 +1,6 @@
 // var url = "https://raw.githubusercontent.com/VVB2/pokemon.json/master/pokedex.json";
 var url = "https://github.com/VVB2/pokemon.json/blob/master/pokedex.json";
 
-console.log(data);
 var html_out = " ";
 function scores(power) {
     return power.Attack;
@@ -9,11 +8,11 @@ function scores(power) {
 Object.keys(data).forEach(function(k) {
     var power = data[k].base;
 
-    html_out += "<div class='container'> <p class='name'>Name:</p>"+ data[k].name.english + "<br>" + data[k].type + "<br>" + scores(power) + "<button class = 'btn-success'>Learn More</button> </div>";
+    html_out += "<div class='container-fluid'> <div class='row'>  <div class='col-sm-3'> <text class='name'>Name:</text>"+
+    data[k].name.english + "<br>" +data[k].type + "<br>"+ scores(power) +
+    "<button class = 'btn btn-success'> More</button> </div> </div> </div>";
 });
-console.log(html_out);
 $(".out").append(html_out);
-
 // async function getData() {
 //   const response = await fetch(url);
 //   const data = await response.json();
