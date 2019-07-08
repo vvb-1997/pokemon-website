@@ -1,13 +1,19 @@
 .btn-success{
-  width: 50%;
-  border-radius: 25%;
-  margin: 50px auto 10px;
+  width: 80px;
+  border-radius: 20%;
+  margin: 100px auto 10px 0px;
+  position: inherit;
+  display: block;
 }
-.container {
+.container-fluid {
   width: 50%;
   display: grid;
   height: auto;
   border-radius: 20px;
   padding-top: 5%;
-  margin: 10%;https://github.com/fanzeyi/pokemon.json/blob/master/images/001Bulbasaur.png?raw=true
+  margin: 10%;
+  background: red;
+}
+.name{
+  display: inline-flex;
 }
