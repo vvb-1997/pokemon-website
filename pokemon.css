@@ -1,19 +1,20 @@
 .btn-success{
   width: 80px;
   border-radius: 20%;
-  margin: 100px auto 10px 0px;
+  margin: 10px auto 10px 0px;
   position: inherit;
   display: block;
 }
 .container-fluid {
-  width: 50%;
+  width: 75%;
   display: grid;
   height: auto;
   border-radius: 20px;
   padding-top: 5%;
   margin: 10%;
-  background: red;
+ background: linear-gradient(to bottom right, #66ff99 31%, #ff66cc 57%);
 }
-.name{
-  display: inline-flex;
+p{
+  /* display: inline-flex; */
+  width: max-content !important;
 }
