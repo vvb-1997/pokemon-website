@@ -40,6 +40,7 @@ $(".out").append(html_out+"</div>");
 Object.keys(data).forEach(function(k) {
   var img_tag="../images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png";
   $('#'+k).css('background','url('+img_tag+')');
+  // document.getElementById('#'+k).style.color = 'red';
   console.log(img_tag);
 
     // document.getElementById('#'+k).style.color='red';
