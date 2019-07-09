@@ -2354,7 +2354,7 @@ var data=[
   {
     "id": 122,
     "name": {
-      "english": "Mr. Mime",
+      "english": "Mr.Mime",
       "japanese": "バリヤード",
       "chinese": "魔墙人偶"
     },
@@ -8530,7 +8530,7 @@ var data=[
   {
     "id": 439,
     "name": {
-      "english": "Mime Jr.",
+      "english": "Mime-Jr.",
       "japanese": "マネネ",
       "chinese": "魔尼尼"
     },
@@ -15737,42 +15737,42 @@ var data=[
       "Speed": 143
     }
   },
-  {
-    "id": 808,
-    "name": {
-      "english": "Meltan",
-      "japanese": "メルタン",
-      "chinese": "美录坦"
-    },
-    "type": [
-      "Steel"
-    ],
-    "base": {
-      "HP": 46,
-      "Attack": 65,
-      "Defense": 65,
-      "Sp. Attack": 55,
-      "Sp. Defense": 35,
-      "Speed": 34
-    }
-  },
-  {
-    "id": 809,
-    "name": {
-      "english": "Melmetal",
-      "japanese": "メルメタル",
-      "chinese": "美录梅塔"
-    },
-    "type": [
-      "Steel"
-    ],
-    "base": {
-      "HP": 135,
-      "Attack": 143,
-      "Defense": 143,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
-      "Speed": 34
-    }
-  }
+  // {
+  //   "id": 808,
+  //   "name": {
+  //     "english": "Meltan",
+  //     "japanese": "メルタン",
+  //     "chinese": "美录坦"
+  //   },
+  //   "type": [
+  //     "Steel"
+  //   ],
+  //   "base": {
+  //     "HP": 46,
+  //     "Attack": 65,
+  //     "Defense": 65,
+  //     "Sp. Attack": 55,
+  //     "Sp. Defense": 35,
+  //     "Speed": 34
+  //   }
+  // },
+  // {
+  //   "id": 809,
+  //   "name": {
+  //     "english": "Melmetal",
+  //     "japanese": "メルメタル",
+  //     "chinese": "美录梅塔"
+  //   },
+  //   "type": [
+  //     "Steel"
+  //   ],
+  //   "base": {
+  //     "HP": 135,
+  //     "Attack": 143,
+  //     "Defense": 143,
+  //     "Sp. Attack": 80,
+  //     "Sp. Defense": 65,
+  //     "Speed": 34
+  //   }
+  // }
 ]
