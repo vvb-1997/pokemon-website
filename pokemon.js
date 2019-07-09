@@ -18,7 +18,7 @@ function spaceToUnderscore(pokemonName) {
 Object.keys(data).forEach(function(k) {
     var power = data[k].base;
     if(k%3==0){
-      html_out += "<div class='row'>";
+      html_out += "</br><div class='row'>";
     }
     if(data[k].type[1]==undefined){
       data[k].type[1]="<br>";
@@ -38,7 +38,7 @@ Object.keys(data).forEach(function(k) {
 console.log(html_out);
 $(".out").append(html_out+"</div>");
 Object.keys(data).forEach(function(k) {
-  var img_tag="../images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png";
+  var img_tag="../pokemon-website/images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png";
   $('#'+k).css('background','url('+img_tag+')');
   // document.getElementById('#'+k).style.color = 'red';
   console.log(img_tag);
