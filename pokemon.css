@@ -17,6 +17,9 @@ p {
 .col-sm-3{
   margin:auto;
   padding:auto;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .btn-success {
