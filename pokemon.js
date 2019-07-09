@@ -41,6 +41,8 @@ Object.keys(data).forEach(function(k) {
     html_out += "</div>"
   }
 });
+
+
 console.log(html_out);
 $(".out").append(html_out + "</div>");
 Object.keys(data).forEach(function(k) {
