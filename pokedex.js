@@ -8530,7 +8530,7 @@ var data=[
   {
     "id": 439,
     "name": {
-      "english": "Mime-Jr",
+      "english": "Mime.Jr",
       "japanese": "マネネ",
       "chinese": "魔尼尼"
     },
