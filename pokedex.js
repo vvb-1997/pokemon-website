@@ -1599,7 +1599,7 @@ var data=[
   {
     "id": 83,
     "name": {
-      "english": "Farfetch'd",
+      "english": "Farfetch_d",
       "japanese": "カモネギ",
       "chinese": "大葱鸭"
     },
@@ -8530,7 +8530,7 @@ var data=[
   {
     "id": 439,
     "name": {
-      "english": "Mime-Jr.",
+      "english": "Mime.Jr",
       "japanese": "マネネ",
       "chinese": "魔尼尼"
     },
@@ -12522,7 +12522,7 @@ var data=[
   {
     "id": 644,
     "name": {
-      "english": "Zekrom ",
+      "english": "Zekrom",
       "japanese": "ゼクロム",
       "chinese": "捷克罗姆"
     },
@@ -15030,7 +15030,7 @@ var data=[
   {
     "id": 772,
     "name": {
-      "english": "Type: Null",
+      "english": "Type-Null",
       "japanese": "タイプ：ヌル",
       "chinese": "属性：空"
     },
