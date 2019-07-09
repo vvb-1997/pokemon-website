@@ -22,7 +22,7 @@ function spaceToUnderscore(pokemonName) {
 Object.keys(data).forEach(function(k) {
   var power = data[k].base;
   if (k % 3 == 0) {
-    html_out += "</br><div class='row'>";
+    html_out += "<br><div class='row'>";
   }
   if (data[k].type[1] == undefined) {
     data[k].type[1] = "<br>";
@@ -32,8 +32,8 @@ Object.keys(data).forEach(function(k) {
   var img = "../sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
   // console.log(img);
   html_out += "<div id='" + k + "'class='col-sm-3'> <p>Name: " +
-    data[k].name.english + "</p><p>Attack Type: " + data[k].type[0] + "<br>" + data[k].type[1] + "</p>" +
-    "</p><button class = 'btn btn-success'> <img src='img'></img></button> </div>";
+    data[k].name.english + "</p><p>Attack Type: " + data[k].type[0] + "<br>" + data[k].type[1] +
+    "</p><button class = 'btn btn-success'> <img src='"+img+"'></img></button> </div>";
   // html_out+="<div class='col-sm-3'> <p>Name: "+
   // data[k].name.english + "</p><p>Attack Type: " +data[k].type + "</p><p>Score: "+ scores(power) +
   // "</p><button class = 'btn btn-success'> More</button> </div> </div>";
