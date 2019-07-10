@@ -31,7 +31,7 @@ Object.keys(data).forEach(function(k) {
   }
   // var img_tag="<img src='../pokemon_data/images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png' alt='pokemon image' </img>";
   // console.log(img_tag);
-  var img = "../images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
+  var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
    var info = data[k].base;
   // console.log(img);
   html_out += "<div id='" + k + "'class='col-sm-3'><div id = 'f1_container' ><div id = 'f1_card' class = 'shadow1'><div class = 'front face' ><p>Name: " +
@@ -61,7 +61,7 @@ Object.keys(data).forEach(function(k) {
 
 $(".out").append(html_out + "</div>");
 Object.keys(data).forEach(function(k) {
-  var img_tag = "../images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
+  var img_tag = "images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
 });
