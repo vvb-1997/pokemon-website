@@ -25,29 +25,45 @@ Object.keys(data).forEach(function(k) {
     html_out += "<br><div class='row'>";
   }
   if (data[k].type[1] == undefined) {
-    data[k].type[1] = "<br>";
+    data[k].type[1] = " ";
+  } else {
+    data[k].type[1] = "," + data[k].type[1];
   }
   // var img_tag="<img src='../pokemon_data/images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png' alt='pokemon image' </img>";
   // console.log(img_tag);
-  var img = "sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
+  var img = "../images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
+   var info = data[k].base;
   // console.log(img);
-  html_out += "<div id='" + k + "'class='col-sm-3'> <p>Name: " +
-    data[k].name.english + "</p><p>Attack Type: " + data[k].type[0] + "<br>" + data[k].type[1] +
-    "</p><button class = 'btn btn-success'> <img src='"+img+"'></img></button> </div>";
-  // html_out+="<div class='col-sm-3'> <p>Name: "+
-  // data[k].name.english + "</p><p>Attack Type: " +data[k].type + "</p><p>Score: "+ scores(power) +
-  // "</p><button class = 'btn btn-success'> More</button> </div> </div>";
+  html_out += "<div id='" + k + "'class='col-sm-3'><div id = 'f1_container' ><div id = 'f1_card' class = 'shadow1'><div class = 'front face' ><p>Name: " +
+    data[k].name.english + "</p><p> Type: " + data[k].type[0] + data[k].type[1] +"</div>"+
+    "<div class = 'back face center'></p>HP : "+info.HP+
+    "<br> Attack: "+info.Attack+
+    "<br> Special Attack : "+info.specialAttack+
+    " <br> Special Defense: "+info.specialDefense+
+    "<br> Speed: "+info.Speed+
+    "<button class = 'btn btn-success'> <img src='" + img + "'></img></button></div></div></div></div>";
+    // <div id="f1_container">
+    // <div id="f1_card" class="shadow">
+    //   <div class="front face">
+    //     <img src="/images/Windows%20Logo.jpg"/>
+    //   </div>
+    //   <div class="back face center">
+    //     <p>This is nice for exposing more information about an image.</p>
+    //     <p>Any content can go here.</p>
+    //   </div>
+    // </div>
+    // </div>
+
   if (k % 3 == 2) {
     html_out += "</div>"
   }
 });
-console.log(html_out);
+
 $(".out").append(html_out + "</div>");
 Object.keys(data).forEach(function(k) {
-  var img_tag = "images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
+  var img_tag = "../images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
-  console.log(img_tag);
 });
 // document.getElementById('#'+k).style.color='red';
 // async function getData() {

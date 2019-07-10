@@ -13,8 +13,8 @@ var data = [{
       "HP": 45,
       "Attack": 49,
       "Defense": 49,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -33,8 +33,8 @@ var data = [{
       "HP": 60,
       "Attack": 62,
       "Defense": 63,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 60
     }
   },
@@ -53,8 +53,8 @@ var data = [{
       "HP": 80,
       "Attack": 82,
       "Defense": 83,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 80
     }
   },
@@ -72,8 +72,8 @@ var data = [{
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
+      "specialAttack": 60,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -91,8 +91,8 @@ var data = [{
       "HP": 58,
       "Attack": 64,
       "Defense": 58,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
+      "specialAttack": 80,
+      "specialDefense": 65,
       "Speed": 80
     }
   },
@@ -111,8 +111,8 @@ var data = [{
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
-      "Sp. Attack": 109,
-      "Sp. Defense": 85,
+      "specialAttack": 109,
+      "specialDefense": 85,
       "Speed": 100
     }
   },
@@ -130,8 +130,8 @@ var data = [{
       "HP": 44,
       "Attack": 48,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 64,
+      "specialAttack": 50,
+      "specialDefense": 64,
       "Speed": 43
     }
   },
@@ -149,8 +149,8 @@ var data = [{
       "HP": 59,
       "Attack": 63,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
       "Speed": 58
     }
   },
@@ -168,8 +168,8 @@ var data = [{
       "HP": 79,
       "Attack": 83,
       "Defense": 100,
-      "Sp. Attack": 85,
-      "Sp. Defense": 105,
+      "specialAttack": 85,
+      "specialDefense": 105,
       "Speed": 78
     }
   },
@@ -187,8 +187,8 @@ var data = [{
       "HP": 45,
       "Attack": 30,
       "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "specialAttack": 20,
+      "specialDefense": 20,
       "Speed": 45
     }
   },
@@ -206,8 +206,8 @@ var data = [{
       "HP": 50,
       "Attack": 20,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 30
     }
   },
@@ -226,8 +226,8 @@ var data = [{
       "HP": 60,
       "Attack": 45,
       "Defense": 50,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "specialAttack": 90,
+      "specialDefense": 80,
       "Speed": 70
     }
   },
@@ -246,8 +246,8 @@ var data = [{
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "specialAttack": 20,
+      "specialDefense": 20,
       "Speed": 50
     }
   },
@@ -266,8 +266,8 @@ var data = [{
       "HP": 45,
       "Attack": 25,
       "Defense": 50,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 35
     }
   },
@@ -286,8 +286,8 @@ var data = [{
       "HP": 65,
       "Attack": 90,
       "Defense": 40,
-      "Sp. Attack": 45,
-      "Sp. Defense": 80,
+      "specialAttack": 45,
+      "specialDefense": 80,
       "Speed": 75
     }
   },
@@ -306,8 +306,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 56
     }
   },
@@ -326,8 +326,8 @@ var data = [{
       "HP": 63,
       "Attack": 60,
       "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 71
     }
   },
@@ -346,8 +346,8 @@ var data = [{
       "HP": 83,
       "Attack": 80,
       "Defense": 75,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
       "Speed": 101
     }
   },
@@ -365,8 +365,8 @@ var data = [{
       "HP": 30,
       "Attack": 56,
       "Defense": 35,
-      "Sp. Attack": 25,
-      "Sp. Defense": 35,
+      "specialAttack": 25,
+      "specialDefense": 35,
       "Speed": 72
     }
   },
@@ -384,8 +384,8 @@ var data = [{
       "HP": 55,
       "Attack": 81,
       "Defense": 60,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "specialAttack": 50,
+      "specialDefense": 70,
       "Speed": 97
     }
   },
@@ -404,8 +404,8 @@ var data = [{
       "HP": 40,
       "Attack": 60,
       "Defense": 30,
-      "Sp. Attack": 31,
-      "Sp. Defense": 31,
+      "specialAttack": 31,
+      "specialDefense": 31,
       "Speed": 70
     }
   },
@@ -424,8 +424,8 @@ var data = [{
       "HP": 65,
       "Attack": 90,
       "Defense": 65,
-      "Sp. Attack": 61,
-      "Sp. Defense": 61,
+      "specialAttack": 61,
+      "specialDefense": 61,
       "Speed": 100
     }
   },
@@ -443,8 +443,8 @@ var data = [{
       "HP": 35,
       "Attack": 60,
       "Defense": 44,
-      "Sp. Attack": 40,
-      "Sp. Defense": 54,
+      "specialAttack": 40,
+      "specialDefense": 54,
       "Speed": 55
     }
   },
@@ -462,8 +462,8 @@ var data = [{
       "HP": 60,
       "Attack": 95,
       "Defense": 69,
-      "Sp. Attack": 65,
-      "Sp. Defense": 79,
+      "specialAttack": 65,
+      "specialDefense": 79,
       "Speed": 80
     }
   },
@@ -481,8 +481,8 @@ var data = [{
       "HP": 35,
       "Attack": 55,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 90
     }
   },
@@ -500,8 +500,8 @@ var data = [{
       "HP": 60,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "specialAttack": 90,
+      "specialDefense": 80,
       "Speed": 110
     }
   },
@@ -519,8 +519,8 @@ var data = [{
       "HP": 50,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 30,
       "Speed": 40
     }
   },
@@ -538,8 +538,8 @@ var data = [{
       "HP": 75,
       "Attack": 100,
       "Defense": 110,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 65
     }
   },
@@ -557,8 +557,8 @@ var data = [{
       "HP": 55,
       "Attack": 47,
       "Defense": 52,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 41
     }
   },
@@ -576,8 +576,8 @@ var data = [{
       "HP": 70,
       "Attack": 62,
       "Defense": 67,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 56
     }
   },
@@ -596,8 +596,8 @@ var data = [{
       "HP": 90,
       "Attack": 92,
       "Defense": 87,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "specialAttack": 75,
+      "specialDefense": 85,
       "Speed": 76
     }
   },
@@ -615,8 +615,8 @@ var data = [{
       "HP": 46,
       "Attack": 57,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 50
     }
   },
@@ -634,8 +634,8 @@ var data = [{
       "HP": 61,
       "Attack": 72,
       "Defense": 57,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 65
     }
   },
@@ -654,8 +654,8 @@ var data = [{
       "HP": 81,
       "Attack": 102,
       "Defense": 77,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 85
     }
   },
@@ -673,8 +673,8 @@ var data = [{
       "HP": 70,
       "Attack": 45,
       "Defense": 48,
-      "Sp. Attack": 60,
-      "Sp. Defense": 65,
+      "specialAttack": 60,
+      "specialDefense": 65,
       "Speed": 35
     }
   },
@@ -692,8 +692,8 @@ var data = [{
       "HP": 95,
       "Attack": 70,
       "Defense": 73,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "specialAttack": 95,
+      "specialDefense": 90,
       "Speed": 60
     }
   },
@@ -711,8 +711,8 @@ var data = [{
       "HP": 38,
       "Attack": 41,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 65,
       "Speed": 65
     }
   },
@@ -730,8 +730,8 @@ var data = [{
       "HP": 73,
       "Attack": 76,
       "Defense": 75,
-      "Sp. Attack": 81,
-      "Sp. Defense": 100,
+      "specialAttack": 81,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -750,8 +750,8 @@ var data = [{
       "HP": 115,
       "Attack": 45,
       "Defense": 20,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "specialAttack": 45,
+      "specialDefense": 25,
       "Speed": 20
     }
   },
@@ -770,8 +770,8 @@ var data = [{
       "HP": 140,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 85,
-      "Sp. Defense": 50,
+      "specialAttack": 85,
+      "specialDefense": 50,
       "Speed": 45
     }
   },
@@ -790,8 +790,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
+      "specialAttack": 30,
+      "specialDefense": 40,
       "Speed": 55
     }
   },
@@ -810,8 +810,8 @@ var data = [{
       "HP": 75,
       "Attack": 80,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
       "Speed": 90
     }
   },
@@ -830,8 +830,8 @@ var data = [{
       "HP": 45,
       "Attack": 50,
       "Defense": 55,
-      "Sp. Attack": 75,
-      "Sp. Defense": 65,
+      "specialAttack": 75,
+      "specialDefense": 65,
       "Speed": 30
     }
   },
@@ -850,8 +850,8 @@ var data = [{
       "HP": 60,
       "Attack": 65,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 40
     }
   },
@@ -870,8 +870,8 @@ var data = [{
       "HP": 75,
       "Attack": 80,
       "Defense": 85,
-      "Sp. Attack": 110,
-      "Sp. Defense": 90,
+      "specialAttack": 110,
+      "specialDefense": 90,
       "Speed": 50
     }
   },
@@ -890,8 +890,8 @@ var data = [{
       "HP": 35,
       "Attack": 70,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 25
     }
   },
@@ -910,8 +910,8 @@ var data = [{
       "HP": 60,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 80,
       "Speed": 30
     }
   },
@@ -930,8 +930,8 @@ var data = [{
       "HP": 60,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
       "Speed": 45
     }
   },
@@ -950,8 +950,8 @@ var data = [{
       "HP": 70,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 90,
-      "Sp. Defense": 75,
+      "specialAttack": 90,
+      "specialDefense": 75,
       "Speed": 90
     }
   },
@@ -969,8 +969,8 @@ var data = [{
       "HP": 10,
       "Attack": 55,
       "Defense": 25,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "specialAttack": 35,
+      "specialDefense": 45,
       "Speed": 95
     }
   },
@@ -988,8 +988,8 @@ var data = [{
       "HP": 35,
       "Attack": 100,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "specialAttack": 50,
+      "specialDefense": 70,
       "Speed": 120
     }
   },
@@ -1007,8 +1007,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 90
     }
   },
@@ -1026,8 +1026,8 @@ var data = [{
       "HP": 65,
       "Attack": 70,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 115
     }
   },
@@ -1045,8 +1045,8 @@ var data = [{
       "HP": 50,
       "Attack": 52,
       "Defense": 48,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
+      "specialAttack": 65,
+      "specialDefense": 50,
       "Speed": 55
     }
   },
@@ -1064,8 +1064,8 @@ var data = [{
       "HP": 80,
       "Attack": 82,
       "Defense": 78,
-      "Sp. Attack": 95,
-      "Sp. Defense": 80,
+      "specialAttack": 95,
+      "specialDefense": 80,
       "Speed": 85
     }
   },
@@ -1083,8 +1083,8 @@ var data = [{
       "HP": 40,
       "Attack": 80,
       "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "specialAttack": 35,
+      "specialDefense": 45,
       "Speed": 70
     }
   },
@@ -1102,8 +1102,8 @@ var data = [{
       "HP": 65,
       "Attack": 105,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 95
     }
   },
@@ -1121,8 +1121,8 @@ var data = [{
       "HP": 55,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
+      "specialAttack": 70,
+      "specialDefense": 50,
       "Speed": 60
     }
   },
@@ -1140,8 +1140,8 @@ var data = [{
       "HP": 90,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
       "Speed": 95
     }
   },
@@ -1159,8 +1159,8 @@ var data = [{
       "HP": 40,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 90
     }
   },
@@ -1178,8 +1178,8 @@ var data = [{
       "HP": 65,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 90
     }
   },
@@ -1198,8 +1198,8 @@ var data = [{
       "HP": 90,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 70,
-      "Sp. Defense": 90,
+      "specialAttack": 70,
+      "specialDefense": 90,
       "Speed": 70
     }
   },
@@ -1217,8 +1217,8 @@ var data = [{
       "HP": 25,
       "Attack": 20,
       "Defense": 15,
-      "Sp. Attack": 105,
-      "Sp. Defense": 55,
+      "specialAttack": 105,
+      "specialDefense": 55,
       "Speed": 90
     }
   },
@@ -1236,8 +1236,8 @@ var data = [{
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "specialAttack": 120,
+      "specialDefense": 70,
       "Speed": 105
     }
   },
@@ -1255,8 +1255,8 @@ var data = [{
       "HP": 55,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 135,
-      "Sp. Defense": 95,
+      "specialAttack": 135,
+      "specialDefense": 95,
       "Speed": 120
     }
   },
@@ -1274,8 +1274,8 @@ var data = [{
       "HP": 70,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 35
     }
   },
@@ -1293,8 +1293,8 @@ var data = [{
       "HP": 80,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 60,
       "Speed": 45
     }
   },
@@ -1312,8 +1312,8 @@ var data = [{
       "HP": 90,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 85,
+      "specialAttack": 65,
+      "specialDefense": 85,
       "Speed": 55
     }
   },
@@ -1332,8 +1332,8 @@ var data = [{
       "HP": 50,
       "Attack": 75,
       "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 30,
+      "specialAttack": 70,
+      "specialDefense": 30,
       "Speed": 40
     }
   },
@@ -1352,8 +1352,8 @@ var data = [{
       "HP": 65,
       "Attack": 90,
       "Defense": 50,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 45,
       "Speed": 55
     }
   },
@@ -1372,8 +1372,8 @@ var data = [{
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 70,
+      "specialAttack": 100,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -1392,8 +1392,8 @@ var data = [{
       "HP": 40,
       "Attack": 40,
       "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 100,
+      "specialAttack": 50,
+      "specialDefense": 100,
       "Speed": 70
     }
   },
@@ -1412,8 +1412,8 @@ var data = [{
       "HP": 80,
       "Attack": 70,
       "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 120,
+      "specialAttack": 80,
+      "specialDefense": 120,
       "Speed": 100
     }
   },
@@ -1432,8 +1432,8 @@ var data = [{
       "HP": 40,
       "Attack": 80,
       "Defense": 100,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 20
     }
   },
@@ -1452,8 +1452,8 @@ var data = [{
       "HP": 55,
       "Attack": 95,
       "Defense": 115,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 35
     }
   },
@@ -1472,8 +1472,8 @@ var data = [{
       "HP": 80,
       "Attack": 120,
       "Defense": 130,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -1491,8 +1491,8 @@ var data = [{
       "HP": 50,
       "Attack": 85,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 90
     }
   },
@@ -1510,8 +1510,8 @@ var data = [{
       "HP": 65,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 105
     }
   },
@@ -1530,8 +1530,8 @@ var data = [{
       "HP": 90,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 15
     }
   },
@@ -1550,8 +1550,8 @@ var data = [{
       "HP": 95,
       "Attack": 75,
       "Defense": 110,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
       "Speed": 30
     }
   },
@@ -1570,8 +1570,8 @@ var data = [{
       "HP": 25,
       "Attack": 35,
       "Defense": 70,
-      "Sp. Attack": 95,
-      "Sp. Defense": 55,
+      "specialAttack": 95,
+      "specialDefense": 55,
       "Speed": 45
     }
   },
@@ -1590,15 +1590,15 @@ var data = [{
       "HP": 50,
       "Attack": 60,
       "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "specialAttack": 120,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
   {
     "id": 83,
     "name": {
-      "english": "Farfetch_d",
+      "english": "Farfetch'd",
       "japanese": "カモネギ",
       "chinese": "大葱鸭"
     },
@@ -1610,8 +1610,8 @@ var data = [{
       "HP": 52,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 58,
-      "Sp. Defense": 62,
+      "specialAttack": 58,
+      "specialDefense": 62,
       "Speed": 60
     }
   },
@@ -1630,8 +1630,8 @@ var data = [{
       "HP": 35,
       "Attack": 85,
       "Defense": 45,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 75
     }
   },
@@ -1650,8 +1650,8 @@ var data = [{
       "HP": 60,
       "Attack": 110,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 110
     }
   },
@@ -1669,8 +1669,8 @@ var data = [{
       "HP": 65,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 70,
+      "specialAttack": 45,
+      "specialDefense": 70,
       "Speed": 45
     }
   },
@@ -1689,8 +1689,8 @@ var data = [{
       "HP": 90,
       "Attack": 70,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 95,
+      "specialAttack": 70,
+      "specialDefense": 95,
       "Speed": 70
     }
   },
@@ -1708,8 +1708,8 @@ var data = [{
       "HP": 80,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 25
     }
   },
@@ -1727,8 +1727,8 @@ var data = [{
       "HP": 105,
       "Attack": 105,
       "Defense": 75,
-      "Sp. Attack": 65,
-      "Sp. Defense": 100,
+      "specialAttack": 65,
+      "specialDefense": 100,
       "Speed": 50
     }
   },
@@ -1746,8 +1746,8 @@ var data = [{
       "HP": 30,
       "Attack": 65,
       "Defense": 100,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "specialAttack": 45,
+      "specialDefense": 25,
       "Speed": 40
     }
   },
@@ -1766,8 +1766,8 @@ var data = [{
       "HP": 50,
       "Attack": 95,
       "Defense": 180,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 45,
       "Speed": 70
     }
   },
@@ -1786,8 +1786,8 @@ var data = [{
       "HP": 30,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 100,
-      "Sp. Defense": 35,
+      "specialAttack": 100,
+      "specialDefense": 35,
       "Speed": 80
     }
   },
@@ -1806,8 +1806,8 @@ var data = [{
       "HP": 45,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 115,
-      "Sp. Defense": 55,
+      "specialAttack": 115,
+      "specialDefense": 55,
       "Speed": 95
     }
   },
@@ -1826,8 +1826,8 @@ var data = [{
       "HP": 60,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 130,
-      "Sp. Defense": 75,
+      "specialAttack": 130,
+      "specialDefense": 75,
       "Speed": 110
     }
   },
@@ -1846,8 +1846,8 @@ var data = [{
       "HP": 35,
       "Attack": 45,
       "Defense": 160,
-      "Sp. Attack": 30,
-      "Sp. Defense": 45,
+      "specialAttack": 30,
+      "specialDefense": 45,
       "Speed": 70
     }
   },
@@ -1865,8 +1865,8 @@ var data = [{
       "HP": 60,
       "Attack": 48,
       "Defense": 45,
-      "Sp. Attack": 43,
-      "Sp. Defense": 90,
+      "specialAttack": 43,
+      "specialDefense": 90,
       "Speed": 42
     }
   },
@@ -1884,8 +1884,8 @@ var data = [{
       "HP": 85,
       "Attack": 73,
       "Defense": 70,
-      "Sp. Attack": 73,
-      "Sp. Defense": 115,
+      "specialAttack": 73,
+      "specialDefense": 115,
       "Speed": 67
     }
   },
@@ -1903,8 +1903,8 @@ var data = [{
       "HP": 30,
       "Attack": 105,
       "Defense": 90,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 50
     }
   },
@@ -1922,8 +1922,8 @@ var data = [{
       "HP": 55,
       "Attack": 130,
       "Defense": 115,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 75
     }
   },
@@ -1941,8 +1941,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 100
     }
   },
@@ -1960,8 +1960,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 150
     }
   },
@@ -1980,8 +1980,8 @@ var data = [{
       "HP": 60,
       "Attack": 40,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "specialAttack": 60,
+      "specialDefense": 45,
       "Speed": 40
     }
   },
@@ -2000,8 +2000,8 @@ var data = [{
       "HP": 95,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 75,
+      "specialAttack": 125,
+      "specialDefense": 75,
       "Speed": 55
     }
   },
@@ -2019,8 +2019,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 35
     }
   },
@@ -2038,8 +2038,8 @@ var data = [{
       "HP": 60,
       "Attack": 80,
       "Defense": 110,
-      "Sp. Attack": 50,
-      "Sp. Defense": 80,
+      "specialAttack": 50,
+      "specialDefense": 80,
       "Speed": 45
     }
   },
@@ -2057,8 +2057,8 @@ var data = [{
       "HP": 50,
       "Attack": 120,
       "Defense": 53,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "specialAttack": 35,
+      "specialDefense": 110,
       "Speed": 87
     }
   },
@@ -2076,8 +2076,8 @@ var data = [{
       "HP": 50,
       "Attack": 105,
       "Defense": 79,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "specialAttack": 35,
+      "specialDefense": 110,
       "Speed": 76
     }
   },
@@ -2095,8 +2095,8 @@ var data = [{
       "HP": 90,
       "Attack": 55,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
       "Speed": 30
     }
   },
@@ -2114,8 +2114,8 @@ var data = [{
       "HP": 40,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "specialAttack": 60,
+      "specialDefense": 45,
       "Speed": 35
     }
   },
@@ -2133,8 +2133,8 @@ var data = [{
       "HP": 65,
       "Attack": 90,
       "Defense": 120,
-      "Sp. Attack": 85,
-      "Sp. Defense": 70,
+      "specialAttack": 85,
+      "specialDefense": 70,
       "Speed": 60
     }
   },
@@ -2153,8 +2153,8 @@ var data = [{
       "HP": 80,
       "Attack": 85,
       "Defense": 95,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 25
     }
   },
@@ -2173,8 +2173,8 @@ var data = [{
       "HP": 105,
       "Attack": 130,
       "Defense": 120,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 40
     }
   },
@@ -2192,8 +2192,8 @@ var data = [{
       "HP": 250,
       "Attack": 5,
       "Defense": 5,
-      "Sp. Attack": 35,
-      "Sp. Defense": 105,
+      "specialAttack": 35,
+      "specialDefense": 105,
       "Speed": 50
     }
   },
@@ -2211,8 +2211,8 @@ var data = [{
       "HP": 65,
       "Attack": 55,
       "Defense": 115,
-      "Sp. Attack": 100,
-      "Sp. Defense": 40,
+      "specialAttack": 100,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -2230,8 +2230,8 @@ var data = [{
       "HP": 105,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 40,
-      "Sp. Defense": 80,
+      "specialAttack": 40,
+      "specialDefense": 80,
       "Speed": 90
     }
   },
@@ -2249,8 +2249,8 @@ var data = [{
       "HP": 30,
       "Attack": 40,
       "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 25,
+      "specialAttack": 70,
+      "specialDefense": 25,
       "Speed": 60
     }
   },
@@ -2268,8 +2268,8 @@ var data = [{
       "HP": 55,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 45,
+      "specialAttack": 95,
+      "specialDefense": 45,
       "Speed": 85
     }
   },
@@ -2287,8 +2287,8 @@ var data = [{
       "HP": 45,
       "Attack": 67,
       "Defense": 60,
-      "Sp. Attack": 35,
-      "Sp. Defense": 50,
+      "specialAttack": 35,
+      "specialDefense": 50,
       "Speed": 63
     }
   },
@@ -2306,8 +2306,8 @@ var data = [{
       "HP": 80,
       "Attack": 92,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
       "Speed": 68
     }
   },
@@ -2325,8 +2325,8 @@ var data = [{
       "HP": 30,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
+      "specialAttack": 70,
+      "specialDefense": 55,
       "Speed": 85
     }
   },
@@ -2345,8 +2345,8 @@ var data = [{
       "HP": 60,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "specialAttack": 100,
+      "specialDefense": 85,
       "Speed": 115
     }
   },
@@ -2365,8 +2365,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 120,
+      "specialAttack": 100,
+      "specialDefense": 120,
       "Speed": 90
     }
   },
@@ -2385,8 +2385,8 @@ var data = [{
       "HP": 70,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
       "Speed": 105
     }
   },
@@ -2405,8 +2405,8 @@ var data = [{
       "HP": 65,
       "Attack": 50,
       "Defense": 35,
-      "Sp. Attack": 115,
-      "Sp. Defense": 95,
+      "specialAttack": 115,
+      "specialDefense": 95,
       "Speed": 95
     }
   },
@@ -2424,8 +2424,8 @@ var data = [{
       "HP": 65,
       "Attack": 83,
       "Defense": 57,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
+      "specialAttack": 95,
+      "specialDefense": 85,
       "Speed": 105
     }
   },
@@ -2443,8 +2443,8 @@ var data = [{
       "HP": 65,
       "Attack": 95,
       "Defense": 57,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "specialAttack": 100,
+      "specialDefense": 85,
       "Speed": 93
     }
   },
@@ -2462,8 +2462,8 @@ var data = [{
       "HP": 65,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 70,
       "Speed": 85
     }
   },
@@ -2481,8 +2481,8 @@ var data = [{
       "HP": 75,
       "Attack": 100,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "specialAttack": 40,
+      "specialDefense": 70,
       "Speed": 110
     }
   },
@@ -2500,8 +2500,8 @@ var data = [{
       "HP": 20,
       "Attack": 10,
       "Defense": 55,
-      "Sp. Attack": 15,
-      "Sp. Defense": 20,
+      "specialAttack": 15,
+      "specialDefense": 20,
       "Speed": 80
     }
   },
@@ -2520,8 +2520,8 @@ var data = [{
       "HP": 95,
       "Attack": 125,
       "Defense": 79,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
+      "specialAttack": 60,
+      "specialDefense": 100,
       "Speed": 81
     }
   },
@@ -2540,8 +2540,8 @@ var data = [{
       "HP": 130,
       "Attack": 85,
       "Defense": 80,
-      "Sp. Attack": 85,
-      "Sp. Defense": 95,
+      "specialAttack": 85,
+      "specialDefense": 95,
       "Speed": 60
     }
   },
@@ -2559,8 +2559,8 @@ var data = [{
       "HP": 48,
       "Attack": 48,
       "Defense": 48,
-      "Sp. Attack": 48,
-      "Sp. Defense": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
       "Speed": 48
     }
   },
@@ -2578,8 +2578,8 @@ var data = [{
       "HP": 55,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "specialAttack": 45,
+      "specialDefense": 65,
       "Speed": 55
     }
   },
@@ -2597,8 +2597,8 @@ var data = [{
       "HP": 130,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "specialAttack": 110,
+      "specialDefense": 95,
       "Speed": 65
     }
   },
@@ -2616,8 +2616,8 @@ var data = [{
       "HP": 65,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "specialAttack": 110,
+      "specialDefense": 95,
       "Speed": 130
     }
   },
@@ -2635,8 +2635,8 @@ var data = [{
       "HP": 65,
       "Attack": 130,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 110,
+      "specialAttack": 95,
+      "specialDefense": 110,
       "Speed": 65
     }
   },
@@ -2654,8 +2654,8 @@ var data = [{
       "HP": 65,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 40
     }
   },
@@ -2674,8 +2674,8 @@ var data = [{
       "HP": 35,
       "Attack": 40,
       "Defense": 100,
-      "Sp. Attack": 90,
-      "Sp. Defense": 55,
+      "specialAttack": 90,
+      "specialDefense": 55,
       "Speed": 35
     }
   },
@@ -2694,8 +2694,8 @@ var data = [{
       "HP": 70,
       "Attack": 60,
       "Defense": 125,
-      "Sp. Attack": 115,
-      "Sp. Defense": 70,
+      "specialAttack": 115,
+      "specialDefense": 70,
       "Speed": 55
     }
   },
@@ -2714,8 +2714,8 @@ var data = [{
       "HP": 30,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 55,
-      "Sp. Defense": 45,
+      "specialAttack": 55,
+      "specialDefense": 45,
       "Speed": 55
     }
   },
@@ -2734,8 +2734,8 @@ var data = [{
       "HP": 60,
       "Attack": 115,
       "Defense": 105,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
       "Speed": 80
     }
   },
@@ -2754,8 +2754,8 @@ var data = [{
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
       "Speed": 130
     }
   },
@@ -2773,8 +2773,8 @@ var data = [{
       "HP": 160,
       "Attack": 110,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 110,
+      "specialAttack": 65,
+      "specialDefense": 110,
       "Speed": 30
     }
   },
@@ -2793,8 +2793,8 @@ var data = [{
       "HP": 90,
       "Attack": 85,
       "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 125,
+      "specialAttack": 95,
+      "specialDefense": 125,
       "Speed": 85
     }
   },
@@ -2813,8 +2813,8 @@ var data = [{
       "HP": 90,
       "Attack": 90,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 90,
       "Speed": 100
     }
   },
@@ -2833,8 +2833,8 @@ var data = [{
       "HP": 90,
       "Attack": 100,
       "Defense": 90,
-      "Sp. Attack": 125,
-      "Sp. Defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 85,
       "Speed": 90
     }
   },
@@ -2852,8 +2852,8 @@ var data = [{
       "HP": 41,
       "Attack": 64,
       "Defense": 45,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 50
     }
   },
@@ -2871,8 +2871,8 @@ var data = [{
       "HP": 61,
       "Attack": 84,
       "Defense": 65,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -2891,8 +2891,8 @@ var data = [{
       "HP": 91,
       "Attack": 134,
       "Defense": 95,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 80
     }
   },
@@ -2910,8 +2910,8 @@ var data = [{
       "HP": 106,
       "Attack": 110,
       "Defense": 90,
-      "Sp. Attack": 154,
-      "Sp. Defense": 90,
+      "specialAttack": 154,
+      "specialDefense": 90,
       "Speed": 130
     }
   },
@@ -2929,8 +2929,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -2948,8 +2948,8 @@ var data = [{
       "HP": 45,
       "Attack": 49,
       "Defense": 65,
-      "Sp. Attack": 49,
-      "Sp. Defense": 65,
+      "specialAttack": 49,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -2967,8 +2967,8 @@ var data = [{
       "HP": 60,
       "Attack": 62,
       "Defense": 80,
-      "Sp. Attack": 63,
-      "Sp. Defense": 80,
+      "specialAttack": 63,
+      "specialDefense": 80,
       "Speed": 60
     }
   },
@@ -2986,8 +2986,8 @@ var data = [{
       "HP": 80,
       "Attack": 82,
       "Defense": 100,
-      "Sp. Attack": 83,
-      "Sp. Defense": 100,
+      "specialAttack": 83,
+      "specialDefense": 100,
       "Speed": 80
     }
   },
@@ -3005,8 +3005,8 @@ var data = [{
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
+      "specialAttack": 60,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -3024,8 +3024,8 @@ var data = [{
       "HP": 58,
       "Attack": 64,
       "Defense": 58,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
+      "specialAttack": 80,
+      "specialDefense": 65,
       "Speed": 80
     }
   },
@@ -3043,8 +3043,8 @@ var data = [{
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
-      "Sp. Attack": 109,
-      "Sp. Defense": 85,
+      "specialAttack": 109,
+      "specialDefense": 85,
       "Speed": 100
     }
   },
@@ -3062,8 +3062,8 @@ var data = [{
       "HP": 50,
       "Attack": 65,
       "Defense": 64,
-      "Sp. Attack": 44,
-      "Sp. Defense": 48,
+      "specialAttack": 44,
+      "specialDefense": 48,
       "Speed": 43
     }
   },
@@ -3081,8 +3081,8 @@ var data = [{
       "HP": 65,
       "Attack": 80,
       "Defense": 80,
-      "Sp. Attack": 59,
-      "Sp. Defense": 63,
+      "specialAttack": 59,
+      "specialDefense": 63,
       "Speed": 58
     }
   },
@@ -3100,8 +3100,8 @@ var data = [{
       "HP": 85,
       "Attack": 105,
       "Defense": 100,
-      "Sp. Attack": 79,
-      "Sp. Defense": 83,
+      "specialAttack": 79,
+      "specialDefense": 83,
       "Speed": 78
     }
   },
@@ -3119,8 +3119,8 @@ var data = [{
       "HP": 35,
       "Attack": 46,
       "Defense": 34,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "specialAttack": 35,
+      "specialDefense": 45,
       "Speed": 20
     }
   },
@@ -3138,8 +3138,8 @@ var data = [{
       "HP": 85,
       "Attack": 76,
       "Defense": 64,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 90
     }
   },
@@ -3158,8 +3158,8 @@ var data = [{
       "HP": 60,
       "Attack": 30,
       "Defense": 30,
-      "Sp. Attack": 36,
-      "Sp. Defense": 56,
+      "specialAttack": 36,
+      "specialDefense": 56,
       "Speed": 50
     }
   },
@@ -3178,8 +3178,8 @@ var data = [{
       "HP": 100,
       "Attack": 50,
       "Defense": 50,
-      "Sp. Attack": 86,
-      "Sp. Defense": 96,
+      "specialAttack": 86,
+      "specialDefense": 96,
       "Speed": 70
     }
   },
@@ -3198,8 +3198,8 @@ var data = [{
       "HP": 40,
       "Attack": 20,
       "Defense": 30,
-      "Sp. Attack": 40,
-      "Sp. Defense": 80,
+      "specialAttack": 40,
+      "specialDefense": 80,
       "Speed": 55
     }
   },
@@ -3218,8 +3218,8 @@ var data = [{
       "HP": 55,
       "Attack": 35,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 110,
+      "specialAttack": 55,
+      "specialDefense": 110,
       "Speed": 85
     }
   },
@@ -3238,8 +3238,8 @@ var data = [{
       "HP": 40,
       "Attack": 60,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 30
     }
   },
@@ -3258,8 +3258,8 @@ var data = [{
       "HP": 70,
       "Attack": 90,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 40
     }
   },
@@ -3278,8 +3278,8 @@ var data = [{
       "HP": 85,
       "Attack": 90,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
       "Speed": 130
     }
   },
@@ -3298,8 +3298,8 @@ var data = [{
       "HP": 75,
       "Attack": 38,
       "Defense": 38,
-      "Sp. Attack": 56,
-      "Sp. Defense": 56,
+      "specialAttack": 56,
+      "specialDefense": 56,
       "Speed": 67
     }
   },
@@ -3318,8 +3318,8 @@ var data = [{
       "HP": 125,
       "Attack": 58,
       "Defense": 58,
-      "Sp. Attack": 76,
-      "Sp. Defense": 76,
+      "specialAttack": 76,
+      "specialDefense": 76,
       "Speed": 67
     }
   },
@@ -3337,8 +3337,8 @@ var data = [{
       "HP": 20,
       "Attack": 40,
       "Defense": 15,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 60
     }
   },
@@ -3356,8 +3356,8 @@ var data = [{
       "HP": 50,
       "Attack": 25,
       "Defense": 28,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 15
     }
   },
@@ -3376,8 +3376,8 @@ var data = [{
       "HP": 90,
       "Attack": 30,
       "Defense": 15,
-      "Sp. Attack": 40,
-      "Sp. Defense": 20,
+      "specialAttack": 40,
+      "specialDefense": 20,
       "Speed": 15
     }
   },
@@ -3395,8 +3395,8 @@ var data = [{
       "HP": 35,
       "Attack": 20,
       "Defense": 65,
-      "Sp. Attack": 40,
-      "Sp. Defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 65,
       "Speed": 20
     }
   },
@@ -3415,8 +3415,8 @@ var data = [{
       "HP": 55,
       "Attack": 40,
       "Defense": 85,
-      "Sp. Attack": 80,
-      "Sp. Defense": 105,
+      "specialAttack": 80,
+      "specialDefense": 105,
       "Speed": 40
     }
   },
@@ -3435,8 +3435,8 @@ var data = [{
       "HP": 40,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 45,
+      "specialAttack": 70,
+      "specialDefense": 45,
       "Speed": 70
     }
   },
@@ -3455,8 +3455,8 @@ var data = [{
       "HP": 65,
       "Attack": 75,
       "Defense": 70,
-      "Sp. Attack": 95,
-      "Sp. Defense": 70,
+      "specialAttack": 95,
+      "specialDefense": 70,
       "Speed": 95
     }
   },
@@ -3474,8 +3474,8 @@ var data = [{
       "HP": 55,
       "Attack": 40,
       "Defense": 40,
-      "Sp. Attack": 65,
-      "Sp. Defense": 45,
+      "specialAttack": 65,
+      "specialDefense": 45,
       "Speed": 35
     }
   },
@@ -3493,8 +3493,8 @@ var data = [{
       "HP": 70,
       "Attack": 55,
       "Defense": 55,
-      "Sp. Attack": 80,
-      "Sp. Defense": 60,
+      "specialAttack": 80,
+      "specialDefense": 60,
       "Speed": 45
     }
   },
@@ -3512,8 +3512,8 @@ var data = [{
       "HP": 90,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 115,
-      "Sp. Defense": 90,
+      "specialAttack": 115,
+      "specialDefense": 90,
       "Speed": 55
     }
   },
@@ -3531,8 +3531,8 @@ var data = [{
       "HP": 75,
       "Attack": 80,
       "Defense": 95,
-      "Sp. Attack": 90,
-      "Sp. Defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 100,
       "Speed": 50
     }
   },
@@ -3551,8 +3551,8 @@ var data = [{
       "HP": 70,
       "Attack": 20,
       "Defense": 50,
-      "Sp. Attack": 20,
-      "Sp. Defense": 50,
+      "specialAttack": 20,
+      "specialDefense": 50,
       "Speed": 40
     }
   },
@@ -3571,8 +3571,8 @@ var data = [{
       "HP": 100,
       "Attack": 50,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 80,
       "Speed": 50
     }
   },
@@ -3590,8 +3590,8 @@ var data = [{
       "HP": 70,
       "Attack": 100,
       "Defense": 115,
-      "Sp. Attack": 30,
-      "Sp. Defense": 65,
+      "specialAttack": 30,
+      "specialDefense": 65,
       "Speed": 30
     }
   },
@@ -3609,8 +3609,8 @@ var data = [{
       "HP": 90,
       "Attack": 75,
       "Defense": 75,
-      "Sp. Attack": 90,
-      "Sp. Defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 100,
       "Speed": 70
     }
   },
@@ -3629,8 +3629,8 @@ var data = [{
       "HP": 35,
       "Attack": 35,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 55,
+      "specialAttack": 35,
+      "specialDefense": 55,
       "Speed": 50
     }
   },
@@ -3649,8 +3649,8 @@ var data = [{
       "HP": 55,
       "Attack": 45,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "specialAttack": 45,
+      "specialDefense": 65,
       "Speed": 80
     }
   },
@@ -3669,8 +3669,8 @@ var data = [{
       "HP": 75,
       "Attack": 55,
       "Defense": 70,
-      "Sp. Attack": 55,
-      "Sp. Defense": 95,
+      "specialAttack": 55,
+      "specialDefense": 95,
       "Speed": 110
     }
   },
@@ -3688,8 +3688,8 @@ var data = [{
       "HP": 55,
       "Attack": 70,
       "Defense": 55,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
       "Speed": 85
     }
   },
@@ -3707,8 +3707,8 @@ var data = [{
       "HP": 30,
       "Attack": 30,
       "Defense": 30,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 30
     }
   },
@@ -3726,8 +3726,8 @@ var data = [{
       "HP": 75,
       "Attack": 75,
       "Defense": 55,
-      "Sp. Attack": 105,
-      "Sp. Defense": 85,
+      "specialAttack": 105,
+      "specialDefense": 85,
       "Speed": 30
     }
   },
@@ -3746,8 +3746,8 @@ var data = [{
       "HP": 65,
       "Attack": 65,
       "Defense": 45,
-      "Sp. Attack": 75,
-      "Sp. Defense": 45,
+      "specialAttack": 75,
+      "specialDefense": 45,
       "Speed": 95
     }
   },
@@ -3766,8 +3766,8 @@ var data = [{
       "HP": 55,
       "Attack": 45,
       "Defense": 45,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 15
     }
   },
@@ -3786,8 +3786,8 @@ var data = [{
       "HP": 95,
       "Attack": 85,
       "Defense": 85,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 35
     }
   },
@@ -3805,8 +3805,8 @@ var data = [{
       "HP": 65,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 130,
-      "Sp. Defense": 95,
+      "specialAttack": 130,
+      "specialDefense": 95,
       "Speed": 110
     }
   },
@@ -3824,8 +3824,8 @@ var data = [{
       "HP": 95,
       "Attack": 65,
       "Defense": 110,
-      "Sp. Attack": 60,
-      "Sp. Defense": 130,
+      "specialAttack": 60,
+      "specialDefense": 130,
       "Speed": 65
     }
   },
@@ -3844,8 +3844,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 42,
-      "Sp. Attack": 85,
-      "Sp. Defense": 42,
+      "specialAttack": 85,
+      "specialDefense": 42,
       "Speed": 91
     }
   },
@@ -3864,8 +3864,8 @@ var data = [{
       "HP": 95,
       "Attack": 75,
       "Defense": 80,
-      "Sp. Attack": 100,
-      "Sp. Defense": 110,
+      "specialAttack": 100,
+      "specialDefense": 110,
       "Speed": 30
     }
   },
@@ -3883,8 +3883,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 85,
-      "Sp. Defense": 85,
+      "specialAttack": 85,
+      "specialDefense": 85,
       "Speed": 85
     }
   },
@@ -3902,8 +3902,8 @@ var data = [{
       "HP": 48,
       "Attack": 72,
       "Defense": 48,
-      "Sp. Attack": 72,
-      "Sp. Defense": 48,
+      "specialAttack": 72,
+      "specialDefense": 48,
       "Speed": 48
     }
   },
@@ -3921,8 +3921,8 @@ var data = [{
       "HP": 190,
       "Attack": 33,
       "Defense": 58,
-      "Sp. Attack": 33,
-      "Sp. Defense": 58,
+      "specialAttack": 33,
+      "specialDefense": 58,
       "Speed": 33
     }
   },
@@ -3941,8 +3941,8 @@ var data = [{
       "HP": 70,
       "Attack": 80,
       "Defense": 65,
-      "Sp. Attack": 90,
-      "Sp. Defense": 65,
+      "specialAttack": 90,
+      "specialDefense": 65,
       "Speed": 85
     }
   },
@@ -3960,8 +3960,8 @@ var data = [{
       "HP": 50,
       "Attack": 65,
       "Defense": 90,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 15
     }
   },
@@ -3980,8 +3980,8 @@ var data = [{
       "HP": 75,
       "Attack": 90,
       "Defense": 140,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 40
     }
   },
@@ -3999,8 +3999,8 @@ var data = [{
       "HP": 100,
       "Attack": 70,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -4019,8 +4019,8 @@ var data = [{
       "HP": 65,
       "Attack": 75,
       "Defense": 105,
-      "Sp. Attack": 35,
-      "Sp. Defense": 65,
+      "specialAttack": 35,
+      "specialDefense": 65,
       "Speed": 85
     }
   },
@@ -4039,8 +4039,8 @@ var data = [{
       "HP": 75,
       "Attack": 85,
       "Defense": 200,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 30
     }
   },
@@ -4058,8 +4058,8 @@ var data = [{
       "HP": 60,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 30
     }
   },
@@ -4077,8 +4077,8 @@ var data = [{
       "HP": 90,
       "Attack": 120,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 45
     }
   },
@@ -4097,8 +4097,8 @@ var data = [{
       "HP": 65,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 85
     }
   },
@@ -4117,8 +4117,8 @@ var data = [{
       "HP": 70,
       "Attack": 130,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
       "Speed": 65
     }
   },
@@ -4137,8 +4137,8 @@ var data = [{
       "HP": 20,
       "Attack": 10,
       "Defense": 230,
-      "Sp. Attack": 10,
-      "Sp. Defense": 230,
+      "specialAttack": 10,
+      "specialDefense": 230,
       "Speed": 5
     }
   },
@@ -4157,8 +4157,8 @@ var data = [{
       "HP": 80,
       "Attack": 125,
       "Defense": 75,
-      "Sp. Attack": 40,
-      "Sp. Defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 95,
       "Speed": 85
     }
   },
@@ -4177,8 +4177,8 @@ var data = [{
       "HP": 55,
       "Attack": 95,
       "Defense": 55,
-      "Sp. Attack": 35,
-      "Sp. Defense": 75,
+      "specialAttack": 35,
+      "specialDefense": 75,
       "Speed": 115
     }
   },
@@ -4196,8 +4196,8 @@ var data = [{
       "HP": 60,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 40
     }
   },
@@ -4215,8 +4215,8 @@ var data = [{
       "HP": 90,
       "Attack": 130,
       "Defense": 75,
-      "Sp. Attack": 75,
-      "Sp. Defense": 75,
+      "specialAttack": 75,
+      "specialDefense": 75,
       "Speed": 55
     }
   },
@@ -4234,8 +4234,8 @@ var data = [{
       "HP": 40,
       "Attack": 40,
       "Defense": 40,
-      "Sp. Attack": 70,
-      "Sp. Defense": 40,
+      "specialAttack": 70,
+      "specialDefense": 40,
       "Speed": 20
     }
   },
@@ -4254,8 +4254,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 120,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "specialAttack": 90,
+      "specialDefense": 80,
       "Speed": 30
     }
   },
@@ -4274,8 +4274,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 50
     }
   },
@@ -4294,8 +4294,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 50
     }
   },
@@ -4314,8 +4314,8 @@ var data = [{
       "HP": 65,
       "Attack": 55,
       "Defense": 95,
-      "Sp. Attack": 65,
-      "Sp. Defense": 95,
+      "specialAttack": 65,
+      "specialDefense": 95,
       "Speed": 35
     }
   },
@@ -4333,8 +4333,8 @@ var data = [{
       "HP": 35,
       "Attack": 65,
       "Defense": 35,
-      "Sp. Attack": 65,
-      "Sp. Defense": 35,
+      "specialAttack": 65,
+      "specialDefense": 35,
       "Speed": 65
     }
   },
@@ -4352,8 +4352,8 @@ var data = [{
       "HP": 75,
       "Attack": 105,
       "Defense": 75,
-      "Sp. Attack": 105,
-      "Sp. Defense": 75,
+      "specialAttack": 105,
+      "specialDefense": 75,
       "Speed": 45
     }
   },
@@ -4372,8 +4372,8 @@ var data = [{
       "HP": 45,
       "Attack": 55,
       "Defense": 45,
-      "Sp. Attack": 65,
-      "Sp. Defense": 45,
+      "specialAttack": 65,
+      "specialDefense": 45,
       "Speed": 75
     }
   },
@@ -4392,8 +4392,8 @@ var data = [{
       "HP": 85,
       "Attack": 40,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 140,
+      "specialAttack": 80,
+      "specialDefense": 140,
       "Speed": 70
     }
   },
@@ -4412,8 +4412,8 @@ var data = [{
       "HP": 65,
       "Attack": 80,
       "Defense": 140,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "specialAttack": 40,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -4432,8 +4432,8 @@ var data = [{
       "HP": 45,
       "Attack": 60,
       "Defense": 30,
-      "Sp. Attack": 80,
-      "Sp. Defense": 50,
+      "specialAttack": 80,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -4452,8 +4452,8 @@ var data = [{
       "HP": 75,
       "Attack": 90,
       "Defense": 50,
-      "Sp. Attack": 110,
-      "Sp. Defense": 80,
+      "specialAttack": 110,
+      "specialDefense": 80,
       "Speed": 95
     }
   },
@@ -4472,8 +4472,8 @@ var data = [{
       "HP": 75,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 95,
       "Speed": 85
     }
   },
@@ -4491,8 +4491,8 @@ var data = [{
       "HP": 90,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 40
     }
   },
@@ -4510,8 +4510,8 @@ var data = [{
       "HP": 90,
       "Attack": 120,
       "Defense": 120,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 50
     }
   },
@@ -4529,8 +4529,8 @@ var data = [{
       "HP": 85,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 105,
-      "Sp. Defense": 95,
+      "specialAttack": 105,
+      "specialDefense": 95,
       "Speed": 60
     }
   },
@@ -4548,8 +4548,8 @@ var data = [{
       "HP": 73,
       "Attack": 95,
       "Defense": 62,
-      "Sp. Attack": 85,
-      "Sp. Defense": 65,
+      "specialAttack": 85,
+      "specialDefense": 65,
       "Speed": 85
     }
   },
@@ -4567,8 +4567,8 @@ var data = [{
       "HP": 55,
       "Attack": 20,
       "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 45,
+      "specialAttack": 20,
+      "specialDefense": 45,
       "Speed": 75
     }
   },
@@ -4586,8 +4586,8 @@ var data = [{
       "HP": 35,
       "Attack": 35,
       "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 35
     }
   },
@@ -4605,8 +4605,8 @@ var data = [{
       "HP": 50,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "specialAttack": 35,
+      "specialDefense": 110,
       "Speed": 70
     }
   },
@@ -4625,8 +4625,8 @@ var data = [{
       "HP": 45,
       "Attack": 30,
       "Defense": 15,
-      "Sp. Attack": 85,
-      "Sp. Defense": 65,
+      "specialAttack": 85,
+      "specialDefense": 65,
       "Speed": 65
     }
   },
@@ -4644,8 +4644,8 @@ var data = [{
       "HP": 45,
       "Attack": 63,
       "Defense": 37,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 95
     }
   },
@@ -4663,8 +4663,8 @@ var data = [{
       "HP": 45,
       "Attack": 75,
       "Defense": 37,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
+      "specialAttack": 70,
+      "specialDefense": 55,
       "Speed": 83
     }
   },
@@ -4682,8 +4682,8 @@ var data = [{
       "HP": 95,
       "Attack": 80,
       "Defense": 105,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "specialAttack": 40,
+      "specialDefense": 70,
       "Speed": 100
     }
   },
@@ -4701,8 +4701,8 @@ var data = [{
       "HP": 255,
       "Attack": 10,
       "Defense": 10,
-      "Sp. Attack": 75,
-      "Sp. Defense": 135,
+      "specialAttack": 75,
+      "specialDefense": 135,
       "Speed": 55
     }
   },
@@ -4720,8 +4720,8 @@ var data = [{
       "HP": 90,
       "Attack": 85,
       "Defense": 75,
-      "Sp. Attack": 115,
-      "Sp. Defense": 100,
+      "specialAttack": 115,
+      "specialDefense": 100,
       "Speed": 115
     }
   },
@@ -4739,8 +4739,8 @@ var data = [{
       "HP": 115,
       "Attack": 115,
       "Defense": 85,
-      "Sp. Attack": 90,
-      "Sp. Defense": 75,
+      "specialAttack": 90,
+      "specialDefense": 75,
       "Speed": 100
     }
   },
@@ -4758,8 +4758,8 @@ var data = [{
       "HP": 100,
       "Attack": 75,
       "Defense": 115,
-      "Sp. Attack": 90,
-      "Sp. Defense": 115,
+      "specialAttack": 90,
+      "specialDefense": 115,
       "Speed": 85
     }
   },
@@ -4778,8 +4778,8 @@ var data = [{
       "HP": 50,
       "Attack": 64,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 50,
       "Speed": 41
     }
   },
@@ -4798,8 +4798,8 @@ var data = [{
       "HP": 70,
       "Attack": 84,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
       "Speed": 51
     }
   },
@@ -4818,8 +4818,8 @@ var data = [{
       "HP": 100,
       "Attack": 134,
       "Defense": 110,
-      "Sp. Attack": 95,
-      "Sp. Defense": 100,
+      "specialAttack": 95,
+      "specialDefense": 100,
       "Speed": 61
     }
   },
@@ -4838,8 +4838,8 @@ var data = [{
       "HP": 106,
       "Attack": 90,
       "Defense": 130,
-      "Sp. Attack": 90,
-      "Sp. Defense": 154,
+      "specialAttack": 90,
+      "specialDefense": 154,
       "Speed": 110
     }
   },
@@ -4858,8 +4858,8 @@ var data = [{
       "HP": 106,
       "Attack": 130,
       "Defense": 90,
-      "Sp. Attack": 110,
-      "Sp. Defense": 154,
+      "specialAttack": 110,
+      "specialDefense": 154,
       "Speed": 90
     }
   },
@@ -4878,8 +4878,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -4897,8 +4897,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 70
     }
   },
@@ -4916,8 +4916,8 @@ var data = [{
       "HP": 50,
       "Attack": 65,
       "Defense": 45,
-      "Sp. Attack": 85,
-      "Sp. Defense": 65,
+      "specialAttack": 85,
+      "specialDefense": 65,
       "Speed": 95
     }
   },
@@ -4935,8 +4935,8 @@ var data = [{
       "HP": 70,
       "Attack": 85,
       "Defense": 65,
-      "Sp. Attack": 105,
-      "Sp. Defense": 85,
+      "specialAttack": 105,
+      "specialDefense": 85,
       "Speed": 120
     }
   },
@@ -4954,8 +4954,8 @@ var data = [{
       "HP": 45,
       "Attack": 60,
       "Defense": 40,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
+      "specialAttack": 70,
+      "specialDefense": 50,
       "Speed": 45
     }
   },
@@ -4974,8 +4974,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 60,
-      "Sp. Attack": 85,
-      "Sp. Defense": 60,
+      "specialAttack": 85,
+      "specialDefense": 60,
       "Speed": 55
     }
   },
@@ -4994,8 +4994,8 @@ var data = [{
       "HP": 80,
       "Attack": 120,
       "Defense": 70,
-      "Sp. Attack": 110,
-      "Sp. Defense": 70,
+      "specialAttack": 110,
+      "specialDefense": 70,
       "Speed": 80
     }
   },
@@ -5013,8 +5013,8 @@ var data = [{
       "HP": 50,
       "Attack": 70,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 40
     }
   },
@@ -5033,8 +5033,8 @@ var data = [{
       "HP": 70,
       "Attack": 85,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 50
     }
   },
@@ -5053,8 +5053,8 @@ var data = [{
       "HP": 100,
       "Attack": 110,
       "Defense": 90,
-      "Sp. Attack": 85,
-      "Sp. Defense": 90,
+      "specialAttack": 85,
+      "specialDefense": 90,
       "Speed": 60
     }
   },
@@ -5072,8 +5072,8 @@ var data = [{
       "HP": 35,
       "Attack": 55,
       "Defense": 35,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 35
     }
   },
@@ -5091,8 +5091,8 @@ var data = [{
       "HP": 70,
       "Attack": 90,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 70
     }
   },
@@ -5110,8 +5110,8 @@ var data = [{
       "HP": 38,
       "Attack": 30,
       "Defense": 41,
-      "Sp. Attack": 30,
-      "Sp. Defense": 41,
+      "specialAttack": 30,
+      "specialDefense": 41,
       "Speed": 60
     }
   },
@@ -5129,8 +5129,8 @@ var data = [{
       "HP": 78,
       "Attack": 70,
       "Defense": 61,
-      "Sp. Attack": 50,
-      "Sp. Defense": 61,
+      "specialAttack": 50,
+      "specialDefense": 61,
       "Speed": 100
     }
   },
@@ -5148,8 +5148,8 @@ var data = [{
       "HP": 45,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 30,
       "Speed": 20
     }
   },
@@ -5167,8 +5167,8 @@ var data = [{
       "HP": 50,
       "Attack": 35,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 15
     }
   },
@@ -5187,8 +5187,8 @@ var data = [{
       "HP": 60,
       "Attack": 70,
       "Defense": 50,
-      "Sp. Attack": 100,
-      "Sp. Defense": 50,
+      "specialAttack": 100,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -5206,8 +5206,8 @@ var data = [{
       "HP": 50,
       "Attack": 35,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 15
     }
   },
@@ -5226,8 +5226,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 90,
+      "specialAttack": 50,
+      "specialDefense": 90,
       "Speed": 65
     }
   },
@@ -5246,8 +5246,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 30,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 30
     }
   },
@@ -5266,8 +5266,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 50,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 50
     }
   },
@@ -5286,8 +5286,8 @@ var data = [{
       "HP": 80,
       "Attack": 70,
       "Defense": 70,
-      "Sp. Attack": 90,
-      "Sp. Defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 100,
       "Speed": 70
     }
   },
@@ -5305,8 +5305,8 @@ var data = [{
       "HP": 40,
       "Attack": 40,
       "Defense": 50,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 30
     }
   },
@@ -5325,8 +5325,8 @@ var data = [{
       "HP": 70,
       "Attack": 70,
       "Defense": 40,
-      "Sp. Attack": 60,
-      "Sp. Defense": 40,
+      "specialAttack": 60,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -5345,8 +5345,8 @@ var data = [{
       "HP": 90,
       "Attack": 100,
       "Defense": 60,
-      "Sp. Attack": 90,
-      "Sp. Defense": 60,
+      "specialAttack": 90,
+      "specialDefense": 60,
       "Speed": 80
     }
   },
@@ -5365,8 +5365,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 30,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 85
     }
   },
@@ -5385,8 +5385,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 60,
-      "Sp. Attack": 75,
-      "Sp. Defense": 50,
+      "specialAttack": 75,
+      "specialDefense": 50,
       "Speed": 125
     }
   },
@@ -5405,8 +5405,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 30,
-      "Sp. Attack": 55,
-      "Sp. Defense": 30,
+      "specialAttack": 55,
+      "specialDefense": 30,
       "Speed": 85
     }
   },
@@ -5425,8 +5425,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 70,
+      "specialAttack": 95,
+      "specialDefense": 70,
       "Speed": 65
     }
   },
@@ -5445,8 +5445,8 @@ var data = [{
       "HP": 28,
       "Attack": 25,
       "Defense": 25,
-      "Sp. Attack": 45,
-      "Sp. Defense": 35,
+      "specialAttack": 45,
+      "specialDefense": 35,
       "Speed": 40
     }
   },
@@ -5465,8 +5465,8 @@ var data = [{
       "HP": 38,
       "Attack": 35,
       "Defense": 35,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 50
     }
   },
@@ -5485,8 +5485,8 @@ var data = [{
       "HP": 68,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 125,
-      "Sp. Defense": 115,
+      "specialAttack": 125,
+      "specialDefense": 115,
       "Speed": 80
     }
   },
@@ -5505,8 +5505,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 32,
-      "Sp. Attack": 50,
-      "Sp. Defense": 52,
+      "specialAttack": 50,
+      "specialDefense": 52,
       "Speed": 65
     }
   },
@@ -5525,8 +5525,8 @@ var data = [{
       "HP": 70,
       "Attack": 60,
       "Defense": 62,
-      "Sp. Attack": 100,
-      "Sp. Defense": 82,
+      "specialAttack": 100,
+      "specialDefense": 82,
       "Speed": 80
     }
   },
@@ -5544,8 +5544,8 @@ var data = [{
       "HP": 60,
       "Attack": 40,
       "Defense": 60,
-      "Sp. Attack": 40,
-      "Sp. Defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
       "Speed": 35
     }
   },
@@ -5564,8 +5564,8 @@ var data = [{
       "HP": 60,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 70
     }
   },
@@ -5583,8 +5583,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 30
     }
   },
@@ -5602,8 +5602,8 @@ var data = [{
       "HP": 80,
       "Attack": 80,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 90
     }
   },
@@ -5621,8 +5621,8 @@ var data = [{
       "HP": 150,
       "Attack": 160,
       "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 65,
+      "specialAttack": 95,
+      "specialDefense": 65,
       "Speed": 100
     }
   },
@@ -5641,8 +5641,8 @@ var data = [{
       "HP": 31,
       "Attack": 45,
       "Defense": 90,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 40
     }
   },
@@ -5661,8 +5661,8 @@ var data = [{
       "HP": 61,
       "Attack": 90,
       "Defense": 45,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 160
     }
   },
@@ -5681,8 +5681,8 @@ var data = [{
       "HP": 1,
       "Attack": 90,
       "Defense": 45,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 40
     }
   },
@@ -5700,8 +5700,8 @@ var data = [{
       "HP": 64,
       "Attack": 51,
       "Defense": 23,
-      "Sp. Attack": 51,
-      "Sp. Defense": 23,
+      "specialAttack": 51,
+      "specialDefense": 23,
       "Speed": 28
     }
   },
@@ -5719,8 +5719,8 @@ var data = [{
       "HP": 84,
       "Attack": 71,
       "Defense": 43,
-      "Sp. Attack": 71,
-      "Sp. Defense": 43,
+      "specialAttack": 71,
+      "specialDefense": 43,
       "Speed": 48
     }
   },
@@ -5738,8 +5738,8 @@ var data = [{
       "HP": 104,
       "Attack": 91,
       "Defense": 63,
-      "Sp. Attack": 91,
-      "Sp. Defense": 73,
+      "specialAttack": 91,
+      "specialDefense": 73,
       "Speed": 68
     }
   },
@@ -5757,8 +5757,8 @@ var data = [{
       "HP": 72,
       "Attack": 60,
       "Defense": 30,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 30,
       "Speed": 25
     }
   },
@@ -5776,8 +5776,8 @@ var data = [{
       "HP": 144,
       "Attack": 120,
       "Defense": 60,
-      "Sp. Attack": 40,
-      "Sp. Defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
       "Speed": 50
     }
   },
@@ -5796,8 +5796,8 @@ var data = [{
       "HP": 50,
       "Attack": 20,
       "Defense": 40,
-      "Sp. Attack": 20,
-      "Sp. Defense": 40,
+      "specialAttack": 20,
+      "specialDefense": 40,
       "Speed": 20
     }
   },
@@ -5815,8 +5815,8 @@ var data = [{
       "HP": 30,
       "Attack": 45,
       "Defense": 135,
-      "Sp. Attack": 45,
-      "Sp. Defense": 90,
+      "specialAttack": 45,
+      "specialDefense": 90,
       "Speed": 30
     }
   },
@@ -5834,8 +5834,8 @@ var data = [{
       "HP": 50,
       "Attack": 45,
       "Defense": 45,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 50
     }
   },
@@ -5853,8 +5853,8 @@ var data = [{
       "HP": 70,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 90
     }
   },
@@ -5873,8 +5873,8 @@ var data = [{
       "HP": 50,
       "Attack": 75,
       "Defense": 75,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 65,
       "Speed": 50
     }
   },
@@ -5893,8 +5893,8 @@ var data = [{
       "HP": 50,
       "Attack": 85,
       "Defense": 85,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 50
     }
   },
@@ -5913,8 +5913,8 @@ var data = [{
       "HP": 50,
       "Attack": 70,
       "Defense": 100,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 30
     }
   },
@@ -5933,8 +5933,8 @@ var data = [{
       "HP": 60,
       "Attack": 90,
       "Defense": 140,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 40
     }
   },
@@ -5953,8 +5953,8 @@ var data = [{
       "HP": 70,
       "Attack": 110,
       "Defense": 180,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 50
     }
   },
@@ -5973,8 +5973,8 @@ var data = [{
       "HP": 30,
       "Attack": 40,
       "Defense": 55,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
       "Speed": 60
     }
   },
@@ -5993,8 +5993,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
       "Speed": 80
     }
   },
@@ -6012,8 +6012,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 65,
-      "Sp. Defense": 40,
+      "specialAttack": 65,
+      "specialDefense": 40,
       "Speed": 65
     }
   },
@@ -6031,8 +6031,8 @@ var data = [{
       "HP": 70,
       "Attack": 75,
       "Defense": 60,
-      "Sp. Attack": 105,
-      "Sp. Defense": 60,
+      "specialAttack": 105,
+      "specialDefense": 60,
       "Speed": 105
     }
   },
@@ -6050,8 +6050,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 95
     }
   },
@@ -6069,8 +6069,8 @@ var data = [{
       "HP": 60,
       "Attack": 40,
       "Defense": 50,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "specialAttack": 75,
+      "specialDefense": 85,
       "Speed": 95
     }
   },
@@ -6088,8 +6088,8 @@ var data = [{
       "HP": 65,
       "Attack": 73,
       "Defense": 75,
-      "Sp. Attack": 47,
-      "Sp. Defense": 85,
+      "specialAttack": 47,
+      "specialDefense": 85,
       "Speed": 85
     }
   },
@@ -6107,8 +6107,8 @@ var data = [{
       "HP": 65,
       "Attack": 47,
       "Defense": 75,
-      "Sp. Attack": 73,
-      "Sp. Defense": 85,
+      "specialAttack": 73,
+      "specialDefense": 85,
       "Speed": 85
     }
   },
@@ -6127,8 +6127,8 @@ var data = [{
       "HP": 50,
       "Attack": 60,
       "Defense": 45,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
       "Speed": 65
     }
   },
@@ -6146,8 +6146,8 @@ var data = [{
       "HP": 70,
       "Attack": 43,
       "Defense": 53,
-      "Sp. Attack": 43,
-      "Sp. Defense": 53,
+      "specialAttack": 43,
+      "specialDefense": 53,
       "Speed": 40
     }
   },
@@ -6165,8 +6165,8 @@ var data = [{
       "HP": 100,
       "Attack": 73,
       "Defense": 83,
-      "Sp. Attack": 73,
-      "Sp. Defense": 83,
+      "specialAttack": 73,
+      "specialDefense": 83,
       "Speed": 55
     }
   },
@@ -6185,8 +6185,8 @@ var data = [{
       "HP": 45,
       "Attack": 90,
       "Defense": 20,
-      "Sp. Attack": 65,
-      "Sp. Defense": 20,
+      "specialAttack": 65,
+      "specialDefense": 20,
       "Speed": 65
     }
   },
@@ -6205,8 +6205,8 @@ var data = [{
       "HP": 70,
       "Attack": 120,
       "Defense": 40,
-      "Sp. Attack": 95,
-      "Sp. Defense": 40,
+      "specialAttack": 95,
+      "specialDefense": 40,
       "Speed": 95
     }
   },
@@ -6224,8 +6224,8 @@ var data = [{
       "HP": 130,
       "Attack": 70,
       "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 35,
+      "specialAttack": 70,
+      "specialDefense": 35,
       "Speed": 60
     }
   },
@@ -6243,8 +6243,8 @@ var data = [{
       "HP": 170,
       "Attack": 90,
       "Defense": 45,
-      "Sp. Attack": 90,
-      "Sp. Defense": 45,
+      "specialAttack": 90,
+      "specialDefense": 45,
       "Speed": 60
     }
   },
@@ -6263,8 +6263,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 40,
-      "Sp. Attack": 65,
-      "Sp. Defense": 45,
+      "specialAttack": 65,
+      "specialDefense": 45,
       "Speed": 35
     }
   },
@@ -6283,8 +6283,8 @@ var data = [{
       "HP": 70,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 105,
-      "Sp. Defense": 75,
+      "specialAttack": 105,
+      "specialDefense": 75,
       "Speed": 40
     }
   },
@@ -6302,8 +6302,8 @@ var data = [{
       "HP": 70,
       "Attack": 85,
       "Defense": 140,
-      "Sp. Attack": 85,
-      "Sp. Defense": 70,
+      "specialAttack": 85,
+      "specialDefense": 70,
       "Speed": 20
     }
   },
@@ -6321,8 +6321,8 @@ var data = [{
       "HP": 60,
       "Attack": 25,
       "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
       "Speed": 60
     }
   },
@@ -6340,8 +6340,8 @@ var data = [{
       "HP": 80,
       "Attack": 45,
       "Defense": 65,
-      "Sp. Attack": 90,
-      "Sp. Defense": 110,
+      "specialAttack": 90,
+      "specialDefense": 110,
       "Speed": 80
     }
   },
@@ -6359,8 +6359,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 60
     }
   },
@@ -6378,8 +6378,8 @@ var data = [{
       "HP": 45,
       "Attack": 100,
       "Defense": 45,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 10
     }
   },
@@ -6398,8 +6398,8 @@ var data = [{
       "HP": 50,
       "Attack": 70,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 70
     }
   },
@@ -6418,8 +6418,8 @@ var data = [{
       "HP": 80,
       "Attack": 100,
       "Defense": 80,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 100
     }
   },
@@ -6437,8 +6437,8 @@ var data = [{
       "HP": 50,
       "Attack": 85,
       "Defense": 40,
-      "Sp. Attack": 85,
-      "Sp. Defense": 40,
+      "specialAttack": 85,
+      "specialDefense": 40,
       "Speed": 35
     }
   },
@@ -6457,8 +6457,8 @@ var data = [{
       "HP": 70,
       "Attack": 115,
       "Defense": 60,
-      "Sp. Attack": 115,
-      "Sp. Defense": 60,
+      "specialAttack": 115,
+      "specialDefense": 60,
       "Speed": 55
     }
   },
@@ -6477,8 +6477,8 @@ var data = [{
       "HP": 45,
       "Attack": 40,
       "Defense": 60,
-      "Sp. Attack": 40,
-      "Sp. Defense": 75,
+      "specialAttack": 40,
+      "specialDefense": 75,
       "Speed": 50
     }
   },
@@ -6497,8 +6497,8 @@ var data = [{
       "HP": 75,
       "Attack": 70,
       "Defense": 90,
-      "Sp. Attack": 70,
-      "Sp. Defense": 105,
+      "specialAttack": 70,
+      "specialDefense": 105,
       "Speed": 80
     }
   },
@@ -6516,8 +6516,8 @@ var data = [{
       "HP": 73,
       "Attack": 115,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 90
     }
   },
@@ -6535,8 +6535,8 @@ var data = [{
       "HP": 73,
       "Attack": 100,
       "Defense": 60,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
+      "specialAttack": 100,
+      "specialDefense": 60,
       "Speed": 65
     }
   },
@@ -6555,8 +6555,8 @@ var data = [{
       "HP": 90,
       "Attack": 55,
       "Defense": 65,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
+      "specialAttack": 95,
+      "specialDefense": 85,
       "Speed": 70
     }
   },
@@ -6575,8 +6575,8 @@ var data = [{
       "HP": 90,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 70
     }
   },
@@ -6595,8 +6595,8 @@ var data = [{
       "HP": 50,
       "Attack": 48,
       "Defense": 43,
-      "Sp. Attack": 46,
-      "Sp. Defense": 41,
+      "specialAttack": 46,
+      "specialDefense": 41,
       "Speed": 60
     }
   },
@@ -6615,8 +6615,8 @@ var data = [{
       "HP": 110,
       "Attack": 78,
       "Defense": 73,
-      "Sp. Attack": 76,
-      "Sp. Defense": 71,
+      "specialAttack": 76,
+      "specialDefense": 71,
       "Speed": 60
     }
   },
@@ -6634,8 +6634,8 @@ var data = [{
       "HP": 43,
       "Attack": 80,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 35,
+      "specialAttack": 50,
+      "specialDefense": 35,
       "Speed": 35
     }
   },
@@ -6654,8 +6654,8 @@ var data = [{
       "HP": 63,
       "Attack": 120,
       "Defense": 85,
-      "Sp. Attack": 90,
-      "Sp. Defense": 55,
+      "specialAttack": 90,
+      "specialDefense": 55,
       "Speed": 55
     }
   },
@@ -6674,8 +6674,8 @@ var data = [{
       "HP": 40,
       "Attack": 40,
       "Defense": 55,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "specialAttack": 40,
+      "specialDefense": 70,
       "Speed": 55
     }
   },
@@ -6694,8 +6694,8 @@ var data = [{
       "HP": 60,
       "Attack": 70,
       "Defense": 105,
-      "Sp. Attack": 70,
-      "Sp. Defense": 120,
+      "specialAttack": 70,
+      "specialDefense": 120,
       "Speed": 75
     }
   },
@@ -6714,8 +6714,8 @@ var data = [{
       "HP": 66,
       "Attack": 41,
       "Defense": 77,
-      "Sp. Attack": 61,
-      "Sp. Defense": 87,
+      "specialAttack": 61,
+      "specialDefense": 87,
       "Speed": 23
     }
   },
@@ -6734,8 +6734,8 @@ var data = [{
       "HP": 86,
       "Attack": 81,
       "Defense": 97,
-      "Sp. Attack": 81,
-      "Sp. Defense": 107,
+      "specialAttack": 81,
+      "specialDefense": 107,
       "Speed": 43
     }
   },
@@ -6754,8 +6754,8 @@ var data = [{
       "HP": 45,
       "Attack": 95,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 75
     }
   },
@@ -6774,8 +6774,8 @@ var data = [{
       "HP": 75,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 70,
-      "Sp. Defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
       "Speed": 45
     }
   },
@@ -6793,8 +6793,8 @@ var data = [{
       "HP": 20,
       "Attack": 15,
       "Defense": 20,
-      "Sp. Attack": 10,
-      "Sp. Defense": 55,
+      "specialAttack": 10,
+      "specialDefense": 55,
       "Speed": 80
     }
   },
@@ -6812,8 +6812,8 @@ var data = [{
       "HP": 95,
       "Attack": 60,
       "Defense": 79,
-      "Sp. Attack": 100,
-      "Sp. Defense": 125,
+      "specialAttack": 100,
+      "specialDefense": 125,
       "Speed": 81
     }
   },
@@ -6831,8 +6831,8 @@ var data = [{
       "HP": 70,
       "Attack": 70,
       "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -6850,8 +6850,8 @@ var data = [{
       "HP": 60,
       "Attack": 90,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 120,
+      "specialAttack": 60,
+      "specialDefense": 120,
       "Speed": 40
     }
   },
@@ -6869,8 +6869,8 @@ var data = [{
       "HP": 44,
       "Attack": 75,
       "Defense": 35,
-      "Sp. Attack": 63,
-      "Sp. Defense": 33,
+      "specialAttack": 63,
+      "specialDefense": 33,
       "Speed": 45
     }
   },
@@ -6888,8 +6888,8 @@ var data = [{
       "HP": 64,
       "Attack": 115,
       "Defense": 65,
-      "Sp. Attack": 83,
-      "Sp. Defense": 63,
+      "specialAttack": 83,
+      "specialDefense": 63,
       "Speed": 65
     }
   },
@@ -6907,8 +6907,8 @@ var data = [{
       "HP": 20,
       "Attack": 40,
       "Defense": 90,
-      "Sp. Attack": 30,
-      "Sp. Defense": 90,
+      "specialAttack": 30,
+      "specialDefense": 90,
       "Speed": 25
     }
   },
@@ -6926,8 +6926,8 @@ var data = [{
       "HP": 40,
       "Attack": 70,
       "Defense": 130,
-      "Sp. Attack": 60,
-      "Sp. Defense": 130,
+      "specialAttack": 60,
+      "specialDefense": 130,
       "Speed": 25
     }
   },
@@ -6946,8 +6946,8 @@ var data = [{
       "HP": 99,
       "Attack": 68,
       "Defense": 83,
-      "Sp. Attack": 72,
-      "Sp. Defense": 87,
+      "specialAttack": 72,
+      "specialDefense": 87,
       "Speed": 51
     }
   },
@@ -6965,8 +6965,8 @@ var data = [{
       "HP": 75,
       "Attack": 50,
       "Defense": 80,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "specialAttack": 95,
+      "specialDefense": 90,
       "Speed": 65
     }
   },
@@ -6984,8 +6984,8 @@ var data = [{
       "HP": 65,
       "Attack": 130,
       "Defense": 60,
-      "Sp. Attack": 75,
-      "Sp. Defense": 60,
+      "specialAttack": 75,
+      "specialDefense": 60,
       "Speed": 75
     }
   },
@@ -7003,8 +7003,8 @@ var data = [{
       "HP": 95,
       "Attack": 23,
       "Defense": 48,
-      "Sp. Attack": 23,
-      "Sp. Defense": 48,
+      "specialAttack": 23,
+      "specialDefense": 48,
       "Speed": 23
     }
   },
@@ -7022,8 +7022,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 50
     }
   },
@@ -7041,8 +7041,8 @@ var data = [{
       "HP": 80,
       "Attack": 80,
       "Defense": 80,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 80
     }
   },
@@ -7061,8 +7061,8 @@ var data = [{
       "HP": 70,
       "Attack": 40,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 50,
+      "specialAttack": 55,
+      "specialDefense": 50,
       "Speed": 25
     }
   },
@@ -7081,8 +7081,8 @@ var data = [{
       "HP": 90,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 75,
-      "Sp. Defense": 70,
+      "specialAttack": 75,
+      "specialDefense": 70,
       "Speed": 45
     }
   },
@@ -7101,8 +7101,8 @@ var data = [{
       "HP": 110,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "specialAttack": 95,
+      "specialDefense": 90,
       "Speed": 65
     }
   },
@@ -7120,8 +7120,8 @@ var data = [{
       "HP": 35,
       "Attack": 64,
       "Defense": 85,
-      "Sp. Attack": 74,
-      "Sp. Defense": 55,
+      "specialAttack": 74,
+      "specialDefense": 55,
       "Speed": 32
     }
   },
@@ -7139,8 +7139,8 @@ var data = [{
       "HP": 55,
       "Attack": 104,
       "Defense": 105,
-      "Sp. Attack": 94,
-      "Sp. Defense": 75,
+      "specialAttack": 94,
+      "specialDefense": 75,
       "Speed": 52
     }
   },
@@ -7158,8 +7158,8 @@ var data = [{
       "HP": 55,
       "Attack": 84,
       "Defense": 105,
-      "Sp. Attack": 114,
-      "Sp. Defense": 75,
+      "specialAttack": 114,
+      "specialDefense": 75,
       "Speed": 52
     }
   },
@@ -7178,8 +7178,8 @@ var data = [{
       "HP": 100,
       "Attack": 90,
       "Defense": 130,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "specialAttack": 45,
+      "specialDefense": 65,
       "Speed": 55
     }
   },
@@ -7197,8 +7197,8 @@ var data = [{
       "HP": 43,
       "Attack": 30,
       "Defense": 55,
-      "Sp. Attack": 40,
-      "Sp. Defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 65,
       "Speed": 97
     }
   },
@@ -7216,8 +7216,8 @@ var data = [{
       "HP": 45,
       "Attack": 75,
       "Defense": 60,
-      "Sp. Attack": 40,
-      "Sp. Defense": 30,
+      "specialAttack": 40,
+      "specialDefense": 30,
       "Speed": 50
     }
   },
@@ -7235,8 +7235,8 @@ var data = [{
       "HP": 65,
       "Attack": 95,
       "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
+      "specialAttack": 60,
+      "specialDefense": 50,
       "Speed": 50
     }
   },
@@ -7255,8 +7255,8 @@ var data = [{
       "HP": 95,
       "Attack": 135,
       "Defense": 80,
-      "Sp. Attack": 110,
-      "Sp. Defense": 80,
+      "specialAttack": 110,
+      "specialDefense": 80,
       "Speed": 100
     }
   },
@@ -7275,8 +7275,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 80,
-      "Sp. Attack": 35,
-      "Sp. Defense": 60,
+      "specialAttack": 35,
+      "specialDefense": 60,
       "Speed": 30
     }
   },
@@ -7295,8 +7295,8 @@ var data = [{
       "HP": 60,
       "Attack": 75,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
       "Speed": 50
     }
   },
@@ -7315,8 +7315,8 @@ var data = [{
       "HP": 80,
       "Attack": 135,
       "Defense": 130,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "specialAttack": 95,
+      "specialDefense": 90,
       "Speed": 70
     }
   },
@@ -7334,8 +7334,8 @@ var data = [{
       "HP": 80,
       "Attack": 100,
       "Defense": 200,
-      "Sp. Attack": 50,
-      "Sp. Defense": 100,
+      "specialAttack": 50,
+      "specialDefense": 100,
       "Speed": 50
     }
   },
@@ -7353,8 +7353,8 @@ var data = [{
       "HP": 80,
       "Attack": 50,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 200,
+      "specialAttack": 100,
+      "specialDefense": 200,
       "Speed": 50
     }
   },
@@ -7372,8 +7372,8 @@ var data = [{
       "HP": 80,
       "Attack": 75,
       "Defense": 150,
-      "Sp. Attack": 75,
-      "Sp. Defense": 150,
+      "specialAttack": 75,
+      "specialDefense": 150,
       "Speed": 50
     }
   },
@@ -7392,8 +7392,8 @@ var data = [{
       "HP": 80,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 110,
-      "Sp. Defense": 130,
+      "specialAttack": 110,
+      "specialDefense": 130,
       "Speed": 110
     }
   },
@@ -7412,8 +7412,8 @@ var data = [{
       "HP": 80,
       "Attack": 90,
       "Defense": 80,
-      "Sp. Attack": 130,
-      "Sp. Defense": 110,
+      "specialAttack": 130,
+      "specialDefense": 110,
       "Speed": 110
     }
   },
@@ -7431,8 +7431,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 90,
-      "Sp. Attack": 150,
-      "Sp. Defense": 140,
+      "specialAttack": 150,
+      "specialDefense": 140,
       "Speed": 90
     }
   },
@@ -7450,8 +7450,8 @@ var data = [{
       "HP": 100,
       "Attack": 150,
       "Defense": 140,
-      "Sp. Attack": 100,
-      "Sp. Defense": 90,
+      "specialAttack": 100,
+      "specialDefense": 90,
       "Speed": 90
     }
   },
@@ -7470,8 +7470,8 @@ var data = [{
       "HP": 105,
       "Attack": 150,
       "Defense": 90,
-      "Sp. Attack": 150,
-      "Sp. Defense": 90,
+      "specialAttack": 150,
+      "specialDefense": 90,
       "Speed": 95
     }
   },
@@ -7490,8 +7490,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -7509,8 +7509,8 @@ var data = [{
       "HP": 50,
       "Attack": 150,
       "Defense": 50,
-      "Sp. Attack": 150,
-      "Sp. Defense": 50,
+      "specialAttack": 150,
+      "specialDefense": 50,
       "Speed": 150
     }
   },
@@ -7528,8 +7528,8 @@ var data = [{
       "HP": 55,
       "Attack": 68,
       "Defense": 64,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 31
     }
   },
@@ -7547,8 +7547,8 @@ var data = [{
       "HP": 75,
       "Attack": 89,
       "Defense": 85,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 36
     }
   },
@@ -7567,8 +7567,8 @@ var data = [{
       "HP": 95,
       "Attack": 109,
       "Defense": 105,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "specialAttack": 75,
+      "specialDefense": 85,
       "Speed": 56
     }
   },
@@ -7586,8 +7586,8 @@ var data = [{
       "HP": 44,
       "Attack": 58,
       "Defense": 44,
-      "Sp. Attack": 58,
-      "Sp. Defense": 44,
+      "specialAttack": 58,
+      "specialDefense": 44,
       "Speed": 61
     }
   },
@@ -7606,8 +7606,8 @@ var data = [{
       "HP": 64,
       "Attack": 78,
       "Defense": 52,
-      "Sp. Attack": 78,
-      "Sp. Defense": 52,
+      "specialAttack": 78,
+      "specialDefense": 52,
       "Speed": 81
     }
   },
@@ -7626,8 +7626,8 @@ var data = [{
       "HP": 76,
       "Attack": 104,
       "Defense": 71,
-      "Sp. Attack": 104,
-      "Sp. Defense": 71,
+      "specialAttack": 104,
+      "specialDefense": 71,
       "Speed": 108
     }
   },
@@ -7645,8 +7645,8 @@ var data = [{
       "HP": 53,
       "Attack": 51,
       "Defense": 53,
-      "Sp. Attack": 61,
-      "Sp. Defense": 56,
+      "specialAttack": 61,
+      "specialDefense": 56,
       "Speed": 40
     }
   },
@@ -7664,8 +7664,8 @@ var data = [{
       "HP": 64,
       "Attack": 66,
       "Defense": 68,
-      "Sp. Attack": 81,
-      "Sp. Defense": 76,
+      "specialAttack": 81,
+      "specialDefense": 76,
       "Speed": 50
     }
   },
@@ -7684,8 +7684,8 @@ var data = [{
       "HP": 84,
       "Attack": 86,
       "Defense": 88,
-      "Sp. Attack": 111,
-      "Sp. Defense": 101,
+      "specialAttack": 111,
+      "specialDefense": 101,
       "Speed": 60
     }
   },
@@ -7704,8 +7704,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 30,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 60
     }
   },
@@ -7724,8 +7724,8 @@ var data = [{
       "HP": 55,
       "Attack": 75,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 80
     }
   },
@@ -7744,8 +7744,8 @@ var data = [{
       "HP": 85,
       "Attack": 120,
       "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 60,
       "Speed": 100
     }
   },
@@ -7763,8 +7763,8 @@ var data = [{
       "HP": 59,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 40,
       "Speed": 31
     }
   },
@@ -7783,8 +7783,8 @@ var data = [{
       "HP": 79,
       "Attack": 85,
       "Defense": 60,
-      "Sp. Attack": 55,
-      "Sp. Defense": 60,
+      "specialAttack": 55,
+      "specialDefense": 60,
       "Speed": 71
     }
   },
@@ -7802,8 +7802,8 @@ var data = [{
       "HP": 37,
       "Attack": 25,
       "Defense": 41,
-      "Sp. Attack": 25,
-      "Sp. Defense": 41,
+      "specialAttack": 25,
+      "specialDefense": 41,
       "Speed": 25
     }
   },
@@ -7821,8 +7821,8 @@ var data = [{
       "HP": 77,
       "Attack": 85,
       "Defense": 51,
-      "Sp. Attack": 55,
-      "Sp. Defense": 51,
+      "specialAttack": 55,
+      "specialDefense": 51,
       "Speed": 65
     }
   },
@@ -7840,8 +7840,8 @@ var data = [{
       "HP": 45,
       "Attack": 65,
       "Defense": 34,
-      "Sp. Attack": 40,
-      "Sp. Defense": 34,
+      "specialAttack": 40,
+      "specialDefense": 34,
       "Speed": 45
     }
   },
@@ -7859,8 +7859,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 49,
-      "Sp. Attack": 60,
-      "Sp. Defense": 49,
+      "specialAttack": 60,
+      "specialDefense": 49,
       "Speed": 60
     }
   },
@@ -7878,8 +7878,8 @@ var data = [{
       "HP": 80,
       "Attack": 120,
       "Defense": 79,
-      "Sp. Attack": 95,
-      "Sp. Defense": 79,
+      "specialAttack": 95,
+      "specialDefense": 79,
       "Speed": 70
     }
   },
@@ -7898,8 +7898,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "specialAttack": 50,
+      "specialDefense": 70,
       "Speed": 55
     }
   },
@@ -7918,8 +7918,8 @@ var data = [{
       "HP": 60,
       "Attack": 70,
       "Defense": 65,
-      "Sp. Attack": 125,
-      "Sp. Defense": 105,
+      "specialAttack": 125,
+      "specialDefense": 105,
       "Speed": 90
     }
   },
@@ -7937,8 +7937,8 @@ var data = [{
       "HP": 67,
       "Attack": 125,
       "Defense": 40,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 58
     }
   },
@@ -7956,8 +7956,8 @@ var data = [{
       "HP": 97,
       "Attack": 165,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
+      "specialAttack": 65,
+      "specialDefense": 50,
       "Speed": 58
     }
   },
@@ -7976,8 +7976,8 @@ var data = [{
       "HP": 30,
       "Attack": 42,
       "Defense": 118,
-      "Sp. Attack": 42,
-      "Sp. Defense": 88,
+      "specialAttack": 42,
+      "specialDefense": 88,
       "Speed": 30
     }
   },
@@ -7996,8 +7996,8 @@ var data = [{
       "HP": 60,
       "Attack": 52,
       "Defense": 168,
-      "Sp. Attack": 47,
-      "Sp. Defense": 138,
+      "specialAttack": 47,
+      "specialDefense": 138,
       "Speed": 30
     }
   },
@@ -8015,8 +8015,8 @@ var data = [{
       "HP": 40,
       "Attack": 29,
       "Defense": 45,
-      "Sp. Attack": 29,
-      "Sp. Defense": 45,
+      "specialAttack": 29,
+      "specialDefense": 45,
       "Speed": 36
     }
   },
@@ -8035,8 +8035,8 @@ var data = [{
       "HP": 60,
       "Attack": 59,
       "Defense": 85,
-      "Sp. Attack": 79,
-      "Sp. Defense": 105,
+      "specialAttack": 79,
+      "specialDefense": 105,
       "Speed": 36
     }
   },
@@ -8055,8 +8055,8 @@ var data = [{
       "HP": 70,
       "Attack": 94,
       "Defense": 50,
-      "Sp. Attack": 94,
-      "Sp. Defense": 50,
+      "specialAttack": 94,
+      "specialDefense": 50,
       "Speed": 66
     }
   },
@@ -8075,8 +8075,8 @@ var data = [{
       "HP": 30,
       "Attack": 30,
       "Defense": 42,
-      "Sp. Attack": 30,
-      "Sp. Defense": 42,
+      "specialAttack": 30,
+      "specialDefense": 42,
       "Speed": 70
     }
   },
@@ -8095,8 +8095,8 @@ var data = [{
       "HP": 70,
       "Attack": 80,
       "Defense": 102,
-      "Sp. Attack": 80,
-      "Sp. Defense": 102,
+      "specialAttack": 80,
+      "specialDefense": 102,
       "Speed": 40
     }
   },
@@ -8114,8 +8114,8 @@ var data = [{
       "HP": 60,
       "Attack": 45,
       "Defense": 70,
-      "Sp. Attack": 45,
-      "Sp. Defense": 90,
+      "specialAttack": 45,
+      "specialDefense": 90,
       "Speed": 95
     }
   },
@@ -8133,8 +8133,8 @@ var data = [{
       "HP": 55,
       "Attack": 65,
       "Defense": 35,
-      "Sp. Attack": 60,
-      "Sp. Defense": 30,
+      "specialAttack": 60,
+      "specialDefense": 30,
       "Speed": 85
     }
   },
@@ -8152,8 +8152,8 @@ var data = [{
       "HP": 85,
       "Attack": 105,
       "Defense": 55,
-      "Sp. Attack": 85,
-      "Sp. Defense": 50,
+      "specialAttack": 85,
+      "specialDefense": 50,
       "Speed": 115
     }
   },
@@ -8171,8 +8171,8 @@ var data = [{
       "HP": 45,
       "Attack": 35,
       "Defense": 45,
-      "Sp. Attack": 62,
-      "Sp. Defense": 53,
+      "specialAttack": 62,
+      "specialDefense": 53,
       "Speed": 35
     }
   },
@@ -8190,8 +8190,8 @@ var data = [{
       "HP": 70,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 87,
-      "Sp. Defense": 78,
+      "specialAttack": 87,
+      "specialDefense": 78,
       "Speed": 85
     }
   },
@@ -8209,8 +8209,8 @@ var data = [{
       "HP": 76,
       "Attack": 48,
       "Defense": 48,
-      "Sp. Attack": 57,
-      "Sp. Defense": 62,
+      "specialAttack": 57,
+      "specialDefense": 62,
       "Speed": 34
     }
   },
@@ -8229,8 +8229,8 @@ var data = [{
       "HP": 111,
       "Attack": 83,
       "Defense": 68,
-      "Sp. Attack": 92,
-      "Sp. Defense": 82,
+      "specialAttack": 92,
+      "specialDefense": 82,
       "Speed": 39
     }
   },
@@ -8248,8 +8248,8 @@ var data = [{
       "HP": 75,
       "Attack": 100,
       "Defense": 66,
-      "Sp. Attack": 60,
-      "Sp. Defense": 66,
+      "specialAttack": 60,
+      "specialDefense": 66,
       "Speed": 115
     }
   },
@@ -8268,8 +8268,8 @@ var data = [{
       "HP": 90,
       "Attack": 50,
       "Defense": 34,
-      "Sp. Attack": 60,
-      "Sp. Defense": 44,
+      "specialAttack": 60,
+      "specialDefense": 44,
       "Speed": 70
     }
   },
@@ -8288,8 +8288,8 @@ var data = [{
       "HP": 150,
       "Attack": 80,
       "Defense": 44,
-      "Sp. Attack": 90,
-      "Sp. Defense": 54,
+      "specialAttack": 90,
+      "specialDefense": 54,
       "Speed": 80
     }
   },
@@ -8307,8 +8307,8 @@ var data = [{
       "HP": 55,
       "Attack": 66,
       "Defense": 44,
-      "Sp. Attack": 44,
-      "Sp. Defense": 56,
+      "specialAttack": 44,
+      "specialDefense": 56,
       "Speed": 85
     }
   },
@@ -8326,8 +8326,8 @@ var data = [{
       "HP": 65,
       "Attack": 76,
       "Defense": 84,
-      "Sp. Attack": 54,
-      "Sp. Defense": 96,
+      "specialAttack": 54,
+      "specialDefense": 96,
       "Speed": 105
     }
   },
@@ -8345,8 +8345,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 105,
-      "Sp. Defense": 105,
+      "specialAttack": 105,
+      "specialDefense": 105,
       "Speed": 105
     }
   },
@@ -8365,8 +8365,8 @@ var data = [{
       "HP": 100,
       "Attack": 125,
       "Defense": 52,
-      "Sp. Attack": 105,
-      "Sp. Defense": 52,
+      "specialAttack": 105,
+      "specialDefense": 52,
       "Speed": 71
     }
   },
@@ -8384,8 +8384,8 @@ var data = [{
       "HP": 49,
       "Attack": 55,
       "Defense": 42,
-      "Sp. Attack": 42,
-      "Sp. Defense": 37,
+      "specialAttack": 42,
+      "specialDefense": 37,
       "Speed": 85
     }
   },
@@ -8403,8 +8403,8 @@ var data = [{
       "HP": 71,
       "Attack": 82,
       "Defense": 64,
-      "Sp. Attack": 64,
-      "Sp. Defense": 59,
+      "specialAttack": 64,
+      "specialDefense": 59,
       "Speed": 112
     }
   },
@@ -8422,8 +8422,8 @@ var data = [{
       "HP": 45,
       "Attack": 30,
       "Defense": 50,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
+      "specialAttack": 65,
+      "specialDefense": 50,
       "Speed": 45
     }
   },
@@ -8442,8 +8442,8 @@ var data = [{
       "HP": 63,
       "Attack": 63,
       "Defense": 47,
-      "Sp. Attack": 41,
-      "Sp. Defense": 41,
+      "specialAttack": 41,
+      "specialDefense": 41,
       "Speed": 74
     }
   },
@@ -8462,8 +8462,8 @@ var data = [{
       "HP": 103,
       "Attack": 93,
       "Defense": 67,
-      "Sp. Attack": 71,
-      "Sp. Defense": 61,
+      "specialAttack": 71,
+      "specialDefense": 61,
       "Speed": 84
     }
   },
@@ -8482,8 +8482,8 @@ var data = [{
       "HP": 57,
       "Attack": 24,
       "Defense": 86,
-      "Sp. Attack": 24,
-      "Sp. Defense": 86,
+      "specialAttack": 24,
+      "specialDefense": 86,
       "Speed": 23
     }
   },
@@ -8502,8 +8502,8 @@ var data = [{
       "HP": 67,
       "Attack": 89,
       "Defense": 116,
-      "Sp. Attack": 79,
-      "Sp. Defense": 116,
+      "specialAttack": 79,
+      "specialDefense": 116,
       "Speed": 33
     }
   },
@@ -8521,8 +8521,8 @@ var data = [{
       "HP": 50,
       "Attack": 80,
       "Defense": 95,
-      "Sp. Attack": 10,
-      "Sp. Defense": 45,
+      "specialAttack": 10,
+      "specialDefense": 45,
       "Speed": 10
     }
   },
@@ -8541,8 +8541,8 @@ var data = [{
       "HP": 20,
       "Attack": 25,
       "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 90,
+      "specialAttack": 70,
+      "specialDefense": 90,
       "Speed": 60
     }
   },
@@ -8560,8 +8560,8 @@ var data = [{
       "HP": 100,
       "Attack": 5,
       "Defense": 5,
-      "Sp. Attack": 15,
-      "Sp. Defense": 65,
+      "specialAttack": 15,
+      "specialDefense": 65,
       "Speed": 30
     }
   },
@@ -8580,8 +8580,8 @@ var data = [{
       "HP": 76,
       "Attack": 65,
       "Defense": 45,
-      "Sp. Attack": 92,
-      "Sp. Defense": 42,
+      "specialAttack": 92,
+      "specialDefense": 42,
       "Speed": 91
     }
   },
@@ -8600,8 +8600,8 @@ var data = [{
       "HP": 50,
       "Attack": 92,
       "Defense": 108,
-      "Sp. Attack": 92,
-      "Sp. Defense": 108,
+      "specialAttack": 92,
+      "specialDefense": 108,
       "Speed": 35
     }
   },
@@ -8620,8 +8620,8 @@ var data = [{
       "HP": 58,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 40,
-      "Sp. Defense": 45,
+      "specialAttack": 40,
+      "specialDefense": 45,
       "Speed": 42
     }
   },
@@ -8640,8 +8640,8 @@ var data = [{
       "HP": 68,
       "Attack": 90,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 55,
+      "specialAttack": 50,
+      "specialDefense": 55,
       "Speed": 82
     }
   },
@@ -8660,8 +8660,8 @@ var data = [{
       "HP": 108,
       "Attack": 130,
       "Defense": 95,
-      "Sp. Attack": 80,
-      "Sp. Defense": 85,
+      "specialAttack": 80,
+      "specialDefense": 85,
       "Speed": 102
     }
   },
@@ -8679,8 +8679,8 @@ var data = [{
       "HP": 135,
       "Attack": 85,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 85,
+      "specialAttack": 40,
+      "specialDefense": 85,
       "Speed": 5
     }
   },
@@ -8698,8 +8698,8 @@ var data = [{
       "HP": 40,
       "Attack": 70,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -8718,8 +8718,8 @@ var data = [{
       "HP": 70,
       "Attack": 110,
       "Defense": 70,
-      "Sp. Attack": 115,
-      "Sp. Defense": 70,
+      "specialAttack": 115,
+      "specialDefense": 70,
       "Speed": 90
     }
   },
@@ -8737,8 +8737,8 @@ var data = [{
       "HP": 68,
       "Attack": 72,
       "Defense": 78,
-      "Sp. Attack": 38,
-      "Sp. Defense": 42,
+      "specialAttack": 38,
+      "specialDefense": 42,
       "Speed": 32
     }
   },
@@ -8756,8 +8756,8 @@ var data = [{
       "HP": 108,
       "Attack": 112,
       "Defense": 118,
-      "Sp. Attack": 68,
-      "Sp. Defense": 72,
+      "specialAttack": 68,
+      "specialDefense": 72,
       "Speed": 47
     }
   },
@@ -8776,8 +8776,8 @@ var data = [{
       "HP": 40,
       "Attack": 50,
       "Defense": 90,
-      "Sp. Attack": 30,
-      "Sp. Defense": 55,
+      "specialAttack": 30,
+      "specialDefense": 55,
       "Speed": 65
     }
   },
@@ -8796,8 +8796,8 @@ var data = [{
       "HP": 70,
       "Attack": 90,
       "Defense": 110,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
       "Speed": 95
     }
   },
@@ -8816,8 +8816,8 @@ var data = [{
       "HP": 48,
       "Attack": 61,
       "Defense": 40,
-      "Sp. Attack": 61,
-      "Sp. Defense": 40,
+      "specialAttack": 61,
+      "specialDefense": 40,
       "Speed": 50
     }
   },
@@ -8836,8 +8836,8 @@ var data = [{
       "HP": 83,
       "Attack": 106,
       "Defense": 65,
-      "Sp. Attack": 86,
-      "Sp. Defense": 65,
+      "specialAttack": 86,
+      "specialDefense": 65,
       "Speed": 85
     }
   },
@@ -8855,8 +8855,8 @@ var data = [{
       "HP": 74,
       "Attack": 100,
       "Defense": 72,
-      "Sp. Attack": 90,
-      "Sp. Defense": 72,
+      "specialAttack": 90,
+      "specialDefense": 72,
       "Speed": 46
     }
   },
@@ -8874,8 +8874,8 @@ var data = [{
       "HP": 49,
       "Attack": 49,
       "Defense": 56,
-      "Sp. Attack": 49,
-      "Sp. Defense": 61,
+      "specialAttack": 49,
+      "specialDefense": 61,
       "Speed": 66
     }
   },
@@ -8893,8 +8893,8 @@ var data = [{
       "HP": 69,
       "Attack": 69,
       "Defense": 76,
-      "Sp. Attack": 69,
-      "Sp. Defense": 86,
+      "specialAttack": 69,
+      "specialDefense": 86,
       "Speed": 91
     }
   },
@@ -8913,8 +8913,8 @@ var data = [{
       "HP": 45,
       "Attack": 20,
       "Defense": 50,
-      "Sp. Attack": 60,
-      "Sp. Defense": 120,
+      "specialAttack": 60,
+      "specialDefense": 120,
       "Speed": 50
     }
   },
@@ -8933,8 +8933,8 @@ var data = [{
       "HP": 60,
       "Attack": 62,
       "Defense": 50,
-      "Sp. Attack": 62,
-      "Sp. Defense": 60,
+      "specialAttack": 62,
+      "specialDefense": 60,
       "Speed": 40
     }
   },
@@ -8953,8 +8953,8 @@ var data = [{
       "HP": 90,
       "Attack": 92,
       "Defense": 75,
-      "Sp. Attack": 92,
-      "Sp. Defense": 85,
+      "specialAttack": 92,
+      "specialDefense": 85,
       "Speed": 60
     }
   },
@@ -8973,8 +8973,8 @@ var data = [{
       "HP": 70,
       "Attack": 120,
       "Defense": 65,
-      "Sp. Attack": 45,
-      "Sp. Defense": 85,
+      "specialAttack": 45,
+      "specialDefense": 85,
       "Speed": 125
     }
   },
@@ -8993,8 +8993,8 @@ var data = [{
       "HP": 70,
       "Attack": 70,
       "Defense": 115,
-      "Sp. Attack": 130,
-      "Sp. Defense": 90,
+      "specialAttack": 130,
+      "specialDefense": 90,
       "Speed": 60
     }
   },
@@ -9012,8 +9012,8 @@ var data = [{
       "HP": 110,
       "Attack": 85,
       "Defense": 95,
-      "Sp. Attack": 80,
-      "Sp. Defense": 95,
+      "specialAttack": 80,
+      "specialDefense": 95,
       "Speed": 50
     }
   },
@@ -9032,8 +9032,8 @@ var data = [{
       "HP": 115,
       "Attack": 140,
       "Defense": 130,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 40
     }
   },
@@ -9051,8 +9051,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 125,
-      "Sp. Attack": 110,
-      "Sp. Defense": 50,
+      "specialAttack": 110,
+      "specialDefense": 50,
       "Speed": 50
     }
   },
@@ -9070,8 +9070,8 @@ var data = [{
       "HP": 75,
       "Attack": 123,
       "Defense": 67,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
+      "specialAttack": 95,
+      "specialDefense": 85,
       "Speed": 95
     }
   },
@@ -9089,8 +9089,8 @@ var data = [{
       "HP": 75,
       "Attack": 95,
       "Defense": 67,
-      "Sp. Attack": 125,
-      "Sp. Defense": 95,
+      "specialAttack": 125,
+      "specialDefense": 95,
       "Speed": 83
     }
   },
@@ -9109,8 +9109,8 @@ var data = [{
       "HP": 85,
       "Attack": 50,
       "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 115,
+      "specialAttack": 120,
+      "specialDefense": 115,
       "Speed": 80
     }
   },
@@ -9129,8 +9129,8 @@ var data = [{
       "HP": 86,
       "Attack": 76,
       "Defense": 86,
-      "Sp. Attack": 116,
-      "Sp. Defense": 56,
+      "specialAttack": 116,
+      "specialDefense": 56,
       "Speed": 95
     }
   },
@@ -9148,8 +9148,8 @@ var data = [{
       "HP": 65,
       "Attack": 110,
       "Defense": 130,
-      "Sp. Attack": 60,
-      "Sp. Defense": 65,
+      "specialAttack": 60,
+      "specialDefense": 65,
       "Speed": 95
     }
   },
@@ -9167,8 +9167,8 @@ var data = [{
       "HP": 65,
       "Attack": 60,
       "Defense": 110,
-      "Sp. Attack": 130,
-      "Sp. Defense": 95,
+      "specialAttack": 130,
+      "specialDefense": 95,
       "Speed": 65
     }
   },
@@ -9187,8 +9187,8 @@ var data = [{
       "HP": 75,
       "Attack": 95,
       "Defense": 125,
-      "Sp. Attack": 45,
-      "Sp. Defense": 75,
+      "specialAttack": 45,
+      "specialDefense": 75,
       "Speed": 95
     }
   },
@@ -9207,8 +9207,8 @@ var data = [{
       "HP": 110,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 60,
+      "specialAttack": 70,
+      "specialDefense": 60,
       "Speed": 80
     }
   },
@@ -9226,8 +9226,8 @@ var data = [{
       "HP": 85,
       "Attack": 80,
       "Defense": 70,
-      "Sp. Attack": 135,
-      "Sp. Defense": 75,
+      "specialAttack": 135,
+      "specialDefense": 75,
       "Speed": 90
     }
   },
@@ -9246,8 +9246,8 @@ var data = [{
       "HP": 68,
       "Attack": 125,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 115,
+      "specialAttack": 65,
+      "specialDefense": 115,
       "Speed": 80
     }
   },
@@ -9266,8 +9266,8 @@ var data = [{
       "HP": 60,
       "Attack": 55,
       "Defense": 145,
-      "Sp. Attack": 75,
-      "Sp. Defense": 150,
+      "specialAttack": 75,
+      "specialDefense": 150,
       "Speed": 40
     }
   },
@@ -9285,8 +9285,8 @@ var data = [{
       "HP": 45,
       "Attack": 100,
       "Defense": 135,
-      "Sp. Attack": 65,
-      "Sp. Defense": 135,
+      "specialAttack": 65,
+      "specialDefense": 135,
       "Speed": 45
     }
   },
@@ -9305,8 +9305,8 @@ var data = [{
       "HP": 70,
       "Attack": 80,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 70,
       "Speed": 110
     }
   },
@@ -9325,8 +9325,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 77,
-      "Sp. Attack": 95,
-      "Sp. Defense": 77,
+      "specialAttack": 95,
+      "specialDefense": 77,
       "Speed": 91
     }
   },
@@ -9344,8 +9344,8 @@ var data = [{
       "HP": 75,
       "Attack": 75,
       "Defense": 130,
-      "Sp. Attack": 75,
-      "Sp. Defense": 130,
+      "specialAttack": 75,
+      "specialDefense": 130,
       "Speed": 95
     }
   },
@@ -9363,8 +9363,8 @@ var data = [{
       "HP": 80,
       "Attack": 105,
       "Defense": 105,
-      "Sp. Attack": 105,
-      "Sp. Defense": 105,
+      "specialAttack": 105,
+      "specialDefense": 105,
       "Speed": 80
     }
   },
@@ -9382,8 +9382,8 @@ var data = [{
       "HP": 75,
       "Attack": 125,
       "Defense": 70,
-      "Sp. Attack": 125,
-      "Sp. Defense": 70,
+      "specialAttack": 125,
+      "specialDefense": 70,
       "Speed": 115
     }
   },
@@ -9402,8 +9402,8 @@ var data = [{
       "HP": 100,
       "Attack": 120,
       "Defense": 120,
-      "Sp. Attack": 150,
-      "Sp. Defense": 100,
+      "specialAttack": 150,
+      "specialDefense": 100,
       "Speed": 90
     }
   },
@@ -9422,8 +9422,8 @@ var data = [{
       "HP": 90,
       "Attack": 120,
       "Defense": 100,
-      "Sp. Attack": 150,
-      "Sp. Defense": 120,
+      "specialAttack": 150,
+      "specialDefense": 120,
       "Speed": 100
     }
   },
@@ -9442,8 +9442,8 @@ var data = [{
       "HP": 91,
       "Attack": 90,
       "Defense": 106,
-      "Sp. Attack": 130,
-      "Sp. Defense": 106,
+      "specialAttack": 130,
+      "specialDefense": 106,
       "Speed": 77
     }
   },
@@ -9461,8 +9461,8 @@ var data = [{
       "HP": 110,
       "Attack": 160,
       "Defense": 110,
-      "Sp. Attack": 80,
-      "Sp. Defense": 110,
+      "specialAttack": 80,
+      "specialDefense": 110,
       "Speed": 100
     }
   },
@@ -9481,8 +9481,8 @@ var data = [{
       "HP": 150,
       "Attack": 100,
       "Defense": 120,
-      "Sp. Attack": 100,
-      "Sp. Defense": 120,
+      "specialAttack": 100,
+      "specialDefense": 120,
       "Speed": 90
     }
   },
@@ -9500,8 +9500,8 @@ var data = [{
       "HP": 120,
       "Attack": 70,
       "Defense": 120,
-      "Sp. Attack": 75,
-      "Sp. Defense": 130,
+      "specialAttack": 75,
+      "specialDefense": 130,
       "Speed": 85
     }
   },
@@ -9519,8 +9519,8 @@ var data = [{
       "HP": 80,
       "Attack": 80,
       "Defense": 80,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
       "Speed": 80
     }
   },
@@ -9538,8 +9538,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -9557,8 +9557,8 @@ var data = [{
       "HP": 70,
       "Attack": 90,
       "Defense": 90,
-      "Sp. Attack": 135,
-      "Sp. Defense": 90,
+      "specialAttack": 135,
+      "specialDefense": 90,
       "Speed": 125
     }
   },
@@ -9576,8 +9576,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -9595,8 +9595,8 @@ var data = [{
       "HP": 120,
       "Attack": 120,
       "Defense": 120,
-      "Sp. Attack": 120,
-      "Sp. Defense": 120,
+      "specialAttack": 120,
+      "specialDefense": 120,
       "Speed": 120
     }
   },
@@ -9615,8 +9615,8 @@ var data = [{
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 100
     }
   },
@@ -9634,8 +9634,8 @@ var data = [{
       "HP": 45,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 63
     }
   },
@@ -9653,8 +9653,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
       "Speed": 83
     }
   },
@@ -9672,8 +9672,8 @@ var data = [{
       "HP": 75,
       "Attack": 75,
       "Defense": 95,
-      "Sp. Attack": 75,
-      "Sp. Defense": 95,
+      "specialAttack": 75,
+      "specialDefense": 95,
       "Speed": 113
     }
   },
@@ -9691,8 +9691,8 @@ var data = [{
       "HP": 65,
       "Attack": 63,
       "Defense": 45,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 45
     }
   },
@@ -9711,8 +9711,8 @@ var data = [{
       "HP": 90,
       "Attack": 93,
       "Defense": 55,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
+      "specialAttack": 70,
+      "specialDefense": 55,
       "Speed": 55
     }
   },
@@ -9731,8 +9731,8 @@ var data = [{
       "HP": 110,
       "Attack": 123,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 65,
+      "specialAttack": 100,
+      "specialDefense": 65,
       "Speed": 65
     }
   },
@@ -9750,8 +9750,8 @@ var data = [{
       "HP": 55,
       "Attack": 55,
       "Defense": 45,
-      "Sp. Attack": 63,
-      "Sp. Defense": 45,
+      "specialAttack": 63,
+      "specialDefense": 45,
       "Speed": 45
     }
   },
@@ -9769,8 +9769,8 @@ var data = [{
       "HP": 75,
       "Attack": 75,
       "Defense": 60,
-      "Sp. Attack": 83,
-      "Sp. Defense": 60,
+      "specialAttack": 83,
+      "specialDefense": 60,
       "Speed": 60
     }
   },
@@ -9788,8 +9788,8 @@ var data = [{
       "HP": 95,
       "Attack": 100,
       "Defense": 85,
-      "Sp. Attack": 108,
-      "Sp. Defense": 70,
+      "specialAttack": 108,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -9807,8 +9807,8 @@ var data = [{
       "HP": 45,
       "Attack": 55,
       "Defense": 39,
-      "Sp. Attack": 35,
-      "Sp. Defense": 39,
+      "specialAttack": 35,
+      "specialDefense": 39,
       "Speed": 42
     }
   },
@@ -9826,8 +9826,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 69,
-      "Sp. Attack": 60,
-      "Sp. Defense": 69,
+      "specialAttack": 60,
+      "specialDefense": 69,
       "Speed": 77
     }
   },
@@ -9845,8 +9845,8 @@ var data = [{
       "HP": 45,
       "Attack": 60,
       "Defense": 45,
-      "Sp. Attack": 25,
-      "Sp. Defense": 45,
+      "specialAttack": 25,
+      "specialDefense": 45,
       "Speed": 55
     }
   },
@@ -9864,8 +9864,8 @@ var data = [{
       "HP": 65,
       "Attack": 80,
       "Defense": 65,
-      "Sp. Attack": 35,
-      "Sp. Defense": 65,
+      "specialAttack": 35,
+      "specialDefense": 65,
       "Speed": 60
     }
   },
@@ -9883,8 +9883,8 @@ var data = [{
       "HP": 85,
       "Attack": 110,
       "Defense": 90,
-      "Sp. Attack": 45,
-      "Sp. Defense": 90,
+      "specialAttack": 45,
+      "specialDefense": 90,
       "Speed": 80
     }
   },
@@ -9902,8 +9902,8 @@ var data = [{
       "HP": 41,
       "Attack": 50,
       "Defense": 37,
-      "Sp. Attack": 50,
-      "Sp. Defense": 37,
+      "specialAttack": 50,
+      "specialDefense": 37,
       "Speed": 66
     }
   },
@@ -9921,8 +9921,8 @@ var data = [{
       "HP": 64,
       "Attack": 88,
       "Defense": 50,
-      "Sp. Attack": 88,
-      "Sp. Defense": 50,
+      "specialAttack": 88,
+      "specialDefense": 50,
       "Speed": 106
     }
   },
@@ -9940,8 +9940,8 @@ var data = [{
       "HP": 50,
       "Attack": 53,
       "Defense": 48,
-      "Sp. Attack": 53,
-      "Sp. Defense": 48,
+      "specialAttack": 53,
+      "specialDefense": 48,
       "Speed": 64
     }
   },
@@ -9959,8 +9959,8 @@ var data = [{
       "HP": 75,
       "Attack": 98,
       "Defense": 63,
-      "Sp. Attack": 98,
-      "Sp. Defense": 63,
+      "specialAttack": 98,
+      "specialDefense": 63,
       "Speed": 101
     }
   },
@@ -9978,8 +9978,8 @@ var data = [{
       "HP": 50,
       "Attack": 53,
       "Defense": 48,
-      "Sp. Attack": 53,
-      "Sp. Defense": 48,
+      "specialAttack": 53,
+      "specialDefense": 48,
       "Speed": 64
     }
   },
@@ -9997,8 +9997,8 @@ var data = [{
       "HP": 75,
       "Attack": 98,
       "Defense": 63,
-      "Sp. Attack": 98,
-      "Sp. Defense": 63,
+      "specialAttack": 98,
+      "specialDefense": 63,
       "Speed": 101
     }
   },
@@ -10016,8 +10016,8 @@ var data = [{
       "HP": 50,
       "Attack": 53,
       "Defense": 48,
-      "Sp. Attack": 53,
-      "Sp. Defense": 48,
+      "specialAttack": 53,
+      "specialDefense": 48,
       "Speed": 64
     }
   },
@@ -10035,8 +10035,8 @@ var data = [{
       "HP": 75,
       "Attack": 98,
       "Defense": 63,
-      "Sp. Attack": 98,
-      "Sp. Defense": 63,
+      "specialAttack": 98,
+      "specialDefense": 63,
       "Speed": 101
     }
   },
@@ -10054,8 +10054,8 @@ var data = [{
       "HP": 76,
       "Attack": 25,
       "Defense": 45,
-      "Sp. Attack": 67,
-      "Sp. Defense": 55,
+      "specialAttack": 67,
+      "specialDefense": 55,
       "Speed": 24
     }
   },
@@ -10073,8 +10073,8 @@ var data = [{
       "HP": 116,
       "Attack": 55,
       "Defense": 85,
-      "Sp. Attack": 107,
-      "Sp. Defense": 95,
+      "specialAttack": 107,
+      "specialDefense": 95,
       "Speed": 29
     }
   },
@@ -10093,8 +10093,8 @@ var data = [{
       "HP": 50,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 36,
-      "Sp. Defense": 30,
+      "specialAttack": 36,
+      "specialDefense": 30,
       "Speed": 43
     }
   },
@@ -10113,8 +10113,8 @@ var data = [{
       "HP": 62,
       "Attack": 77,
       "Defense": 62,
-      "Sp. Attack": 50,
-      "Sp. Defense": 42,
+      "specialAttack": 50,
+      "specialDefense": 42,
       "Speed": 65
     }
   },
@@ -10133,8 +10133,8 @@ var data = [{
       "HP": 80,
       "Attack": 115,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 93
     }
   },
@@ -10152,8 +10152,8 @@ var data = [{
       "HP": 45,
       "Attack": 60,
       "Defense": 32,
-      "Sp. Attack": 50,
-      "Sp. Defense": 32,
+      "specialAttack": 50,
+      "specialDefense": 32,
       "Speed": 76
     }
   },
@@ -10171,8 +10171,8 @@ var data = [{
       "HP": 75,
       "Attack": 100,
       "Defense": 63,
-      "Sp. Attack": 80,
-      "Sp. Defense": 63,
+      "specialAttack": 80,
+      "specialDefense": 63,
       "Speed": 116
     }
   },
@@ -10190,8 +10190,8 @@ var data = [{
       "HP": 55,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 15
     }
   },
@@ -10209,8 +10209,8 @@ var data = [{
       "HP": 70,
       "Attack": 105,
       "Defense": 105,
-      "Sp. Attack": 50,
-      "Sp. Defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 40,
       "Speed": 20
     }
   },
@@ -10228,8 +10228,8 @@ var data = [{
       "HP": 85,
       "Attack": 135,
       "Defense": 130,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 80,
       "Speed": 25
     }
   },
@@ -10248,8 +10248,8 @@ var data = [{
       "HP": 65,
       "Attack": 45,
       "Defense": 43,
-      "Sp. Attack": 55,
-      "Sp. Defense": 43,
+      "specialAttack": 55,
+      "specialDefense": 43,
       "Speed": 72
     }
   },
@@ -10268,8 +10268,8 @@ var data = [{
       "HP": 67,
       "Attack": 57,
       "Defense": 55,
-      "Sp. Attack": 77,
-      "Sp. Defense": 55,
+      "specialAttack": 77,
+      "specialDefense": 55,
       "Speed": 114
     }
   },
@@ -10287,8 +10287,8 @@ var data = [{
       "HP": 60,
       "Attack": 85,
       "Defense": 40,
-      "Sp. Attack": 30,
-      "Sp. Defense": 45,
+      "specialAttack": 30,
+      "specialDefense": 45,
       "Speed": 68
     }
   },
@@ -10307,8 +10307,8 @@ var data = [{
       "HP": 110,
       "Attack": 135,
       "Defense": 60,
-      "Sp. Attack": 50,
-      "Sp. Defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 65,
       "Speed": 88
     }
   },
@@ -10326,8 +10326,8 @@ var data = [{
       "HP": 103,
       "Attack": 60,
       "Defense": 86,
-      "Sp. Attack": 60,
-      "Sp. Defense": 86,
+      "specialAttack": 60,
+      "specialDefense": 86,
       "Speed": 50
     }
   },
@@ -10345,8 +10345,8 @@ var data = [{
       "HP": 75,
       "Attack": 80,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 35,
+      "specialAttack": 25,
+      "specialDefense": 35,
       "Speed": 35
     }
   },
@@ -10364,8 +10364,8 @@ var data = [{
       "HP": 85,
       "Attack": 105,
       "Defense": 85,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 40
     }
   },
@@ -10383,8 +10383,8 @@ var data = [{
       "HP": 105,
       "Attack": 140,
       "Defense": 95,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -10402,8 +10402,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 40,
       "Speed": 64
     }
   },
@@ -10422,8 +10422,8 @@ var data = [{
       "HP": 75,
       "Attack": 65,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 69
     }
   },
@@ -10442,8 +10442,8 @@ var data = [{
       "HP": 105,
       "Attack": 95,
       "Defense": 75,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 74
     }
   },
@@ -10461,8 +10461,8 @@ var data = [{
       "HP": 120,
       "Attack": 100,
       "Defense": 85,
-      "Sp. Attack": 30,
-      "Sp. Defense": 85,
+      "specialAttack": 30,
+      "specialDefense": 85,
       "Speed": 45
     }
   },
@@ -10480,8 +10480,8 @@ var data = [{
       "HP": 75,
       "Attack": 125,
       "Defense": 75,
-      "Sp. Attack": 30,
-      "Sp. Defense": 75,
+      "specialAttack": 30,
+      "specialDefense": 75,
       "Speed": 85
     }
   },
@@ -10500,8 +10500,8 @@ var data = [{
       "HP": 45,
       "Attack": 53,
       "Defense": 70,
-      "Sp. Attack": 40,
-      "Sp. Defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
       "Speed": 42
     }
   },
@@ -10520,8 +10520,8 @@ var data = [{
       "HP": 55,
       "Attack": 63,
       "Defense": 90,
-      "Sp. Attack": 50,
-      "Sp. Defense": 80,
+      "specialAttack": 50,
+      "specialDefense": 80,
       "Speed": 42
     }
   },
@@ -10540,8 +10540,8 @@ var data = [{
       "HP": 75,
       "Attack": 103,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
       "Speed": 92
     }
   },
@@ -10560,8 +10560,8 @@ var data = [{
       "HP": 30,
       "Attack": 45,
       "Defense": 59,
-      "Sp. Attack": 30,
-      "Sp. Defense": 39,
+      "specialAttack": 30,
+      "specialDefense": 39,
       "Speed": 57
     }
   },
@@ -10580,8 +10580,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 99,
-      "Sp. Attack": 40,
-      "Sp. Defense": 79,
+      "specialAttack": 40,
+      "specialDefense": 79,
       "Speed": 47
     }
   },
@@ -10600,8 +10600,8 @@ var data = [{
       "HP": 60,
       "Attack": 100,
       "Defense": 89,
-      "Sp. Attack": 55,
-      "Sp. Defense": 69,
+      "specialAttack": 55,
+      "specialDefense": 69,
       "Speed": 112
     }
   },
@@ -10620,8 +10620,8 @@ var data = [{
       "HP": 40,
       "Attack": 27,
       "Defense": 60,
-      "Sp. Attack": 37,
-      "Sp. Defense": 50,
+      "specialAttack": 37,
+      "specialDefense": 50,
       "Speed": 66
     }
   },
@@ -10640,8 +10640,8 @@ var data = [{
       "HP": 60,
       "Attack": 67,
       "Defense": 85,
-      "Sp. Attack": 77,
-      "Sp. Defense": 75,
+      "specialAttack": 77,
+      "specialDefense": 75,
       "Speed": 116
     }
   },
@@ -10659,8 +10659,8 @@ var data = [{
       "HP": 45,
       "Attack": 35,
       "Defense": 50,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
+      "specialAttack": 70,
+      "specialDefense": 50,
       "Speed": 30
     }
   },
@@ -10678,8 +10678,8 @@ var data = [{
       "HP": 70,
       "Attack": 60,
       "Defense": 75,
-      "Sp. Attack": 110,
-      "Sp. Defense": 75,
+      "specialAttack": 110,
+      "specialDefense": 75,
       "Speed": 90
     }
   },
@@ -10697,8 +10697,8 @@ var data = [{
       "HP": 70,
       "Attack": 92,
       "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 55,
+      "specialAttack": 80,
+      "specialDefense": 55,
       "Speed": 98
     }
   },
@@ -10717,8 +10717,8 @@ var data = [{
       "HP": 50,
       "Attack": 72,
       "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 65
     }
   },
@@ -10737,8 +10737,8 @@ var data = [{
       "HP": 60,
       "Attack": 82,
       "Defense": 45,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 74
     }
   },
@@ -10757,8 +10757,8 @@ var data = [{
       "HP": 95,
       "Attack": 117,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
       "Speed": 92
     }
   },
@@ -10776,8 +10776,8 @@ var data = [{
       "HP": 70,
       "Attack": 90,
       "Defense": 45,
-      "Sp. Attack": 15,
-      "Sp. Defense": 45,
+      "specialAttack": 15,
+      "specialDefense": 45,
       "Speed": 50
     }
   },
@@ -10795,8 +10795,8 @@ var data = [{
       "HP": 105,
       "Attack": 140,
       "Defense": 55,
-      "Sp. Attack": 30,
-      "Sp. Defense": 55,
+      "specialAttack": 30,
+      "specialDefense": 55,
       "Speed": 95
     }
   },
@@ -10814,8 +10814,8 @@ var data = [{
       "HP": 75,
       "Attack": 86,
       "Defense": 67,
-      "Sp. Attack": 106,
-      "Sp. Defense": 67,
+      "specialAttack": 106,
+      "specialDefense": 67,
       "Speed": 60
     }
   },
@@ -10834,8 +10834,8 @@ var data = [{
       "HP": 50,
       "Attack": 65,
       "Defense": 85,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 35,
       "Speed": 55
     }
   },
@@ -10854,8 +10854,8 @@ var data = [{
       "HP": 70,
       "Attack": 105,
       "Defense": 125,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
       "Speed": 45
     }
   },
@@ -10874,8 +10874,8 @@ var data = [{
       "HP": 50,
       "Attack": 75,
       "Defense": 70,
-      "Sp. Attack": 35,
-      "Sp. Defense": 70,
+      "specialAttack": 35,
+      "specialDefense": 70,
       "Speed": 48
     }
   },
@@ -10894,8 +10894,8 @@ var data = [{
       "HP": 65,
       "Attack": 90,
       "Defense": 115,
-      "Sp. Attack": 45,
-      "Sp. Defense": 115,
+      "specialAttack": 45,
+      "specialDefense": 115,
       "Speed": 58
     }
   },
@@ -10914,8 +10914,8 @@ var data = [{
       "HP": 72,
       "Attack": 58,
       "Defense": 80,
-      "Sp. Attack": 103,
-      "Sp. Defense": 80,
+      "specialAttack": 103,
+      "specialDefense": 80,
       "Speed": 97
     }
   },
@@ -10933,8 +10933,8 @@ var data = [{
       "HP": 38,
       "Attack": 30,
       "Defense": 85,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 30
     }
   },
@@ -10952,8 +10952,8 @@ var data = [{
       "HP": 58,
       "Attack": 50,
       "Defense": 145,
-      "Sp. Attack": 95,
-      "Sp. Defense": 105,
+      "specialAttack": 95,
+      "specialDefense": 105,
       "Speed": 30
     }
   },
@@ -10972,8 +10972,8 @@ var data = [{
       "HP": 54,
       "Attack": 78,
       "Defense": 103,
-      "Sp. Attack": 53,
-      "Sp. Defense": 45,
+      "specialAttack": 53,
+      "specialDefense": 45,
       "Speed": 22
     }
   },
@@ -10992,8 +10992,8 @@ var data = [{
       "HP": 74,
       "Attack": 108,
       "Defense": 133,
-      "Sp. Attack": 83,
-      "Sp. Defense": 65,
+      "specialAttack": 83,
+      "specialDefense": 65,
       "Speed": 32
     }
   },
@@ -11012,8 +11012,8 @@ var data = [{
       "HP": 55,
       "Attack": 112,
       "Defense": 45,
-      "Sp. Attack": 74,
-      "Sp. Defense": 45,
+      "specialAttack": 74,
+      "specialDefense": 45,
       "Speed": 70
     }
   },
@@ -11032,8 +11032,8 @@ var data = [{
       "HP": 75,
       "Attack": 140,
       "Defense": 65,
-      "Sp. Attack": 112,
-      "Sp. Defense": 65,
+      "specialAttack": 112,
+      "specialDefense": 65,
       "Speed": 110
     }
   },
@@ -11051,8 +11051,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 62,
-      "Sp. Attack": 40,
-      "Sp. Defense": 62,
+      "specialAttack": 40,
+      "specialDefense": 62,
       "Speed": 65
     }
   },
@@ -11070,8 +11070,8 @@ var data = [{
       "HP": 80,
       "Attack": 95,
       "Defense": 82,
-      "Sp. Attack": 60,
-      "Sp. Defense": 82,
+      "specialAttack": 60,
+      "specialDefense": 82,
       "Speed": 75
     }
   },
@@ -11089,8 +11089,8 @@ var data = [{
       "HP": 40,
       "Attack": 65,
       "Defense": 40,
-      "Sp. Attack": 80,
-      "Sp. Defense": 40,
+      "specialAttack": 80,
+      "specialDefense": 40,
       "Speed": 65
     }
   },
@@ -11108,8 +11108,8 @@ var data = [{
       "HP": 60,
       "Attack": 105,
       "Defense": 60,
-      "Sp. Attack": 120,
-      "Sp. Defense": 60,
+      "specialAttack": 120,
+      "specialDefense": 60,
       "Speed": 105
     }
   },
@@ -11127,8 +11127,8 @@ var data = [{
       "HP": 55,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 75
     }
   },
@@ -11146,8 +11146,8 @@ var data = [{
       "HP": 75,
       "Attack": 95,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 60,
+      "specialAttack": 65,
+      "specialDefense": 60,
       "Speed": 115
     }
   },
@@ -11165,8 +11165,8 @@ var data = [{
       "HP": 45,
       "Attack": 30,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 45
     }
   },
@@ -11184,8 +11184,8 @@ var data = [{
       "HP": 60,
       "Attack": 45,
       "Defense": 70,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "specialAttack": 75,
+      "specialDefense": 85,
       "Speed": 55
     }
   },
@@ -11203,8 +11203,8 @@ var data = [{
       "HP": 70,
       "Attack": 55,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 110,
+      "specialAttack": 95,
+      "specialDefense": 110,
       "Speed": 65
     }
   },
@@ -11222,8 +11222,8 @@ var data = [{
       "HP": 45,
       "Attack": 30,
       "Defense": 40,
-      "Sp. Attack": 105,
-      "Sp. Defense": 50,
+      "specialAttack": 105,
+      "specialDefense": 50,
       "Speed": 20
     }
   },
@@ -11241,8 +11241,8 @@ var data = [{
       "HP": 65,
       "Attack": 40,
       "Defense": 50,
-      "Sp. Attack": 125,
-      "Sp. Defense": 60,
+      "specialAttack": 125,
+      "specialDefense": 60,
       "Speed": 30
     }
   },
@@ -11260,8 +11260,8 @@ var data = [{
       "HP": 110,
       "Attack": 65,
       "Defense": 75,
-      "Sp. Attack": 125,
-      "Sp. Defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 85,
       "Speed": 30
     }
   },
@@ -11280,8 +11280,8 @@ var data = [{
       "HP": 62,
       "Attack": 44,
       "Defense": 50,
-      "Sp. Attack": 44,
-      "Sp. Defense": 50,
+      "specialAttack": 44,
+      "specialDefense": 50,
       "Speed": 55
     }
   },
@@ -11300,8 +11300,8 @@ var data = [{
       "HP": 75,
       "Attack": 87,
       "Defense": 63,
-      "Sp. Attack": 87,
-      "Sp. Defense": 63,
+      "specialAttack": 87,
+      "specialDefense": 63,
       "Speed": 98
     }
   },
@@ -11319,8 +11319,8 @@ var data = [{
       "HP": 36,
       "Attack": 50,
       "Defense": 50,
-      "Sp. Attack": 65,
-      "Sp. Defense": 60,
+      "specialAttack": 65,
+      "specialDefense": 60,
       "Speed": 44
     }
   },
@@ -11338,8 +11338,8 @@ var data = [{
       "HP": 51,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 75,
+      "specialAttack": 80,
+      "specialDefense": 75,
       "Speed": 59
     }
   },
@@ -11357,8 +11357,8 @@ var data = [{
       "HP": 71,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "specialAttack": 110,
+      "specialDefense": 95,
       "Speed": 79
     }
   },
@@ -11377,8 +11377,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 75
     }
   },
@@ -11397,8 +11397,8 @@ var data = [{
       "HP": 80,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 95
     }
   },
@@ -11417,8 +11417,8 @@ var data = [{
       "HP": 55,
       "Attack": 75,
       "Defense": 60,
-      "Sp. Attack": 75,
-      "Sp. Defense": 60,
+      "specialAttack": 75,
+      "specialDefense": 60,
       "Speed": 103
     }
   },
@@ -11436,8 +11436,8 @@ var data = [{
       "HP": 50,
       "Attack": 75,
       "Defense": 45,
-      "Sp. Attack": 40,
-      "Sp. Defense": 45,
+      "specialAttack": 40,
+      "specialDefense": 45,
       "Speed": 60
     }
   },
@@ -11456,8 +11456,8 @@ var data = [{
       "HP": 70,
       "Attack": 135,
       "Defense": 105,
-      "Sp. Attack": 60,
-      "Sp. Defense": 105,
+      "specialAttack": 60,
+      "specialDefense": 105,
       "Speed": 20
     }
   },
@@ -11476,8 +11476,8 @@ var data = [{
       "HP": 69,
       "Attack": 55,
       "Defense": 45,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "specialAttack": 55,
+      "specialDefense": 55,
       "Speed": 15
     }
   },
@@ -11496,8 +11496,8 @@ var data = [{
       "HP": 114,
       "Attack": 85,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 80,
+      "specialAttack": 85,
+      "specialDefense": 80,
       "Speed": 30
     }
   },
@@ -11516,8 +11516,8 @@ var data = [{
       "HP": 55,
       "Attack": 40,
       "Defense": 50,
-      "Sp. Attack": 65,
-      "Sp. Defense": 85,
+      "specialAttack": 65,
+      "specialDefense": 85,
       "Speed": 40
     }
   },
@@ -11536,8 +11536,8 @@ var data = [{
       "HP": 100,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 105,
+      "specialAttack": 85,
+      "specialDefense": 105,
       "Speed": 60
     }
   },
@@ -11555,8 +11555,8 @@ var data = [{
       "HP": 165,
       "Attack": 75,
       "Defense": 80,
-      "Sp. Attack": 40,
-      "Sp. Defense": 45,
+      "specialAttack": 40,
+      "specialDefense": 45,
       "Speed": 65
     }
   },
@@ -11575,8 +11575,8 @@ var data = [{
       "HP": 50,
       "Attack": 47,
       "Defense": 50,
-      "Sp. Attack": 57,
-      "Sp. Defense": 50,
+      "specialAttack": 57,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -11595,8 +11595,8 @@ var data = [{
       "HP": 70,
       "Attack": 77,
       "Defense": 60,
-      "Sp. Attack": 97,
-      "Sp. Defense": 60,
+      "specialAttack": 97,
+      "specialDefense": 60,
       "Speed": 108
     }
   },
@@ -11615,8 +11615,8 @@ var data = [{
       "HP": 44,
       "Attack": 50,
       "Defense": 91,
-      "Sp. Attack": 24,
-      "Sp. Defense": 86,
+      "specialAttack": 24,
+      "specialDefense": 86,
       "Speed": 10
     }
   },
@@ -11635,8 +11635,8 @@ var data = [{
       "HP": 74,
       "Attack": 94,
       "Defense": 131,
-      "Sp. Attack": 54,
-      "Sp. Defense": 116,
+      "specialAttack": 54,
+      "specialDefense": 116,
       "Speed": 20
     }
   },
@@ -11654,8 +11654,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 70,
-      "Sp. Attack": 45,
-      "Sp. Defense": 60,
+      "specialAttack": 45,
+      "specialDefense": 60,
       "Speed": 30
     }
   },
@@ -11673,8 +11673,8 @@ var data = [{
       "HP": 60,
       "Attack": 80,
       "Defense": 95,
-      "Sp. Attack": 70,
-      "Sp. Defense": 85,
+      "specialAttack": 70,
+      "specialDefense": 85,
       "Speed": 50
     }
   },
@@ -11692,8 +11692,8 @@ var data = [{
       "HP": 60,
       "Attack": 100,
       "Defense": 115,
-      "Sp. Attack": 70,
-      "Sp. Defense": 85,
+      "specialAttack": 70,
+      "specialDefense": 85,
       "Speed": 90
     }
   },
@@ -11711,8 +11711,8 @@ var data = [{
       "HP": 35,
       "Attack": 55,
       "Defense": 40,
-      "Sp. Attack": 45,
-      "Sp. Defense": 40,
+      "specialAttack": 45,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -11730,8 +11730,8 @@ var data = [{
       "HP": 65,
       "Attack": 85,
       "Defense": 70,
-      "Sp. Attack": 75,
-      "Sp. Defense": 70,
+      "specialAttack": 75,
+      "specialDefense": 70,
       "Speed": 40
     }
   },
@@ -11749,8 +11749,8 @@ var data = [{
       "HP": 85,
       "Attack": 115,
       "Defense": 80,
-      "Sp. Attack": 105,
-      "Sp. Defense": 80,
+      "specialAttack": 105,
+      "specialDefense": 80,
       "Speed": 50
     }
   },
@@ -11768,8 +11768,8 @@ var data = [{
       "HP": 55,
       "Attack": 55,
       "Defense": 55,
-      "Sp. Attack": 85,
-      "Sp. Defense": 55,
+      "specialAttack": 85,
+      "specialDefense": 55,
       "Speed": 30
     }
   },
@@ -11787,8 +11787,8 @@ var data = [{
       "HP": 75,
       "Attack": 75,
       "Defense": 75,
-      "Sp. Attack": 125,
-      "Sp. Defense": 95,
+      "specialAttack": 125,
+      "specialDefense": 95,
       "Speed": 40
     }
   },
@@ -11807,8 +11807,8 @@ var data = [{
       "HP": 50,
       "Attack": 30,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 55,
       "Speed": 20
     }
   },
@@ -11827,8 +11827,8 @@ var data = [{
       "HP": 60,
       "Attack": 40,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 60,
+      "specialAttack": 95,
+      "specialDefense": 60,
       "Speed": 55
     }
   },
@@ -11847,8 +11847,8 @@ var data = [{
       "HP": 60,
       "Attack": 55,
       "Defense": 90,
-      "Sp. Attack": 145,
-      "Sp. Defense": 90,
+      "specialAttack": 145,
+      "specialDefense": 90,
       "Speed": 80
     }
   },
@@ -11866,8 +11866,8 @@ var data = [{
       "HP": 46,
       "Attack": 87,
       "Defense": 60,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
+      "specialAttack": 30,
+      "specialDefense": 40,
       "Speed": 57
     }
   },
@@ -11885,8 +11885,8 @@ var data = [{
       "HP": 66,
       "Attack": 117,
       "Defense": 70,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 67
     }
   },
@@ -11904,8 +11904,8 @@ var data = [{
       "HP": 76,
       "Attack": 147,
       "Defense": 90,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 97
     }
   },
@@ -11923,8 +11923,8 @@ var data = [{
       "HP": 55,
       "Attack": 70,
       "Defense": 40,
-      "Sp. Attack": 60,
-      "Sp. Defense": 40,
+      "specialAttack": 60,
+      "specialDefense": 40,
       "Speed": 40
     }
   },
@@ -11942,8 +11942,8 @@ var data = [{
       "HP": 95,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
       "Speed": 50
     }
   },
@@ -11961,8 +11961,8 @@ var data = [{
       "HP": 80,
       "Attack": 50,
       "Defense": 50,
-      "Sp. Attack": 95,
-      "Sp. Defense": 135,
+      "specialAttack": 95,
+      "specialDefense": 135,
       "Speed": 105
     }
   },
@@ -11980,8 +11980,8 @@ var data = [{
       "HP": 50,
       "Attack": 40,
       "Defense": 85,
-      "Sp. Attack": 40,
-      "Sp. Defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 65,
       "Speed": 25
     }
   },
@@ -11999,8 +11999,8 @@ var data = [{
       "HP": 80,
       "Attack": 70,
       "Defense": 40,
-      "Sp. Attack": 100,
-      "Sp. Defense": 60,
+      "specialAttack": 100,
+      "specialDefense": 60,
       "Speed": 145
     }
   },
@@ -12019,8 +12019,8 @@ var data = [{
       "HP": 109,
       "Attack": 66,
       "Defense": 84,
-      "Sp. Attack": 81,
-      "Sp. Defense": 99,
+      "specialAttack": 81,
+      "specialDefense": 99,
       "Speed": 32
     }
   },
@@ -12038,8 +12038,8 @@ var data = [{
       "HP": 45,
       "Attack": 85,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 50,
+      "specialAttack": 55,
+      "specialDefense": 50,
       "Speed": 65
     }
   },
@@ -12057,8 +12057,8 @@ var data = [{
       "HP": 65,
       "Attack": 125,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 60,
+      "specialAttack": 95,
+      "specialDefense": 60,
       "Speed": 105
     }
   },
@@ -12076,8 +12076,8 @@ var data = [{
       "HP": 77,
       "Attack": 120,
       "Defense": 90,
-      "Sp. Attack": 60,
-      "Sp. Defense": 90,
+      "specialAttack": 60,
+      "specialDefense": 90,
       "Speed": 48
     }
   },
@@ -12096,8 +12096,8 @@ var data = [{
       "HP": 59,
       "Attack": 74,
       "Defense": 50,
-      "Sp. Attack": 35,
-      "Sp. Defense": 50,
+      "specialAttack": 35,
+      "specialDefense": 50,
       "Speed": 35
     }
   },
@@ -12116,8 +12116,8 @@ var data = [{
       "HP": 89,
       "Attack": 124,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
       "Speed": 55
     }
   },
@@ -12136,8 +12136,8 @@ var data = [{
       "HP": 45,
       "Attack": 85,
       "Defense": 70,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -12156,8 +12156,8 @@ var data = [{
       "HP": 65,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
       "Speed": 70
     }
   },
@@ -12175,8 +12175,8 @@ var data = [{
       "HP": 95,
       "Attack": 110,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 95,
       "Speed": 55
     }
   },
@@ -12195,8 +12195,8 @@ var data = [{
       "HP": 70,
       "Attack": 83,
       "Defense": 50,
-      "Sp. Attack": 37,
-      "Sp. Defense": 50,
+      "specialAttack": 37,
+      "specialDefense": 50,
       "Speed": 60
     }
   },
@@ -12215,8 +12215,8 @@ var data = [{
       "HP": 100,
       "Attack": 123,
       "Defense": 75,
-      "Sp. Attack": 57,
-      "Sp. Defense": 75,
+      "specialAttack": 57,
+      "specialDefense": 75,
       "Speed": 80
     }
   },
@@ -12235,8 +12235,8 @@ var data = [{
       "HP": 70,
       "Attack": 55,
       "Defense": 75,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "specialAttack": 45,
+      "specialDefense": 65,
       "Speed": 60
     }
   },
@@ -12255,8 +12255,8 @@ var data = [{
       "HP": 110,
       "Attack": 65,
       "Defense": 105,
-      "Sp. Attack": 55,
-      "Sp. Defense": 95,
+      "specialAttack": 55,
+      "specialDefense": 95,
       "Speed": 80
     }
   },
@@ -12274,8 +12274,8 @@ var data = [{
       "HP": 85,
       "Attack": 97,
       "Defense": 66,
-      "Sp. Attack": 105,
-      "Sp. Defense": 66,
+      "specialAttack": 105,
+      "specialDefense": 66,
       "Speed": 65
     }
   },
@@ -12294,8 +12294,8 @@ var data = [{
       "HP": 58,
       "Attack": 109,
       "Defense": 112,
-      "Sp. Attack": 48,
-      "Sp. Defense": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
       "Speed": 109
     }
   },
@@ -12314,8 +12314,8 @@ var data = [{
       "HP": 52,
       "Attack": 65,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 50,
       "Speed": 38
     }
   },
@@ -12334,8 +12334,8 @@ var data = [{
       "HP": 72,
       "Attack": 85,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
       "Speed": 58
     }
   },
@@ -12354,8 +12354,8 @@ var data = [{
       "HP": 92,
       "Attack": 105,
       "Defense": 90,
-      "Sp. Attack": 125,
-      "Sp. Defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 90,
       "Speed": 98
     }
   },
@@ -12374,8 +12374,8 @@ var data = [{
       "HP": 55,
       "Attack": 85,
       "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 55,
+      "specialAttack": 50,
+      "specialDefense": 55,
       "Speed": 60
     }
   },
@@ -12394,8 +12394,8 @@ var data = [{
       "HP": 85,
       "Attack": 60,
       "Defense": 65,
-      "Sp. Attack": 135,
-      "Sp. Defense": 105,
+      "specialAttack": 135,
+      "specialDefense": 105,
       "Speed": 100
     }
   },
@@ -12414,8 +12414,8 @@ var data = [{
       "HP": 91,
       "Attack": 90,
       "Defense": 129,
-      "Sp. Attack": 90,
-      "Sp. Defense": 72,
+      "specialAttack": 90,
+      "specialDefense": 72,
       "Speed": 108
     }
   },
@@ -12434,8 +12434,8 @@ var data = [{
       "HP": 91,
       "Attack": 129,
       "Defense": 90,
-      "Sp. Attack": 72,
-      "Sp. Defense": 90,
+      "specialAttack": 72,
+      "specialDefense": 90,
       "Speed": 108
     }
   },
@@ -12454,8 +12454,8 @@ var data = [{
       "HP": 91,
       "Attack": 90,
       "Defense": 72,
-      "Sp. Attack": 90,
-      "Sp. Defense": 129,
+      "specialAttack": 90,
+      "specialDefense": 129,
       "Speed": 108
     }
   },
@@ -12473,8 +12473,8 @@ var data = [{
       "HP": 79,
       "Attack": 115,
       "Defense": 70,
-      "Sp. Attack": 125,
-      "Sp. Defense": 80,
+      "specialAttack": 125,
+      "specialDefense": 80,
       "Speed": 111
     }
   },
@@ -12493,8 +12493,8 @@ var data = [{
       "HP": 79,
       "Attack": 115,
       "Defense": 70,
-      "Sp. Attack": 125,
-      "Sp. Defense": 80,
+      "specialAttack": 125,
+      "specialDefense": 80,
       "Speed": 111
     }
   },
@@ -12513,8 +12513,8 @@ var data = [{
       "HP": 100,
       "Attack": 120,
       "Defense": 100,
-      "Sp. Attack": 150,
-      "Sp. Defense": 120,
+      "specialAttack": 150,
+      "specialDefense": 120,
       "Speed": 90
     }
   },
@@ -12533,8 +12533,8 @@ var data = [{
       "HP": 100,
       "Attack": 150,
       "Defense": 120,
-      "Sp. Attack": 120,
-      "Sp. Defense": 100,
+      "specialAttack": 120,
+      "specialDefense": 100,
       "Speed": 90
     }
   },
@@ -12553,8 +12553,8 @@ var data = [{
       "HP": 89,
       "Attack": 125,
       "Defense": 90,
-      "Sp. Attack": 115,
-      "Sp. Defense": 80,
+      "specialAttack": 115,
+      "specialDefense": 80,
       "Speed": 101
     }
   },
@@ -12573,8 +12573,8 @@ var data = [{
       "HP": 125,
       "Attack": 130,
       "Defense": 90,
-      "Sp. Attack": 130,
-      "Sp. Defense": 90,
+      "specialAttack": 130,
+      "specialDefense": 90,
       "Speed": 95
     }
   },
@@ -12593,8 +12593,8 @@ var data = [{
       "HP": 91,
       "Attack": 72,
       "Defense": 90,
-      "Sp. Attack": 129,
-      "Sp. Defense": 90,
+      "specialAttack": 129,
+      "specialDefense": 90,
       "Speed": 108
     }
   },
@@ -12613,8 +12613,8 @@ var data = [{
       "HP": 100,
       "Attack": 77,
       "Defense": 77,
-      "Sp. Attack": 128,
-      "Sp. Defense": 128,
+      "specialAttack": 128,
+      "specialDefense": 128,
       "Speed": 90
     }
   },
@@ -12633,8 +12633,8 @@ var data = [{
       "HP": 71,
       "Attack": 120,
       "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 95,
+      "specialAttack": 120,
+      "specialDefense": 95,
       "Speed": 99
     }
   },
@@ -12652,8 +12652,8 @@ var data = [{
       "HP": 56,
       "Attack": 61,
       "Defense": 65,
-      "Sp. Attack": 48,
-      "Sp. Defense": 45,
+      "specialAttack": 48,
+      "specialDefense": 45,
       "Speed": 38
     }
   },
@@ -12671,8 +12671,8 @@ var data = [{
       "HP": 61,
       "Attack": 78,
       "Defense": 95,
-      "Sp. Attack": 56,
-      "Sp. Defense": 58,
+      "specialAttack": 56,
+      "specialDefense": 58,
       "Speed": 57
     }
   },
@@ -12691,8 +12691,8 @@ var data = [{
       "HP": 88,
       "Attack": 107,
       "Defense": 122,
-      "Sp. Attack": 74,
-      "Sp. Defense": 75,
+      "specialAttack": 74,
+      "specialDefense": 75,
       "Speed": 64
     }
   },
@@ -12710,8 +12710,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 62,
-      "Sp. Defense": 60,
+      "specialAttack": 62,
+      "specialDefense": 60,
       "Speed": 60
     }
   },
@@ -12729,8 +12729,8 @@ var data = [{
       "HP": 59,
       "Attack": 59,
       "Defense": 58,
-      "Sp. Attack": 90,
-      "Sp. Defense": 70,
+      "specialAttack": 90,
+      "specialDefense": 70,
       "Speed": 73
     }
   },
@@ -12749,8 +12749,8 @@ var data = [{
       "HP": 75,
       "Attack": 69,
       "Defense": 72,
-      "Sp. Attack": 114,
-      "Sp. Defense": 100,
+      "specialAttack": 114,
+      "specialDefense": 100,
       "Speed": 104
     }
   },
@@ -12768,8 +12768,8 @@ var data = [{
       "HP": 41,
       "Attack": 56,
       "Defense": 40,
-      "Sp. Attack": 62,
-      "Sp. Defense": 44,
+      "specialAttack": 62,
+      "specialDefense": 44,
       "Speed": 71
     }
   },
@@ -12787,8 +12787,8 @@ var data = [{
       "HP": 54,
       "Attack": 63,
       "Defense": 52,
-      "Sp. Attack": 83,
-      "Sp. Defense": 56,
+      "specialAttack": 83,
+      "specialDefense": 56,
       "Speed": 97
     }
   },
@@ -12807,8 +12807,8 @@ var data = [{
       "HP": 72,
       "Attack": 95,
       "Defense": 67,
-      "Sp. Attack": 103,
-      "Sp. Defense": 71,
+      "specialAttack": 103,
+      "specialDefense": 71,
       "Speed": 122
     }
   },
@@ -12826,8 +12826,8 @@ var data = [{
       "HP": 38,
       "Attack": 36,
       "Defense": 38,
-      "Sp. Attack": 32,
-      "Sp. Defense": 36,
+      "specialAttack": 32,
+      "specialDefense": 36,
       "Speed": 57
     }
   },
@@ -12846,8 +12846,8 @@ var data = [{
       "HP": 85,
       "Attack": 56,
       "Defense": 77,
-      "Sp. Attack": 50,
-      "Sp. Defense": 77,
+      "specialAttack": 50,
+      "specialDefense": 77,
       "Speed": 78
     }
   },
@@ -12866,8 +12866,8 @@ var data = [{
       "HP": 45,
       "Attack": 50,
       "Defense": 43,
-      "Sp. Attack": 40,
-      "Sp. Defense": 38,
+      "specialAttack": 40,
+      "specialDefense": 38,
       "Speed": 62
     }
   },
@@ -12886,8 +12886,8 @@ var data = [{
       "HP": 62,
       "Attack": 73,
       "Defense": 55,
-      "Sp. Attack": 56,
-      "Sp. Defense": 52,
+      "specialAttack": 56,
+      "specialDefense": 52,
       "Speed": 84
     }
   },
@@ -12906,8 +12906,8 @@ var data = [{
       "HP": 78,
       "Attack": 81,
       "Defense": 71,
-      "Sp. Attack": 74,
-      "Sp. Defense": 69,
+      "specialAttack": 74,
+      "specialDefense": 69,
       "Speed": 126
     }
   },
@@ -12925,8 +12925,8 @@ var data = [{
       "HP": 38,
       "Attack": 35,
       "Defense": 40,
-      "Sp. Attack": 27,
-      "Sp. Defense": 25,
+      "specialAttack": 27,
+      "specialDefense": 25,
       "Speed": 35
     }
   },
@@ -12944,8 +12944,8 @@ var data = [{
       "HP": 45,
       "Attack": 22,
       "Defense": 60,
-      "Sp. Attack": 27,
-      "Sp. Defense": 30,
+      "specialAttack": 27,
+      "specialDefense": 30,
       "Speed": 29
     }
   },
@@ -12964,8 +12964,8 @@ var data = [{
       "HP": 80,
       "Attack": 52,
       "Defense": 50,
-      "Sp. Attack": 90,
-      "Sp. Defense": 50,
+      "specialAttack": 90,
+      "specialDefense": 50,
       "Speed": 89
     }
   },
@@ -12984,8 +12984,8 @@ var data = [{
       "HP": 62,
       "Attack": 50,
       "Defense": 58,
-      "Sp. Attack": 73,
-      "Sp. Defense": 54,
+      "specialAttack": 73,
+      "specialDefense": 54,
       "Speed": 72
     }
   },
@@ -13004,8 +13004,8 @@ var data = [{
       "HP": 86,
       "Attack": 68,
       "Defense": 72,
-      "Sp. Attack": 109,
-      "Sp. Defense": 66,
+      "specialAttack": 109,
+      "specialDefense": 66,
       "Speed": 106
     }
   },
@@ -13023,8 +13023,8 @@ var data = [{
       "HP": 44,
       "Attack": 38,
       "Defense": 39,
-      "Sp. Attack": 61,
-      "Sp. Defense": 79,
+      "specialAttack": 61,
+      "specialDefense": 79,
       "Speed": 42
     }
   },
@@ -13042,8 +13042,8 @@ var data = [{
       "HP": 54,
       "Attack": 45,
       "Defense": 47,
-      "Sp. Attack": 75,
-      "Sp. Defense": 98,
+      "specialAttack": 75,
+      "specialDefense": 98,
       "Speed": 52
     }
   },
@@ -13061,8 +13061,8 @@ var data = [{
       "HP": 78,
       "Attack": 65,
       "Defense": 68,
-      "Sp. Attack": 112,
-      "Sp. Defense": 154,
+      "specialAttack": 112,
+      "specialDefense": 154,
       "Speed": 75
     }
   },
@@ -13080,8 +13080,8 @@ var data = [{
       "HP": 66,
       "Attack": 65,
       "Defense": 48,
-      "Sp. Attack": 62,
-      "Sp. Defense": 57,
+      "specialAttack": 62,
+      "specialDefense": 57,
       "Speed": 52
     }
   },
@@ -13099,8 +13099,8 @@ var data = [{
       "HP": 123,
       "Attack": 100,
       "Defense": 62,
-      "Sp. Attack": 97,
-      "Sp. Defense": 81,
+      "specialAttack": 97,
+      "specialDefense": 81,
       "Speed": 68
     }
   },
@@ -13118,8 +13118,8 @@ var data = [{
       "HP": 67,
       "Attack": 82,
       "Defense": 62,
-      "Sp. Attack": 46,
-      "Sp. Defense": 48,
+      "specialAttack": 46,
+      "specialDefense": 48,
       "Speed": 43
     }
   },
@@ -13138,8 +13138,8 @@ var data = [{
       "HP": 95,
       "Attack": 124,
       "Defense": 78,
-      "Sp. Attack": 69,
-      "Sp. Defense": 71,
+      "specialAttack": 69,
+      "specialDefense": 71,
       "Speed": 58
     }
   },
@@ -13157,8 +13157,8 @@ var data = [{
       "HP": 75,
       "Attack": 80,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 90,
+      "specialAttack": 65,
+      "specialDefense": 90,
       "Speed": 102
     }
   },
@@ -13176,8 +13176,8 @@ var data = [{
       "HP": 62,
       "Attack": 48,
       "Defense": 54,
-      "Sp. Attack": 63,
-      "Sp. Defense": 60,
+      "specialAttack": 63,
+      "specialDefense": 60,
       "Speed": 68
     }
   },
@@ -13195,8 +13195,8 @@ var data = [{
       "HP": 74,
       "Attack": 48,
       "Defense": 76,
-      "Sp. Attack": 83,
-      "Sp. Defense": 81,
+      "specialAttack": 83,
+      "specialDefense": 81,
       "Speed": 104
     }
   },
@@ -13215,8 +13215,8 @@ var data = [{
       "HP": 45,
       "Attack": 80,
       "Defense": 100,
-      "Sp. Attack": 35,
-      "Sp. Defense": 37,
+      "specialAttack": 35,
+      "specialDefense": 37,
       "Speed": 28
     }
   },
@@ -13235,8 +13235,8 @@ var data = [{
       "HP": 59,
       "Attack": 110,
       "Defense": 150,
-      "Sp. Attack": 45,
-      "Sp. Defense": 49,
+      "specialAttack": 45,
+      "specialDefense": 49,
       "Speed": 35
     }
   },
@@ -13255,8 +13255,8 @@ var data = [{
       "HP": 60,
       "Attack": 50,
       "Defense": 150,
-      "Sp. Attack": 50,
-      "Sp. Defense": 150,
+      "specialAttack": 50,
+      "specialDefense": 150,
       "Speed": 60
     }
   },
@@ -13274,8 +13274,8 @@ var data = [{
       "HP": 78,
       "Attack": 52,
       "Defense": 60,
-      "Sp. Attack": 63,
-      "Sp. Defense": 65,
+      "specialAttack": 63,
+      "specialDefense": 65,
       "Speed": 23
     }
   },
@@ -13293,8 +13293,8 @@ var data = [{
       "HP": 101,
       "Attack": 72,
       "Defense": 72,
-      "Sp. Attack": 99,
-      "Sp. Defense": 89,
+      "specialAttack": 99,
+      "specialDefense": 89,
       "Speed": 29
     }
   },
@@ -13312,8 +13312,8 @@ var data = [{
       "HP": 62,
       "Attack": 48,
       "Defense": 66,
-      "Sp. Attack": 59,
-      "Sp. Defense": 57,
+      "specialAttack": 59,
+      "specialDefense": 57,
       "Speed": 49
     }
   },
@@ -13331,8 +13331,8 @@ var data = [{
       "HP": 82,
       "Attack": 80,
       "Defense": 86,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
       "Speed": 72
     }
   },
@@ -13351,8 +13351,8 @@ var data = [{
       "HP": 53,
       "Attack": 54,
       "Defense": 53,
-      "Sp. Attack": 37,
-      "Sp. Defense": 46,
+      "specialAttack": 37,
+      "specialDefense": 46,
       "Speed": 45
     }
   },
@@ -13371,8 +13371,8 @@ var data = [{
       "HP": 86,
       "Attack": 92,
       "Defense": 88,
-      "Sp. Attack": 68,
-      "Sp. Defense": 75,
+      "specialAttack": 68,
+      "specialDefense": 75,
       "Speed": 73
     }
   },
@@ -13391,8 +13391,8 @@ var data = [{
       "HP": 42,
       "Attack": 52,
       "Defense": 67,
-      "Sp. Attack": 39,
-      "Sp. Defense": 56,
+      "specialAttack": 39,
+      "specialDefense": 56,
       "Speed": 50
     }
   },
@@ -13411,8 +13411,8 @@ var data = [{
       "HP": 72,
       "Attack": 105,
       "Defense": 115,
-      "Sp. Attack": 54,
-      "Sp. Defense": 86,
+      "specialAttack": 54,
+      "specialDefense": 86,
       "Speed": 68
     }
   },
@@ -13431,8 +13431,8 @@ var data = [{
       "HP": 50,
       "Attack": 60,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
       "Speed": 30
     }
   },
@@ -13451,8 +13451,8 @@ var data = [{
       "HP": 65,
       "Attack": 75,
       "Defense": 90,
-      "Sp. Attack": 97,
-      "Sp. Defense": 123,
+      "specialAttack": 97,
+      "specialDefense": 123,
       "Speed": 44
     }
   },
@@ -13470,8 +13470,8 @@ var data = [{
       "HP": 50,
       "Attack": 53,
       "Defense": 62,
-      "Sp. Attack": 58,
-      "Sp. Defense": 63,
+      "specialAttack": 58,
+      "specialDefense": 63,
       "Speed": 44
     }
   },
@@ -13489,8 +13489,8 @@ var data = [{
       "HP": 71,
       "Attack": 73,
       "Defense": 88,
-      "Sp. Attack": 120,
-      "Sp. Defense": 89,
+      "specialAttack": 120,
+      "specialDefense": 89,
       "Speed": 59
     }
   },
@@ -13509,8 +13509,8 @@ var data = [{
       "HP": 44,
       "Attack": 38,
       "Defense": 33,
-      "Sp. Attack": 61,
-      "Sp. Defense": 43,
+      "specialAttack": 61,
+      "specialDefense": 43,
       "Speed": 70
     }
   },
@@ -13529,8 +13529,8 @@ var data = [{
       "HP": 62,
       "Attack": 55,
       "Defense": 52,
-      "Sp. Attack": 109,
-      "Sp. Defense": 94,
+      "specialAttack": 109,
+      "specialDefense": 94,
       "Speed": 109
     }
   },
@@ -13549,8 +13549,8 @@ var data = [{
       "HP": 58,
       "Attack": 89,
       "Defense": 77,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 48
     }
   },
@@ -13569,8 +13569,8 @@ var data = [{
       "HP": 82,
       "Attack": 121,
       "Defense": 119,
-      "Sp. Attack": 69,
-      "Sp. Defense": 59,
+      "specialAttack": 69,
+      "specialDefense": 59,
       "Speed": 71
     }
   },
@@ -13589,8 +13589,8 @@ var data = [{
       "HP": 77,
       "Attack": 59,
       "Defense": 50,
-      "Sp. Attack": 67,
-      "Sp. Defense": 63,
+      "specialAttack": 67,
+      "specialDefense": 63,
       "Speed": 46
     }
   },
@@ -13609,8 +13609,8 @@ var data = [{
       "HP": 123,
       "Attack": 77,
       "Defense": 72,
-      "Sp. Attack": 99,
-      "Sp. Defense": 92,
+      "specialAttack": 99,
+      "specialDefense": 92,
       "Speed": 58
     }
   },
@@ -13628,8 +13628,8 @@ var data = [{
       "HP": 95,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 110,
-      "Sp. Defense": 130,
+      "specialAttack": 110,
+      "specialDefense": 130,
       "Speed": 60
     }
   },
@@ -13648,8 +13648,8 @@ var data = [{
       "HP": 78,
       "Attack": 92,
       "Defense": 75,
-      "Sp. Attack": 74,
-      "Sp. Defense": 63,
+      "specialAttack": 74,
+      "specialDefense": 63,
       "Speed": 118
     }
   },
@@ -13668,8 +13668,8 @@ var data = [{
       "HP": 67,
       "Attack": 58,
       "Defense": 57,
-      "Sp. Attack": 81,
-      "Sp. Defense": 67,
+      "specialAttack": 81,
+      "specialDefense": 67,
       "Speed": 101
     }
   },
@@ -13688,8 +13688,8 @@ var data = [{
       "HP": 50,
       "Attack": 50,
       "Defense": 150,
-      "Sp. Attack": 50,
-      "Sp. Defense": 150,
+      "specialAttack": 50,
+      "specialDefense": 150,
       "Speed": 50
     }
   },
@@ -13707,8 +13707,8 @@ var data = [{
       "HP": 45,
       "Attack": 50,
       "Defense": 35,
-      "Sp. Attack": 55,
-      "Sp. Defense": 75,
+      "specialAttack": 55,
+      "specialDefense": 75,
       "Speed": 40
     }
   },
@@ -13726,8 +13726,8 @@ var data = [{
       "HP": 68,
       "Attack": 75,
       "Defense": 53,
-      "Sp. Attack": 83,
-      "Sp. Defense": 113,
+      "specialAttack": 83,
+      "specialDefense": 113,
       "Speed": 60
     }
   },
@@ -13745,8 +13745,8 @@ var data = [{
       "HP": 90,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 110,
-      "Sp. Defense": 150,
+      "specialAttack": 110,
+      "specialDefense": 150,
       "Speed": 80
     }
   },
@@ -13765,8 +13765,8 @@ var data = [{
       "HP": 57,
       "Attack": 80,
       "Defense": 91,
-      "Sp. Attack": 80,
-      "Sp. Defense": 87,
+      "specialAttack": 80,
+      "specialDefense": 87,
       "Speed": 75
     }
   },
@@ -13785,8 +13785,8 @@ var data = [{
       "HP": 43,
       "Attack": 70,
       "Defense": 48,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 60,
       "Speed": 38
     }
   },
@@ -13805,8 +13805,8 @@ var data = [{
       "HP": 85,
       "Attack": 110,
       "Defense": 76,
-      "Sp. Attack": 65,
-      "Sp. Defense": 82,
+      "specialAttack": 65,
+      "specialDefense": 82,
       "Speed": 56
     }
   },
@@ -13825,8 +13825,8 @@ var data = [{
       "HP": 59,
       "Attack": 66,
       "Defense": 70,
-      "Sp. Attack": 44,
-      "Sp. Defense": 55,
+      "specialAttack": 44,
+      "specialDefense": 55,
       "Speed": 41
     }
   },
@@ -13845,8 +13845,8 @@ var data = [{
       "HP": 85,
       "Attack": 100,
       "Defense": 122,
-      "Sp. Attack": 58,
-      "Sp. Defense": 75,
+      "specialAttack": 58,
+      "specialDefense": 75,
       "Speed": 54
     }
   },
@@ -13864,8 +13864,8 @@ var data = [{
       "HP": 55,
       "Attack": 69,
       "Defense": 85,
-      "Sp. Attack": 32,
-      "Sp. Defense": 35,
+      "specialAttack": 32,
+      "specialDefense": 35,
       "Speed": 28
     }
   },
@@ -13883,8 +13883,8 @@ var data = [{
       "HP": 95,
       "Attack": 117,
       "Defense": 184,
-      "Sp. Attack": 44,
-      "Sp. Defense": 46,
+      "specialAttack": 44,
+      "specialDefense": 46,
       "Speed": 28
     }
   },
@@ -13903,8 +13903,8 @@ var data = [{
       "HP": 40,
       "Attack": 30,
       "Defense": 35,
-      "Sp. Attack": 45,
-      "Sp. Defense": 40,
+      "specialAttack": 45,
+      "specialDefense": 40,
       "Speed": 55
     }
   },
@@ -13923,8 +13923,8 @@ var data = [{
       "HP": 85,
       "Attack": 70,
       "Defense": 80,
-      "Sp. Attack": 97,
-      "Sp. Defense": 80,
+      "specialAttack": 97,
+      "specialDefense": 80,
       "Speed": 123
     }
   },
@@ -13942,8 +13942,8 @@ var data = [{
       "HP": 126,
       "Attack": 131,
       "Defense": 95,
-      "Sp. Attack": 131,
-      "Sp. Defense": 98,
+      "specialAttack": 131,
+      "specialDefense": 98,
       "Speed": 99
     }
   },
@@ -13962,8 +13962,8 @@ var data = [{
       "HP": 126,
       "Attack": 131,
       "Defense": 95,
-      "Sp. Attack": 131,
-      "Sp. Defense": 98,
+      "specialAttack": 131,
+      "specialDefense": 98,
       "Speed": 99
     }
   },
@@ -13982,8 +13982,8 @@ var data = [{
       "HP": 108,
       "Attack": 100,
       "Defense": 121,
-      "Sp. Attack": 81,
-      "Sp. Defense": 95,
+      "specialAttack": 81,
+      "specialDefense": 95,
       "Speed": 95
     }
   },
@@ -14002,8 +14002,8 @@ var data = [{
       "HP": 50,
       "Attack": 100,
       "Defense": 150,
-      "Sp. Attack": 100,
-      "Sp. Defense": 150,
+      "specialAttack": 100,
+      "specialDefense": 150,
       "Speed": 50
     }
   },
@@ -14022,8 +14022,8 @@ var data = [{
       "HP": 80,
       "Attack": 110,
       "Defense": 60,
-      "Sp. Attack": 150,
-      "Sp. Defense": 130,
+      "specialAttack": 150,
+      "specialDefense": 130,
       "Speed": 70
     }
   },
@@ -14042,8 +14042,8 @@ var data = [{
       "HP": 80,
       "Attack": 110,
       "Defense": 120,
-      "Sp. Attack": 130,
-      "Sp. Defense": 90,
+      "specialAttack": 130,
+      "specialDefense": 90,
       "Speed": 70
     }
   },
@@ -14062,8 +14062,8 @@ var data = [{
       "HP": 68,
       "Attack": 55,
       "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
       "Speed": 42
     }
   },
@@ -14082,8 +14082,8 @@ var data = [{
       "HP": 78,
       "Attack": 75,
       "Defense": 75,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
       "Speed": 52
     }
   },
@@ -14102,8 +14102,8 @@ var data = [{
       "HP": 78,
       "Attack": 107,
       "Defense": 75,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
       "Speed": 70
     }
   },
@@ -14121,8 +14121,8 @@ var data = [{
       "HP": 45,
       "Attack": 65,
       "Defense": 40,
-      "Sp. Attack": 60,
-      "Sp. Defense": 40,
+      "specialAttack": 60,
+      "specialDefense": 40,
       "Speed": 70
     }
   },
@@ -14140,8 +14140,8 @@ var data = [{
       "HP": 65,
       "Attack": 85,
       "Defense": 50,
-      "Sp. Attack": 80,
-      "Sp. Defense": 50,
+      "specialAttack": 80,
+      "specialDefense": 50,
       "Speed": 90
     }
   },
@@ -14160,8 +14160,8 @@ var data = [{
       "HP": 95,
       "Attack": 115,
       "Defense": 90,
-      "Sp. Attack": 80,
-      "Sp. Defense": 90,
+      "specialAttack": 80,
+      "specialDefense": 90,
       "Speed": 60
     }
   },
@@ -14179,8 +14179,8 @@ var data = [{
       "HP": 50,
       "Attack": 54,
       "Defense": 54,
-      "Sp. Attack": 66,
-      "Sp. Defense": 56,
+      "specialAttack": 66,
+      "specialDefense": 56,
       "Speed": 40
     }
   },
@@ -14198,8 +14198,8 @@ var data = [{
       "HP": 60,
       "Attack": 69,
       "Defense": 69,
-      "Sp. Attack": 91,
-      "Sp. Defense": 81,
+      "specialAttack": 91,
+      "specialDefense": 81,
       "Speed": 50
     }
   },
@@ -14218,8 +14218,8 @@ var data = [{
       "HP": 80,
       "Attack": 74,
       "Defense": 74,
-      "Sp. Attack": 126,
-      "Sp. Defense": 116,
+      "specialAttack": 126,
+      "specialDefense": 116,
       "Speed": 60
     }
   },
@@ -14238,8 +14238,8 @@ var data = [{
       "HP": 35,
       "Attack": 75,
       "Defense": 30,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 65
     }
   },
@@ -14258,8 +14258,8 @@ var data = [{
       "HP": 55,
       "Attack": 85,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
       "Speed": 75
     }
   },
@@ -14278,8 +14278,8 @@ var data = [{
       "HP": 80,
       "Attack": 120,
       "Defense": 75,
-      "Sp. Attack": 75,
-      "Sp. Defense": 75,
+      "specialAttack": 75,
+      "specialDefense": 75,
       "Speed": 60
     }
   },
@@ -14297,8 +14297,8 @@ var data = [{
       "HP": 48,
       "Attack": 70,
       "Defense": 30,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
       "Speed": 45
     }
   },
@@ -14316,8 +14316,8 @@ var data = [{
       "HP": 88,
       "Attack": 110,
       "Defense": 60,
-      "Sp. Attack": 55,
-      "Sp. Defense": 60,
+      "specialAttack": 55,
+      "specialDefense": 60,
       "Speed": 45
     }
   },
@@ -14335,8 +14335,8 @@ var data = [{
       "HP": 47,
       "Attack": 62,
       "Defense": 45,
-      "Sp. Attack": 55,
-      "Sp. Defense": 45,
+      "specialAttack": 55,
+      "specialDefense": 45,
       "Speed": 46
     }
   },
@@ -14355,8 +14355,8 @@ var data = [{
       "HP": 57,
       "Attack": 82,
       "Defense": 95,
-      "Sp. Attack": 55,
-      "Sp. Defense": 75,
+      "specialAttack": 55,
+      "specialDefense": 75,
       "Speed": 36
     }
   },
@@ -14375,8 +14375,8 @@ var data = [{
       "HP": 77,
       "Attack": 70,
       "Defense": 90,
-      "Sp. Attack": 145,
-      "Sp. Defense": 75,
+      "specialAttack": 145,
+      "specialDefense": 75,
       "Speed": 43
     }
   },
@@ -14394,8 +14394,8 @@ var data = [{
       "HP": 47,
       "Attack": 82,
       "Defense": 57,
-      "Sp. Attack": 42,
-      "Sp. Defense": 47,
+      "specialAttack": 42,
+      "specialDefense": 47,
       "Speed": 63
     }
   },
@@ -14414,8 +14414,8 @@ var data = [{
       "HP": 97,
       "Attack": 132,
       "Defense": 77,
-      "Sp. Attack": 62,
-      "Sp. Defense": 67,
+      "specialAttack": 62,
+      "specialDefense": 67,
       "Speed": 43
     }
   },
@@ -14434,8 +14434,8 @@ var data = [{
       "HP": 75,
       "Attack": 70,
       "Defense": 70,
-      "Sp. Attack": 98,
-      "Sp. Defense": 70,
+      "specialAttack": 98,
+      "specialDefense": 70,
       "Speed": 93
     }
   },
@@ -14454,8 +14454,8 @@ var data = [{
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 55,
-      "Sp. Defense": 40,
+      "specialAttack": 55,
+      "specialDefense": 40,
       "Speed": 84
     }
   },
@@ -14474,8 +14474,8 @@ var data = [{
       "HP": 60,
       "Attack": 55,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 70,
+      "specialAttack": 95,
+      "specialDefense": 70,
       "Speed": 124
     }
   },
@@ -14493,8 +14493,8 @@ var data = [{
       "HP": 45,
       "Attack": 65,
       "Defense": 40,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
+      "specialAttack": 30,
+      "specialDefense": 40,
       "Speed": 60
     }
   },
@@ -14512,8 +14512,8 @@ var data = [{
       "HP": 75,
       "Attack": 115,
       "Defense": 65,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
       "Speed": 112
     }
   },
@@ -14531,8 +14531,8 @@ var data = [{
       "HP": 45,
       "Attack": 20,
       "Defense": 20,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "specialAttack": 25,
+      "specialDefense": 25,
       "Speed": 40
     }
   },
@@ -14551,8 +14551,8 @@ var data = [{
       "HP": 50,
       "Attack": 53,
       "Defense": 62,
-      "Sp. Attack": 43,
-      "Sp. Defense": 52,
+      "specialAttack": 43,
+      "specialDefense": 52,
       "Speed": 45
     }
   },
@@ -14571,8 +14571,8 @@ var data = [{
       "HP": 50,
       "Attack": 63,
       "Defense": 152,
-      "Sp. Attack": 53,
-      "Sp. Defense": 142,
+      "specialAttack": 53,
+      "specialDefense": 142,
       "Speed": 35
     }
   },
@@ -14590,8 +14590,8 @@ var data = [{
       "HP": 70,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
       "Speed": 45
     }
   },
@@ -14609,8 +14609,8 @@ var data = [{
       "HP": 100,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 85,
+      "specialAttack": 55,
+      "specialDefense": 85,
       "Speed": 35
     }
   },
@@ -14629,8 +14629,8 @@ var data = [{
       "HP": 38,
       "Attack": 40,
       "Defense": 52,
-      "Sp. Attack": 40,
-      "Sp. Defense": 72,
+      "specialAttack": 40,
+      "specialDefense": 72,
       "Speed": 27
     }
   },
@@ -14649,8 +14649,8 @@ var data = [{
       "HP": 68,
       "Attack": 70,
       "Defense": 92,
-      "Sp. Attack": 50,
-      "Sp. Defense": 132,
+      "specialAttack": 50,
+      "specialDefense": 132,
       "Speed": 42
     }
   },
@@ -14668,8 +14668,8 @@ var data = [{
       "HP": 40,
       "Attack": 55,
       "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 35,
+      "specialAttack": 50,
+      "specialDefense": 35,
       "Speed": 35
     }
   },
@@ -14687,8 +14687,8 @@ var data = [{
       "HP": 70,
       "Attack": 105,
       "Defense": 90,
-      "Sp. Attack": 80,
-      "Sp. Defense": 90,
+      "specialAttack": 80,
+      "specialDefense": 90,
       "Speed": 45
     }
   },
@@ -14707,8 +14707,8 @@ var data = [{
       "HP": 40,
       "Attack": 35,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
       "Speed": 15
     }
   },
@@ -14727,8 +14727,8 @@ var data = [{
       "HP": 60,
       "Attack": 45,
       "Defense": 80,
-      "Sp. Attack": 90,
-      "Sp. Defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 100,
       "Speed": 30
     }
   },
@@ -14747,8 +14747,8 @@ var data = [{
       "HP": 48,
       "Attack": 44,
       "Defense": 40,
-      "Sp. Attack": 71,
-      "Sp. Defense": 40,
+      "specialAttack": 71,
+      "specialDefense": 40,
       "Speed": 77
     }
   },
@@ -14767,8 +14767,8 @@ var data = [{
       "HP": 68,
       "Attack": 64,
       "Defense": 60,
-      "Sp. Attack": 111,
-      "Sp. Defense": 60,
+      "specialAttack": 111,
+      "specialDefense": 60,
       "Speed": 117
     }
   },
@@ -14787,8 +14787,8 @@ var data = [{
       "HP": 70,
       "Attack": 75,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 50,
       "Speed": 50
     }
   },
@@ -14807,8 +14807,8 @@ var data = [{
       "HP": 120,
       "Attack": 125,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 60,
+      "specialAttack": 55,
+      "specialDefense": 60,
       "Speed": 60
     }
   },
@@ -14826,8 +14826,8 @@ var data = [{
       "HP": 42,
       "Attack": 30,
       "Defense": 38,
-      "Sp. Attack": 30,
-      "Sp. Defense": 38,
+      "specialAttack": 30,
+      "specialDefense": 38,
       "Speed": 32
     }
   },
@@ -14845,8 +14845,8 @@ var data = [{
       "HP": 52,
       "Attack": 40,
       "Defense": 48,
-      "Sp. Attack": 40,
-      "Sp. Defense": 48,
+      "specialAttack": 40,
+      "specialDefense": 48,
       "Speed": 62
     }
   },
@@ -14864,8 +14864,8 @@ var data = [{
       "HP": 72,
       "Attack": 120,
       "Defense": 98,
-      "Sp. Attack": 50,
-      "Sp. Defense": 98,
+      "specialAttack": 50,
+      "specialDefense": 98,
       "Speed": 72
     }
   },
@@ -14883,8 +14883,8 @@ var data = [{
       "HP": 51,
       "Attack": 52,
       "Defense": 90,
-      "Sp. Attack": 82,
-      "Sp. Defense": 110,
+      "specialAttack": 82,
+      "specialDefense": 110,
       "Speed": 100
     }
   },
@@ -14903,8 +14903,8 @@ var data = [{
       "HP": 90,
       "Attack": 60,
       "Defense": 80,
-      "Sp. Attack": 90,
-      "Sp. Defense": 110,
+      "specialAttack": 90,
+      "specialDefense": 110,
       "Speed": 60
     }
   },
@@ -14922,8 +14922,8 @@ var data = [{
       "HP": 100,
       "Attack": 120,
       "Defense": 90,
-      "Sp. Attack": 40,
-      "Sp. Defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
       "Speed": 80
     }
   },
@@ -14942,8 +14942,8 @@ var data = [{
       "HP": 25,
       "Attack": 35,
       "Defense": 40,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 30,
       "Speed": 80
     }
   },
@@ -14962,8 +14962,8 @@ var data = [{
       "HP": 75,
       "Attack": 125,
       "Defense": 140,
-      "Sp. Attack": 60,
-      "Sp. Defense": 90,
+      "specialAttack": 60,
+      "specialDefense": 90,
       "Speed": 40
     }
   },
@@ -14982,8 +14982,8 @@ var data = [{
       "HP": 55,
       "Attack": 55,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 45,
+      "specialAttack": 70,
+      "specialDefense": 45,
       "Speed": 15
     }
   },
@@ -15002,8 +15002,8 @@ var data = [{
       "HP": 85,
       "Attack": 75,
       "Defense": 110,
-      "Sp. Attack": 100,
-      "Sp. Defense": 75,
+      "specialAttack": 100,
+      "specialDefense": 75,
       "Speed": 35
     }
   },
@@ -15021,8 +15021,8 @@ var data = [{
       "HP": 55,
       "Attack": 60,
       "Defense": 130,
-      "Sp. Attack": 30,
-      "Sp. Defense": 130,
+      "specialAttack": 30,
+      "specialDefense": 130,
       "Speed": 5
     }
   },
@@ -15040,8 +15040,8 @@ var data = [{
       "HP": 95,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 95,
       "Speed": 59
     }
   },
@@ -15059,8 +15059,8 @@ var data = [{
       "HP": 95,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 95,
       "Speed": 95
     }
   },
@@ -15079,8 +15079,8 @@ var data = [{
       "HP": 60,
       "Attack": 60,
       "Defense": 100,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
+      "specialAttack": 60,
+      "specialDefense": 100,
       "Speed": 60
     }
   },
@@ -15098,8 +15098,8 @@ var data = [{
       "HP": 65,
       "Attack": 115,
       "Defense": 65,
-      "Sp. Attack": 75,
-      "Sp. Defense": 95,
+      "specialAttack": 75,
+      "specialDefense": 95,
       "Speed": 65
     }
   },
@@ -15118,8 +15118,8 @@ var data = [{
       "HP": 60,
       "Attack": 78,
       "Defense": 135,
-      "Sp. Attack": 91,
-      "Sp. Defense": 85,
+      "specialAttack": 91,
+      "specialDefense": 85,
       "Speed": 36
     }
   },
@@ -15138,8 +15138,8 @@ var data = [{
       "HP": 65,
       "Attack": 98,
       "Defense": 63,
-      "Sp. Attack": 40,
-      "Sp. Defense": 73,
+      "specialAttack": 40,
+      "specialDefense": 73,
       "Speed": 96
     }
   },
@@ -15158,8 +15158,8 @@ var data = [{
       "HP": 55,
       "Attack": 90,
       "Defense": 80,
-      "Sp. Attack": 50,
-      "Sp. Defense": 105,
+      "specialAttack": 50,
+      "specialDefense": 105,
       "Speed": 96
     }
   },
@@ -15178,8 +15178,8 @@ var data = [{
       "HP": 68,
       "Attack": 105,
       "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
       "Speed": 92
     }
   },
@@ -15198,8 +15198,8 @@ var data = [{
       "HP": 78,
       "Attack": 60,
       "Defense": 85,
-      "Sp. Attack": 135,
-      "Sp. Defense": 91,
+      "specialAttack": 135,
+      "specialDefense": 91,
       "Speed": 36
     }
   },
@@ -15218,8 +15218,8 @@ var data = [{
       "HP": 70,
       "Attack": 131,
       "Defense": 100,
-      "Sp. Attack": 86,
-      "Sp. Defense": 90,
+      "specialAttack": 86,
+      "specialDefense": 90,
       "Speed": 40
     }
   },
@@ -15237,8 +15237,8 @@ var data = [{
       "HP": 45,
       "Attack": 55,
       "Defense": 65,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
       "Speed": 45
     }
   },
@@ -15257,8 +15257,8 @@ var data = [{
       "HP": 55,
       "Attack": 75,
       "Defense": 90,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
       "Speed": 65
     }
   },
@@ -15277,8 +15277,8 @@ var data = [{
       "HP": 75,
       "Attack": 110,
       "Defense": 125,
-      "Sp. Attack": 100,
-      "Sp. Defense": 105,
+      "specialAttack": 100,
+      "specialDefense": 105,
       "Speed": 85
     }
   },
@@ -15297,8 +15297,8 @@ var data = [{
       "HP": 70,
       "Attack": 115,
       "Defense": 85,
-      "Sp. Attack": 95,
-      "Sp. Defense": 75,
+      "specialAttack": 95,
+      "specialDefense": 75,
       "Speed": 130
     }
   },
@@ -15317,8 +15317,8 @@ var data = [{
       "HP": 70,
       "Attack": 85,
       "Defense": 75,
-      "Sp. Attack": 130,
-      "Sp. Defense": 115,
+      "specialAttack": 130,
+      "specialDefense": 115,
       "Speed": 95
     }
   },
@@ -15337,8 +15337,8 @@ var data = [{
       "HP": 70,
       "Attack": 130,
       "Defense": 115,
-      "Sp. Attack": 85,
-      "Sp. Defense": 95,
+      "specialAttack": 85,
+      "specialDefense": 95,
       "Speed": 75
     }
   },
@@ -15357,8 +15357,8 @@ var data = [{
       "HP": 70,
       "Attack": 75,
       "Defense": 115,
-      "Sp. Attack": 95,
-      "Sp. Defense": 130,
+      "specialAttack": 95,
+      "specialDefense": 130,
       "Speed": 85
     }
   },
@@ -15376,8 +15376,8 @@ var data = [{
       "HP": 43,
       "Attack": 29,
       "Defense": 31,
-      "Sp. Attack": 29,
-      "Sp. Defense": 31,
+      "specialAttack": 29,
+      "specialDefense": 31,
       "Speed": 37
     }
   },
@@ -15395,8 +15395,8 @@ var data = [{
       "HP": 43,
       "Attack": 29,
       "Defense": 131,
-      "Sp. Attack": 29,
-      "Sp. Defense": 131,
+      "specialAttack": 29,
+      "specialDefense": 131,
       "Speed": 37
     }
   },
@@ -15415,8 +15415,8 @@ var data = [{
       "HP": 137,
       "Attack": 137,
       "Defense": 107,
-      "Sp. Attack": 113,
-      "Sp. Defense": 89,
+      "specialAttack": 113,
+      "specialDefense": 89,
       "Speed": 97
     }
   },
@@ -15435,8 +15435,8 @@ var data = [{
       "HP": 137,
       "Attack": 113,
       "Defense": 89,
-      "Sp. Attack": 137,
-      "Sp. Defense": 107,
+      "specialAttack": 137,
+      "specialDefense": 107,
       "Speed": 97
     }
   },
@@ -15455,8 +15455,8 @@ var data = [{
       "HP": 109,
       "Attack": 53,
       "Defense": 47,
-      "Sp. Attack": 127,
-      "Sp. Defense": 131,
+      "specialAttack": 127,
+      "specialDefense": 131,
       "Speed": 103
     }
   },
@@ -15475,8 +15475,8 @@ var data = [{
       "HP": 107,
       "Attack": 139,
       "Defense": 139,
-      "Sp. Attack": 53,
-      "Sp. Defense": 53,
+      "specialAttack": 53,
+      "specialDefense": 53,
       "Speed": 79
     }
   },
@@ -15495,8 +15495,8 @@ var data = [{
       "HP": 71,
       "Attack": 137,
       "Defense": 37,
-      "Sp. Attack": 137,
-      "Sp. Defense": 37,
+      "specialAttack": 137,
+      "specialDefense": 37,
       "Speed": 151
     }
   },
@@ -15514,8 +15514,8 @@ var data = [{
       "HP": 83,
       "Attack": 89,
       "Defense": 71,
-      "Sp. Attack": 173,
-      "Sp. Defense": 71,
+      "specialAttack": 173,
+      "specialDefense": 71,
       "Speed": 83
     }
   },
@@ -15534,8 +15534,8 @@ var data = [{
       "HP": 97,
       "Attack": 101,
       "Defense": 103,
-      "Sp. Attack": 107,
-      "Sp. Defense": 101,
+      "specialAttack": 107,
+      "specialDefense": 101,
       "Speed": 61
     }
   },
@@ -15554,8 +15554,8 @@ var data = [{
       "HP": 59,
       "Attack": 181,
       "Defense": 131,
-      "Sp. Attack": 59,
-      "Sp. Defense": 31,
+      "specialAttack": 59,
+      "specialDefense": 31,
       "Speed": 109
     }
   },
@@ -15574,8 +15574,8 @@ var data = [{
       "HP": 223,
       "Attack": 101,
       "Defense": 53,
-      "Sp. Attack": 97,
-      "Sp. Defense": 53,
+      "specialAttack": 97,
+      "specialDefense": 53,
       "Speed": 43
     }
   },
@@ -15593,8 +15593,8 @@ var data = [{
       "HP": 97,
       "Attack": 107,
       "Defense": 101,
-      "Sp. Attack": 127,
-      "Sp. Defense": 89,
+      "specialAttack": 127,
+      "specialDefense": 89,
       "Speed": 79
     }
   },
@@ -15613,8 +15613,8 @@ var data = [{
       "HP": 80,
       "Attack": 95,
       "Defense": 115,
-      "Sp. Attack": 130,
-      "Sp. Defense": 115,
+      "specialAttack": 130,
+      "specialDefense": 115,
       "Speed": 65
     }
   },
@@ -15633,8 +15633,8 @@ var data = [{
       "HP": 90,
       "Attack": 125,
       "Defense": 80,
-      "Sp. Attack": 90,
-      "Sp. Defense": 90,
+      "specialAttack": 90,
+      "specialDefense": 90,
       "Speed": 125
     }
   },
@@ -15652,8 +15652,8 @@ var data = [{
       "HP": 67,
       "Attack": 73,
       "Defense": 67,
-      "Sp. Attack": 73,
-      "Sp. Defense": 67,
+      "specialAttack": 73,
+      "specialDefense": 67,
       "Speed": 73
     }
   },
@@ -15672,8 +15672,8 @@ var data = [{
       "HP": 73,
       "Attack": 73,
       "Defense": 73,
-      "Sp. Attack": 127,
-      "Sp. Defense": 73,
+      "specialAttack": 127,
+      "specialDefense": 73,
       "Speed": 121
     }
   },
@@ -15692,8 +15692,8 @@ var data = [{
       "HP": 61,
       "Attack": 131,
       "Defense": 211,
-      "Sp. Attack": 53,
-      "Sp. Defense": 101,
+      "specialAttack": 53,
+      "specialDefense": 101,
       "Speed": 13
     }
   },
@@ -15712,8 +15712,8 @@ var data = [{
       "HP": 53,
       "Attack": 127,
       "Defense": 53,
-      "Sp. Attack": 151,
-      "Sp. Defense": 79,
+      "specialAttack": 151,
+      "specialDefense": 79,
       "Speed": 107
     }
   },
@@ -15731,8 +15731,8 @@ var data = [{
       "HP": 88,
       "Attack": 112,
       "Defense": 75,
-      "Sp. Attack": 102,
-      "Sp. Defense": 80,
+      "specialAttack": 102,
+      "specialDefense": 80,
       "Speed": 143
     }
   },
@@ -15750,8 +15750,8 @@ var data = [{
       "HP": 46,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 55,
-      "Sp. Defense": 35,
+      "specialAttack": 55,
+      "specialDefense": 35,
       "Speed": 34
     }
   },
@@ -15769,8 +15769,8 @@ var data = [{
       "HP": 135,
       "Attack": 143,
       "Defense": 143,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
+      "specialAttack": 80,
+      "specialDefense": 65,
       "Speed": 34
     }
   }
