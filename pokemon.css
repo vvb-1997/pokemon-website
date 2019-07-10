@@ -75,12 +75,12 @@ p {
   transition: all 0.40s ease-out;
 }
 #f1_container:hover #f1_card {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) translate(50%);
 }
 .face {
   position:absolute;
   margin: auto;
-  width: 100%;
+  width: 50%;
   height: 100%;
   backface-visibility: hidden;
 }
