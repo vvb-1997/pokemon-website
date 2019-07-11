@@ -15,7 +15,7 @@
   transition: transform 0.6s;
   transform-style: preserve-3d;
 } */
-p {
+.para {
   /* display: inline-flex; */
   width: max-content !important;
   color: red;
