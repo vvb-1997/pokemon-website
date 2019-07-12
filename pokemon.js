@@ -34,14 +34,14 @@ Object.keys(data).forEach(function(k) {
   var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
    var info = data[k].base;
   // console.log(img);
-  html_out += "<div id='" + k + "'class='col-sm-3'><div id = 'f1_container' ><div id = 'f1_card' class = 'shadow1'><div class = 'front face' ><p class = 'para'>Name: " +
-    data[k].name.english + "</p><p class = 'para'> Type: " + data[k].type[0] + data[k].type[1] +"</div>"+
-    "<div class = 'back face center'></p>HP : "+info.HP+
+  html_out += "<div id='" + k + "'class='col-sm-3'><p class = 'para'>Name: " +
+    data[k].name.english + "</p><p class = 'para'> Type: " + data[k].type[0] + data[k].type[1] +
+    "</p>HP : "+info.HP+
     "<br> Attack: "+info.Attack+
     "<br> Special Attack : "+info.specialAttack+
     " <br> Special Defense: "+info.specialDefense+
     "<br> Speed: "+info.Speed+
-    "<button class = 'btn btn-success'> <img src='" + img + "'></img></button></div></div></div></div>";
+    "<button class = 'btn btn-success'> <img src='" + img + "'></img></button></div>";
     // <div id="f1_container">
     // <div id="f1_card" class="shadow">
     //   <div class="front face">
@@ -53,7 +53,6 @@ Object.keys(data).forEach(function(k) {
     //   </div>
     // </div>
     // </div>
-
   if (k % 3 == 2) {
     html_out += "</div>"
   }
@@ -65,6 +64,15 @@ Object.keys(data).forEach(function(k) {
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
 });
+// const search = document.getElementById('search');
+// const matchList = document.getElementById('match-list');
+// const searchPokemon = async searchText => {
+//   const res = await fetch('pokedex.json');
+//   const pokemon = await res.json();
+//   console.log(pokemon);
+// };
+// search.addEventListener('input', () => searchPokemon(search.value));
+
 // document.getElementById('#'+k).style.color='red';
 // async function getData() {
 //   const response = await fetch(url);
