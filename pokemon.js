@@ -15,11 +15,12 @@ function addzeros(number, length) {
   return num;
 }
 
-
+console.log(data);
 function spaceToUnderscore(pokemonName) {
   return pokemonName.replace(/\s/gi, "_");
 }
 Object.keys(data).forEach(function(k) {
+  // console.log(k);
   var power = data[k].base;
   if (k % 3 == 0) {
     html_out += "<br><div class='row'>";
@@ -64,9 +65,15 @@ Object.keys(data).forEach(function(k) {
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
 });
+names=[]
+Object.keys(data).forEach(function(k) {
+  names.push(data[k]["name"]["english"]);
+});
+
+
 $(function(){
   $("#search").autocomplete({
-    source:data
+    source:names
   });
 });
 // const search = document.getElementById('search');
