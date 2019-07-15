@@ -41,7 +41,7 @@ Object.keys(data).forEach(function(k) {
     "<br> Special Attack : "+info.specialAttack+
     " <br> Special Defense: "+info.specialDefense+
     "<br> Speed: "+info.Speed+
-    "<button class = 'btn btn-success'> <img src='" + img + "'></img></button></div>";
+    "<button class = 'btn btn-success'><p class='more'>More<i class='fas fa-angle-double-right'></i></p></button></div>";
     // <div id="f1_container">
     // <div id="f1_card" class="shadow">
     //   <div class="front face">
@@ -63,6 +63,11 @@ Object.keys(data).forEach(function(k) {
   var img_tag = "images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
+});
+$(function(){
+  $("#search").autocomplete({
+    source:data
+  });
 });
 // const search = document.getElementById('search');
 // const matchList = document.getElementById('match-list');
