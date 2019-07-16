@@ -15,7 +15,7 @@ function addzeros(number, length) {
   return num;
 }
 
-console.log(data);
+// console.log(data);
 function spaceToUnderscore(pokemonName) {
   return pokemonName.replace(/\s/gi, "_");
 }
@@ -32,28 +32,29 @@ Object.keys(data).forEach(function(k) {
   }
   // var img_tag="<img src='../pokemon_data/images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png' alt='pokemon image' </img>";
   // console.log(img_tag);
-  var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
-   var info = data[k].base;
+  // var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
+  var info = data[k].base;
   // console.log(img);
-  html_out += "<div id='" + k + "'class='col-sm-3'><p class = 'para'>Name: " +
-    data[k].name.english + "</p><p class = 'para'> Type: " + data[k].type[0] + data[k].type[1] +
-    "</p>HP : "+info.HP+
-    "<br> Attack: "+info.Attack+
-    "<br> Special Attack : "+info.specialAttack+
-    " <br> Special Defense: "+info.specialDefense+
-    "<br> Speed: "+info.Speed+
-    "<button class = 'btn btn-success'><p class='more'>More<i class='fas fa-angle-double-right'></i></p></button></div>";
-    // <div id="f1_container">
-    // <div id="f1_card" class="shadow">
-    //   <div class="front face">
-    //     <img src="/images/Windows%20Logo.jpg"/>
-    //   </div>
-    //   <div class="back face center">
-    //     <p>This is nice for exposing more information about an image.</p>
-    //     <p>Any content can go here.</p>
-    //   </div>
-    // </div>
-    // </div>
+  html_out += "<div id='" + k + "' class='col-sm-3'><p class = 'para'>Name: " +
+    data[k].name.english + "HP : " + info.HP + "</p>" + "<p class = 'para'>" +
+    "</p>Type: " + data[k].type[0] + data[k].type[1] +
+    "<br> Attack: " + info.Attack +
+    "<br> Special Attack : " + info.specialAttack +
+    " <br> Special Defense: " + info.specialDefense +
+    "<br> Speed: " + info.Speed +
+    "<button class = 'btn btn-success'><p class='more'>More<i class='fas fa-angle-double-right'></i>" +
+    "</p></button></div>";
+  // <div id="f1_container">
+  // <div id="f1_card" class="shadow">
+  //   <div class="front face">
+  //     <img src="/images/Windows%20Logo.jpg"/>
+  //   </div>
+  //   <div class="back face center">
+  //     <p>This is nice for exposing more information about an image.</p>
+  //     <p>Any content can go here.</p>
+  //   </div>
+  // </div>
+  // </div>
   if (k % 3 == 2) {
     html_out += "</div>"
   }
@@ -65,15 +66,15 @@ Object.keys(data).forEach(function(k) {
   $('#' + k).css('background', 'url(' + img_tag + ')');
   // document.getElementById('#'+k).style.color = 'red';
 });
-names=[]
+names = []
 Object.keys(data).forEach(function(k) {
   names.push(data[k]["name"]["english"]);
 });
 
 
-$(function(){
+$(function() {
   $("#search").autocomplete({
-    source:names
+    source: names
   });
 });
 // const search = document.getElementById('search');
