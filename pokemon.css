@@ -9,14 +9,22 @@
 
 .para {
   width: max-content !important;
-  color: red;
+  position: absolute;
+  top: -5px;
+  left: 80%;
   line-height: 50px;
-  font-size: 150%;
+  font-size: 120%;
+  color: red;
+  font-family: arial;
 }
-
-.col-sm-3 {
-  ;
-  width: 200%;
+.para1{
+  font-size: 150%;
+  position: relative;
+  top: -45px;
+  left: -20px;
+}
+.col-md-3 {
+  width: 100%;
   margin: 10px auto;
   padding: 50px;
   border: 1px solid #ddd;

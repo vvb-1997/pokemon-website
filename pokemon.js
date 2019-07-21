@@ -35,8 +35,8 @@ Object.keys(data).forEach(function(k) {
   // var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
   var info = data[k].base;
   // console.log(img);
-  html_out += "<div id='" + k + "' class='col-sm-3'><p class = 'para'>Name: " +
-    data[k].name.english + "HP : " + info.HP + "</p>" + "<p class = 'para'>" +
+  html_out += "<div  class='col-md-3'><p class = 'para1'><b>" +
+    data[k].name.english +"</p><p class = 'para'> "+info.HP + " HP </p></b>"+"<div id='" + k + "' class='col-md-3 img-rounded'></div>" + "<p class = 'para'>" +
     "</p>Type: " + data[k].type[0] + data[k].type[1] +
     "<br> Attack: " + info.Attack +
     "<br> Special Attack : " + info.specialAttack +
