@@ -1,7 +1,7 @@
 // var url = "https://raw.githubusercontent.com/VVB2/pokemon.json/master/pokedex.json";
 var url = "https://github.com/VVB2/pokemon.json/blob/master/pokedex.json";
 
-var html_out = "<div class='container-fluid'>";
+var html_out = "<div id='main_div' class='container-fluid'>";
 
 function scores(power) {
   return power.Attack;
@@ -30,13 +30,11 @@ Object.keys(data).forEach(function(k) {
   } else {
     data[k].type[1] = "," + data[k].type[1];
   }
-  // var img_tag="<img src='../pokemon_data/images/"+addzeros(parseInt(k)+1,3)+spaceToUnderscore(data[k].name.english)+".png' alt='pokemon image' </img>";
-  // console.log(img_tag);
-  // var img = "images/pokemon-sprites/" + addzeros(parseInt(k) + 1, 3) + "MS.png";
+
   var info = data[k].base;
-  // console.log(img);
-  html_out += "<div  class='col-md-3'><p class = 'para1'><b>" +
-    data[k].name.english +"</p><p class = 'para'> "+info.HP + " HP </p></b>"+"<div id='" + k + "' class='col-md-3 img-rounded'></div>" + "<p class = 'para'>" +
+
+  html_out += "<div id='" +spaceToUnderscore(data[k].name.english)+ "'class='col-md-3'><p class = 'para1'><b>" +
+    data[k].name.english +"</p><p class = 'para'> "+info.HP + " HP </p></b>"+"<div class='col-md-3 img-rounded'></div>" + "<p class = 'para'>" +
     "</p>Type: " + data[k].type[0] + data[k].type[1] +
     "<br> Attack: " + info.Attack +
     "<br> Special Attack : " + info.specialAttack +
@@ -44,17 +42,7 @@ Object.keys(data).forEach(function(k) {
     "<br> Speed: " + info.Speed +
     "<button class = 'btn btn-success'><p class='more'>More<i class='fas fa-angle-double-right'></i>" +
     "</p></button></div>";
-  // <div id="f1_container">
-  // <div id="f1_card" class="shadow">
-  //   <div class="front face">
-  //     <img src="/images/Windows%20Logo.jpg"/>
-  //   </div>
-  //   <div class="back face center">
-  //     <p>This is nice for exposing more information about an image.</p>
-  //     <p>Any content can go here.</p>
-  //   </div>
-  // </div>
-  // </div>
+
   if (k % 3 == 2) {
     html_out += "</div>"
   }
@@ -64,7 +52,7 @@ $(".out").append(html_out + "</div>");
 Object.keys(data).forEach(function(k) {
   var img_tag = "images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png";
   $('#' + k).css('background', 'url(' + img_tag + ')');
-  // document.getElementById('#'+k).style.color = 'red';
+
 });
 names = []
 Object.keys(data).forEach(function(k) {
@@ -78,41 +66,13 @@ $(function() {
           var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(request.term), "i");
           response($.map(names, function(item) {
                if (matcher.test(item)) {
-                   return (item)
+                 
+                 $("#main_div").children().hide();
+                 console.log("#"+spaceToUnderscore(item));
+                 $("#"+spaceToUnderscore(item)).parent().show();
+                 return (item)
                }
           }));
       }
   });
 });
-// const search = document.getElementById('search');
-// const matchList = document.getElementById('match-list');
-// const searchPokemon = async searchText => {
-//   const res = await fetch('pokedex.json');
-//   const pokemon = await res.json();
-//   console.log(pokemon);
-// };
-// search.addEventListener('input', () => searchPokemon(search.value));
-
-// document.getElementById('#'+k).style.color='red';
-// async function getData() {
-//   const response = await fetch(url);
-//   const data = await response.json();
-//   //    console.log(data);
-//   //    var output=$(".out");
-//   var html_out = " ";
-//
-//   function scores(power) {
-//     return power.Attack;
-//   }
-//   Object.keys(data).forEach(function(k) {
-//     //    console.log(data[k]);
-//     var power = data[k].base;
-//     console.log(power);
-//     html_out += "<div class='container'> <p class='name'>Name:</p>"+ data[k].name.english + "<br>" + data[k].type + "<br>" + scores(power) + "<button class = 'btn-success'>Learn More</button> </div>";
-//   });
-//
-//   $(".out").append(html_out);
-// }
-//
-// getData();
-//console.log(pokemon);
