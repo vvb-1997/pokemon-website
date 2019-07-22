@@ -55,3 +55,4 @@
   padding-top: 3px;
   align-self: auto;
 }
+.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}

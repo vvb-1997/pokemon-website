@@ -73,7 +73,14 @@ Object.keys(data).forEach(function(k) {
 
 $(function(){
   $("#search").autocomplete({
-    source:names
+    source:function(request, response) {
+          var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(request.term), "i");
+          response($.map(names, function(item) {
+               if (matcher.test(item)) {
+                   return (item)
+               }
+          }));
+      }
   });
 });
 // const search = document.getElementById('search');
