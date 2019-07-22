@@ -7,16 +7,24 @@
   background: url();
 }
 
-
 .para {
   width: max-content !important;
-  color: red;
+  position: absolute;
+  top: -5px;
+  left: 80%;
   line-height: 50px;
-  font-size: 150%;
+  font-size: 120%;
+  color: red;
+  font-family: arial;
 }
-
-.col-sm-3 {;
-  width:200%;
+.para1{
+  font-size: 150%;
+  position: relative;
+  top: -45px;
+  left: -20px;
+}
+.col-md-3 {
+  width: 100%;
   margin: 10px auto;
   padding: 50px;
   border: 1px solid #ddd;
@@ -36,7 +44,8 @@
   display: block;
   background-color: blue;
 }
-.nav-item{
+
+.nav-item {
   padding-left: 100px;
   font-weight: 500;
 }
@@ -47,12 +56,54 @@
   box-shadow: none;
   background-color: black;
 }
-.more{
+
+.more {
   margin: 0px;
 }
-.fas{
+
+/* .fas{
   padding-left: 3px;
   padding-top: 3px;
-  align-self: auto;
+} */
+
+.floating {
+  font-size: 200%;
+  text-decoration: none;
 }
+
+.floating:hover {
+  text-decoration: none;
+}
+
+.fab {
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 30%;
+  align-items: center;
+  display: inline-grid;
+  height: 18%;
+  padding: 10px;
+}
+
+.page-footer {
+  background: #ddd;
+  margin-top: 50px;
+}
+
+/* .fa-google-plus-g,.fa-dribbble{
+  text-align: center;
+  padding: 2px;
+} */
+
+/* .fa-facebook-f{
+  background: #b0e0e6;
+  color: black;
+}
+.fa-facebook-f:hover{
+  background: blue;
+  width: 25%;
+  color: white;
+} */
+
 .ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}
