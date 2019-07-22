@@ -105,3 +105,5 @@
   width: 25%;
   color: white;
 } */
+
+.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}
