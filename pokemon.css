@@ -1,3 +1,6 @@
+body{
+  background: #ddd;
+}
 .container-fluid {
   width: 80%;
   display: grid;
@@ -6,7 +9,9 @@
   padding-top: 5%;
   background: url();
 }
-
+.hide:hover{
+  visibility: visible;
+}
 .para {
   width: max-content !important;
   position: absolute;
@@ -23,17 +28,20 @@
   top: -45px;
   left: -20px;
 }
+.col-md-12 img{
+  margin-left: 1%;
+}
+
 .col-md-3 {
-  width: 100%;
   margin: 10px auto;
   padding: 50px;
   border: 1px solid #ddd;
   box-shadow: 5px 10px 8px #888888;
-  background-position: center !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
 }
-
+.col-md-3 img{
+  width: 100%;
+  position: relative;
+}
 .btn-success {
   box-shadow: 5px 5px 8px #888888;
   border: none;
@@ -56,11 +64,22 @@
   box-shadow: none;
   background-color: black;
 }
-
+.col-md-3:hover{
+  background: #ccc;
+  box-shadow: none;
+  transition: 0.5s;
+}
 .more {
   margin: 0px;
 }
-
+.navbar{
+  background: #aaa;
+}
+.nav-link{
+  font-family: Comic Sans MS;
+  font-size: 110%;
+  font-weight: bold;
+}
 /* .fas{
   padding-left: 3px;
   padding-top: 3px;
