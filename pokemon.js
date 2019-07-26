@@ -56,13 +56,7 @@ Object.keys(data).forEach(function(k) {
   if (k % 3 == 2) {
     html_out += "</div>";
   }
-  $(document).ready(function() {
-    $(".col-md-3").click(function() {
-      $(".para2").animate({
-        left: '250px'
-      });
-    });
-  });
+
 
   //   if (data[k].type[0]=="Normal") {
   // document.getElementsByClassName('btn-success').style.backgroundColor = "red";
