@@ -59,14 +59,12 @@ Object.keys(data).forEach(function(k) {
   names.push(data[k]["name"]["english"]);
 });
 
-
 $(function() {
   $("#search").autocomplete({
     source:function(request, response) {
           var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(request.term), "i");
           response($.map(names, function(item) {
                if (matcher.test(item)) {
-                 
                  $("#main_div").children().hide();
                  console.log("#"+spaceToUnderscore(item));
                  $("#"+spaceToUnderscore(item)).parent().show();
