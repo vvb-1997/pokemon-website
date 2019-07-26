@@ -66,6 +66,7 @@ $(function() {
           response($.map(names, function(item) {
                if (matcher.test(item)) {
                  $("#main_div").children().hide();
+				  $("#main_div").children().hide();
                  console.log("#"+spaceToUnderscore(item));
                  $("#"+spaceToUnderscore(item)).parent().show();
                  return (item)
