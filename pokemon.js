@@ -74,7 +74,6 @@ Object.keys(data).forEach(function(k) {
   names.push(data[k]["name"]["english"]);
 });
 
-
 $(function() {
   $("#search").autocomplete({
     source: function(request, response) {
