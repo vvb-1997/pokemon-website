@@ -1,6 +1,7 @@
-body{
+body {
   background: #ddd;
 }
+
 .container-fluid {
   width: 80%;
   display: grid;
@@ -9,9 +10,11 @@ body{
   padding-top: 5%;
   background: url();
 }
-.hide:hover{
+
+.hide:hover {
   visibility: visible;
 }
+
 .para {
   width: max-content !important;
   position: absolute;
@@ -22,14 +25,40 @@ body{
   color: red;
   font-family: arial;
 }
-.para1{
+
+.para1 {
   font-size: 150%;
   position: relative;
   top: -45px;
   left: -20px;
 }
-.col-md-12 img{
-  margin-left: 1%;
+
+.overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.para2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.col-md-3:hover .para2 {
+  height: 50%;
 }
 
 .col-md-3 {
@@ -38,19 +67,10 @@ body{
   border: 1px solid #ddd;
   box-shadow: 5px 10px 8px #888888;
 }
-.col-md-3 img{
+
+.col-md-3 img {
   width: 100%;
   position: relative;
-}
-.btn-success {
-  box-shadow: 5px 5px 8px #888888;
-  border: none;
-  margin: 100px auto 0px;
-  width: 80px;
-  border-radius: 20%;
-  position: inherit;
-  display: block;
-  background-color: blue;
 }
 
 .nav-item {
@@ -58,32 +78,25 @@ body{
   font-weight: 500;
 }
 
-.btn-success:hover {
-  transition: 0.5s;
-  background-color: none;
-  box-shadow: none;
-  background-color: black;
-}
-.col-md-3:hover{
+.col-md-3:hover {
   background: #ccc;
   box-shadow: none;
   transition: 0.5s;
 }
+
 .more {
   margin: 0px;
 }
-.navbar{
+
+.navbar {
   background: #aaa;
 }
-.nav-link{
+
+.nav-link {
   font-family: Comic Sans MS;
   font-size: 110%;
   font-weight: bold;
 }
-/* .fas{
-  padding-left: 3px;
-  padding-top: 3px;
-} */
 
 .floating {
   font-size: 200%;
@@ -110,19 +123,8 @@ body{
   margin-top: 50px;
 }
 
-/* .fa-google-plus-g,.fa-dribbble{
-  text-align: center;
-  padding: 2px;
-} */
-
-/* .fa-facebook-f{
-  background: #b0e0e6;
-  color: black;
+.ui-autocomplete {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.fa-facebook-f:hover{
-  background: blue;
-  width: 25%;
-  color: white;
-} */
-
-.ui-autocomplete { height: 200px; overflow-y: scroll; overflow-x: hidden;}

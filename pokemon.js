@@ -3,7 +3,7 @@ var url = "https://github.com/VVB2/pokemon.json/blob/master/pokedex.json";
 
 var html_out = "<div id='main_div' class='container-fluid'>";
 
-function ImageSrc(k){
+function ImageSrc(k) {
   return ("images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(data[k].name.english) + ".png");
 }
 
@@ -37,30 +37,36 @@ Object.keys(data).forEach(function(k) {
 
   var info = data[k].base;
 
-  html_out += "<div id='" +spaceToUnderscore(data[k].name.english)+ "'class='col-md-3'><p class = 'para1'><b>" +
-    data[k].name.english +"</p><p class = 'para'> "+info.HP +
-    " HP </p></b>"+"<div class='col-md-12'><img src='"+ImageSrc(k)+"' alt = '"+data[k].name.english+" image'></img></div>" +
-    "<br>"+
-    "<div class = 'btn btn-success' id = 'info'>More<i class='fas fa-angle-double-right'></i>" +
-    "</div> <p class = 'para2' id = 'more'>"+
-    "Type: " + data[k].type[0] + data[k].type[1] +
+  html_out += "<div id='" + spaceToUnderscore(data[k].name.english) + "'class='col-md-3'><p class = 'para1'><b>" +
+    data[k].name.english + "</p><p class = 'para'> " + info.HP +
+    " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english + " image'></img></div>" +
+    "<br>" +
+    "<div class = 'para2' id = 'more'>" +
+    "<p class= 'overlay'>Type: " + data[k].type[0] + data[k].type[1] +
     "<br> Attack: " + info.Attack +
     "<br> Special Attack : " + info.specialAttack +
     " <br> Special Defense: " + info.specialDefense +
     "<br> Speed: " + info.Speed +
-    "</p></div>";
-    $(document).ready(function(){
-  $("#info").click(function(){
-    $("#more").toggle(1000);
+    "</p></div></div>";
+  $(document).ready(function() {
+    $("#info").click(function() {
+      $("#more").toggle(1000);
+    });
   });
-});
   if (k % 3 == 2) {
     html_out += "</div>";
   }
+  $(document).ready(function() {
+    $(".col-md-3").click(function() {
+      $(".para2").animate({
+        left: '250px'
+      });
+    });
+  });
 
-//   if (data[k].type[0]=="Normal") {
-// document.getElementsByClassName('btn-success').style.backgroundColor = "red";
-//  }
+  //   if (data[k].type[0]=="Normal") {
+  // document.getElementsByClassName('btn-success').style.backgroundColor = "red";
+  //  }
 });
 // console.log(html_out);
 $(".out").append(html_out + "</div>");
@@ -77,16 +83,16 @@ Object.keys(data).forEach(function(k) {
 
 $(function() {
   $("#search").autocomplete({
-    source:function(request, response) {
-          var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(request.term), "i");
-          response($.map(names, function(item) {
-               if (matcher.test(item)) {
-                 $("#main_div").children().hide();
-                 // console.log("#"+spaceToUnderscore(item));
-                 $("#"+spaceToUnderscore(item)).parent().show();
-                 return (item)
-               }
-          }));
-      }
+    source: function(request, response) {
+      var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(request.term), "i");
+      response($.map(names, function(item) {
+        if (matcher.test(item)) {
+          $("#main_div").children().hide();
+          // console.log("#"+spaceToUnderscore(item));
+          $("#" + spaceToUnderscore(item)).parent().show();
+          return (item)
+        }
+      }));
+    }
   });
 });
