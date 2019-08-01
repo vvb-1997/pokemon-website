@@ -41,7 +41,7 @@ Object.keys(data).forEach(function(k) {
     data[k].name.english + "</p><p class = 'para'> " + info.HP +
     " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english + " image'></img></div>" +
     "<br>" +
-    "<div class = 'para2' id = 'more'>" +
+    "<div class = 'para2'>" +
     "<p class= 'overlay'>Type: " + data[k].type[0] + data[k].type[1] +
     "<br> Attack: " + info.Attack +
     "<br> Special Attack : " + info.specialAttack +
