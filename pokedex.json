@@ -1,4 +1,4 @@
-var data = [{
+var pokemon_data = [{
     "id": 1,
     "name": {
       "english": "Bulbasaur",
