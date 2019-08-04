@@ -10,7 +10,8 @@ var names = values.names;
 $(".out").append(html_out + "</div>");
 
 Object.keys(mydata).forEach(function(k) {
-  var img_tag = "images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(mydata[k].name.english) + ".png";
+  var img_tag = "images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(mydata[k].name.english) +
+   ".png";
   $('#' + k).css('background', 'url(' + img_tag + ')');
 });
 

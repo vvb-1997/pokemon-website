@@ -15,26 +15,26 @@ body {
 .para {
   width: max-content !important;
   position: absolute;
-  top: -5px;
-  left: 80%;
+  top: -8px;
+  left: 74%;
   line-height: 50px;
-  font-size: 120%;
+  font-size: 110%;
   color: red;
   font-family: arial;
   cursor: default;
 }
 
 .para1 {
-  font-size: 150%;
-  position: relative;
-  top: -15%;
-  left: -20px;
+  font-size: 140%;
+  position: absolute;
+  top: 0px;
+  left: 10px;
   cursor: default;
 }
 
 .overlay {
   color: white;
-  font-size: 110%;
+  font-size: 120%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,7 +58,7 @@ body {
 }
 
 .col-md-3:hover .para2  {
-  height: 90%;
+  height: 86.75%;
 }
 
 .col-md-3 {

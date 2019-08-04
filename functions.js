@@ -29,20 +29,20 @@ function divMaker(data){
     if (data[k].type[1] == undefined) {
       data[k].type[1] = " ";
     } else {
-      data[k].type[1] = "," + data[k].type[1];
+      data[k].type[1] = " " + data[k].type[1];
     }
 
     var info = data[k].base;
 
     html_out += "<div id='" + spaceToUnderscore(data[k].name.english) + "'class='col-md-3'><p class = 'para1'><b>" +
       data[k].name.english + "</p><p class = 'para'> " + info.HP +
-      " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english + " image'></img></div>" +
+      " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english +
+      " image'></img></div>" +
       "<br>" +
       "<div class = 'para2'>" +
       "<p class= 'overlay'>Type: " + data[k].type[0] + data[k].type[1] +
       "<br> Attack: " + info.Attack +
-      "<br> Special Attack : " + info.specialAttack +
-      " <br> Special Defense: " + info.specialDefense +
+      "<br>Defense: " + info.specialDefense +
       "<br> Speed: " + info.Speed +
       "</p></div></div>";
     $(document).ready(function() {
