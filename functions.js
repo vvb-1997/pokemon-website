@@ -62,19 +62,17 @@ function divMaker(data){
 }
 
 function pushData(names){
-  function getKeys(obj, val) {
-    var objects = [];
-    for (var i in obj) {
-      console.log(i);
-        if (!obj.hasOwnProperty(i)) continue;
-        if (typeof obj[i] == 'object') {
-            objects = objects.concat(getKeys(obj[i], val));
-            console.log(objects);
-        } else if (obj[i] == val) {
-            objects.push(i);
+  function getKeys(object, value) {
+    var objectsID = [];
+    for (var val in value){
+      for (var obj in object){
+        if(value[val]==object[obj].name.english){
+          objectsID.push(object[obj]);
+          break;
         }
+      }
     }
-    return objects;
+    return objectsID;
   }
-  console.log(getKeys(pokemon_data,names));
+  return getKeys(mydata,names);
 }

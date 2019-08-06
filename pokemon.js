@@ -1,7 +1,7 @@
 // var url = "https://raw.githubusercontent.com/VVB2/pokemon.json/master/pokedex.json";
 var url = "https://github.com/VVB2/pokemon.json/blob/master/pokedex.json";
 
-var mydata=pokemon_data;
+var mydata=pokemon_data;//.slice(0,50);
 
 var values= divMaker(mydata);
 var html_out = values.html_out;
@@ -22,14 +22,16 @@ $(function() {
       var items_list=[];
       response($.map(names, function(item) {
         if (matcher.test(item)) {
-          console.log(item);
-          // $("#main_div").children().hide();
           // $("#" + spaceToUnderscore(item)).parent().show();
           items_list.push(item);
           return (item)
         }
       }));
-      pushData(items_list);
+      dataids=pushData(items_list);
+      console.log(dataids);
+      $('#main_div').remove();
+      var values = divMaker(dataids);
+      $(".out").append(values.html_out + "</div>");
     }
   });
 });
