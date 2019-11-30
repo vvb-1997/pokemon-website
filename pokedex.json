@@ -1598,7 +1598,7 @@ var pokemon_data = [{
   {
     "id": 83,
     "name": {
-      "english": "Farfetch\'d",
+      "english": "Farfetch-d",
       "japanese": "カモネギ",
       "chinese": "大葱鸭"
     },

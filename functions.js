@@ -24,7 +24,7 @@ function divMaker(data){
   Object.keys(data).forEach(function(k) {
     var power = data[k].base;
     if (k % 3 == 0) {
-      html_out += "<br><div class='row'>";
+      html_out += "<div class='row'>";
     }
     if (data[k].type[1] == undefined) {
       data[k].type[1] = " ";
@@ -34,7 +34,7 @@ function divMaker(data){
 
     var info = data[k].base;
 
-    html_out += "<div id='" + spaceToUnderscore(data[k].name.english) + "'class='col-md-3'><p class = 'para1'><b>" +
+    html_out += "<div id='" + spaceToUnderscore(data[k].name.english) + "'class='col-md-3 single-item'><p class = 'para1'><b>" +
       data[k].name.english + "</p><p class = 'para'> " + info.HP +
       " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english +
       " image'></img></div>" +
