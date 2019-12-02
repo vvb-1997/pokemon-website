@@ -115,5 +115,3 @@
 		pagify.init(el, items, perPage);
 	};
 })(jQuery);
-
-$(".container-fluid").pagify(60, ".single-item");

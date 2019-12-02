@@ -1,5 +1,5 @@
-function ImageSrc(k) {
-  return ("images/pokemon-images/" + addzeros(parseInt(k) + 1, 3) + spaceToUnderscore(mydata[k].name.english) + ".png");
+function ImageSrc(data_obj) {
+  return ("images/pokemon-images/" + addzeros(parseInt(data_obj.id), 3) + spaceToUnderscore(data_obj.name.english) + ".png");
 }
 
 function scores(power) {
@@ -36,7 +36,7 @@ function divMaker(data){
 
     html_out += "<div id='" + spaceToUnderscore(data[k].name.english) + "'class='col-md-3 single-item'><p class = 'para1'><b>" +
       data[k].name.english + "</p><p class = 'para'> " + info.HP +
-      " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(k) + "' alt = '" + data[k].name.english +
+      " HP </p></b>" + "<div class='col-md-12'><img src='" + ImageSrc(data[k]) + "' alt = '" + data[k].name.english +
       " image'></img></div>" +
       "<br>" +
       "<div class = 'para2'>" +
@@ -45,11 +45,25 @@ function divMaker(data){
       "<br>Defense: " + info.specialDefense +
       "<br> Speed: " + info.Speed +
       "</p></div></div>";
-    $(document).ready(function() {
-      $("#info").click(function() {
-        $("#more").toggle(1000);
-      });
-    });
+
+    // $(document).ready(function() {
+    //
+    //   $('#search').change(function(){
+    //     console.log("search");
+    //     if($('#search').val() == ""){
+    //       $('#main_div').remove();
+    //       $('.pagination').remove();
+    //       if($('.error').length){
+    //         $('.error').remove();
+    //       }
+    //       console.log(mydata);
+    //       var values = divMaker(mydata);
+    //       $(".out").append(values.html_out + "</div>");
+    //       $(".container-fluid").pagify(45, ".single-item");
+    //     }
+    //   });
+    // });
+
     if (k % 3 == 2) {
       html_out += "</div>";
     }
